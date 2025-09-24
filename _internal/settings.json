@@ -1,0 +1,13 @@
+{
+    "NUM_QUESTIONS": 65,
+    "TIMED_MODE": false,
+    "TIMER_SECONDS": 10,
+    "FULLSCREEN_MODE": false,
+    "SHOW_ANSWER_DURATION": 0,
+    "APPEARANCE_MODE": "light",
+    "OPENAI_API_KEY": "",
+    "USE_GPT_QUESTIONS": false,
+    "GPT_MODEL": "gpt-3.5-turbo",
+    "GPT_TOPIC": "General Knowledge",
+    "TOPIC_FILTER": "All Topics"
+}
