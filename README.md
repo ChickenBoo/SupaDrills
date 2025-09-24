@@ -19,41 +19,41 @@ SupaDrills is a comprehensive, feature-rich desktop application designed to help
 - Customizable Question Count: Set exactly how many questions you want to practice
 
 **🎯 Enhanced Quiz Experience**
--     Non-Repeating Questions: Never see the same question twice in a session until all questions are exhausted
--     Exhaustion Detection: Automatic notification when all available questions have been answered
--     One-Click Reset: Easily reset question history to start fresh
--     Detailed Analytics: Track incorrect answers with comprehensive review
+- Non-Repeating Questions: Never see the same question twice in a session until all questions are exhausted
+- Exhaustion Detection: Automatic notification when all available questions have been answered
+- One-Click Reset: Easily reset question history to start fresh
+-  Detailed Analytics: Track incorrect answers with comprehensive review
 
 **⚙️ Improved Configuration**
--     Persistent Settings: All preferences saved automatically
--     Appearance Options: Light, Dark, and System theme modes
--     Flexible Timer Settings: Customizable timed mode with adjustable durations
--     Fullscreen Support: Optimized for both windowed and fullscreen study sessions
+- Persistent Settings: All preferences saved automatically
+- Appearance Options: Light, Dark, and System theme modes
+- Flexible Timer Settings: Customizable timed mode with adjustable durations
+- Fullscreen Support: Optimized for both windowed and fullscreen study sessions
 - 
 **📊 Supported Topics**
 ECE Core Subjects:
--     MATH - Engineering Mathematics
--     GEAS - General Engineering and Applied Sciences
--     ESAT - Electronics Systems and Technologies
--     ELECS - Electronics Fundamentals
--     Ethics - Professional Ethics
--     R.A 9292 - Electronics Engineering Law
+-  MATH - Engineering Mathematics
+- GEAS - General Engineering and Applied Sciences
+- ESAT - Electronics Systems and Technologies
+- ELECS - Electronics Fundamentals
+- Ethics - Professional Ethics
+- R.A 9292 - Electronics Engineering Law
 
 **ECT Specializations:**
--     ECTMATH - Technician Mathematics
--     ECT1 - Electronics Technician Part 1
--     ECT2 - Electronics Technician Part 2
+- ECTMATH - Technician Mathematics
+- ECT1 - Electronics Technician Part 1
+- ECT2 - Electronics Technician Part 2
 
 **🛠️ Technical Features**
--     Modern GUI: Built with CustomTkinter for a sleek, professional appearance
--     CSV-Based Question Bank: Easy to update and expand question databases
--     Session Management: Track progress across multiple study sessions
--     Performance Metrics: Detailed scoring and incorrect answer analysis
+- Modern GUI: Built with CustomTkinter for a sleek, professional appearance
+- CSV-Based Question Bank: Easy to update and expand question databases
+- Session Management: Track progress across multiple study sessions
+- Performance Metrics: Detailed scoring and incorrect answer analysis
 
 🎮 **How to Use**
--     Launch the application and select "Start Drills"
--     Choose between specific topic quizzes or "Smart Questions"
--     Configure your preferred difficulty and question count
--     Answer questions with intuitive multiple-choice interface
--     Review your performance and incorrect answers
--     Reset when ready to start fresh with all questions
+- Launch the application and select "Start Drills"
+- Choose between specific topic quizzes or "Smart Questions"
+- Configure your preferred difficulty and question count
+- Answer questions with intuitive multiple-choice interface
+- Review your performance and incorrect answers
+- Reset when ready to start fresh with all questions
