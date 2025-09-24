@@ -29,7 +29,7 @@ SupaDrills is a comprehensive, feature-rich desktop application designed to help
 - Appearance Options: Light, Dark, and System theme modes
 - Flexible Timer Settings: Customizable timed mode with adjustable durations
 - Fullscreen Support: Optimized for both windowed and fullscreen study sessions
-- 
+
 **📊 Supported Topics**
 ECE Core Subjects:
 -  MATH - Engineering Mathematics
