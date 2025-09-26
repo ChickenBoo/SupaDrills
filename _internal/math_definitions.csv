@@ -1,0 +1,394 @@
+ID,Question,Choice_1,Choice_2,Choice_3,Choice_4,Answer
+1,What is the limit of a function as x approaches a certain value?,The exact value of the function at that point,The behavior of the function values as x gets arbitrarily close to a given point,The highest point on the graph of the function,The slope of the tangent line to the curve,The behavior of the function values as x gets arbitrarily close to a given point
+2,What does continuity of a function at a point imply?,The function has no tangent line at that point,The function value and the limit at that point are equal,The function is differentiable at that point,The function has a discontinuity at that point,The function value and the limit at that point are equal
+3,What type of discontinuity occurs when the left-hand and right-hand limits differ?,Jump discontinuity,Removable discontinuity,Infinite discontinuity,Essential discontinuity,Jump discontinuity
+4,What is a removable discontinuity?,A point where the function has an infinite value,A point where the function is undefined but the limit exists,A sharp turn on the graph of a function,A place where the derivative does not exist,A point where the function is undefined but the limit exists
+5,What does the epsilon-delta definition describe?,The definition of the derivative,The rigorous definition of a limit,The formula for higher-order derivatives,The rule for integrating polynomials,The rigorous definition of a limit
+6,What is the squeeze theorem used for?,Finding the slope of a tangent line,Evaluating limits by bounding a function between two simpler functions,Determining higher-order derivatives,Testing continuity of parametric equations,Evaluating limits by bounding a function between two simpler functions
+7,Which of the following describes an infinite discontinuity?,The function approaches infinity near the point of discontinuity,The function has a finite jump at the point,The limit exists but differs from the function value,The function oscillates between two finite values,The function approaches infinity near the point of discontinuity
+8,What is meant by the term 'domain' of a function?,The set of all possible output values,The set of all permissible input values,The slope of the tangent line to the graph,The highest power in the polynomial,The set of all permissible input values
+9,What is the range of a function?,The set of all possible input values,The set of all possible output values,The slope of the tangent line,The highest value the function attains,The set of all possible output values
+10,What is the derivative of a function at a point?,The area under the curve,The slope of the tangent line to the curve at that point,The average rate of change of the function over an interval,The maximum value of the function,The slope of the tangent line to the curve at that point
+11,Which rule is used to differentiate the product of two functions?,Quotient rule,Chain rule,Product rule,Power rule,Product rule
+12,What does the chain rule help compute?,The derivative of a product,The derivative of a composite function,The slope of a secant line,The second derivative,The derivative of a composite function
+13,What is the derivative of sin(x)?,cos(x),"""-COS(x)""","""-SIN(x)""",sec≤(x),cos(x)
+14,What does the first derivative test determine?,The slope of the tangent line,Whether a function is increasing or decreasing,The concavity of a function,The total area under a curve,Whether a function is increasing or decreasing
+15,What is a critical point of a function?,A point where the function is not defined,A point where the derivative is zero or undefined,A point where the function has maximum value,A point where the limit does not exist,A point where the derivative is zero or undefined
+16,What is an inflection point?,A point where the function value is zero,A point where the concavity of the function changes,A point where the derivative does not exist,A point where the tangent line is horizontal,A point where the concavity of the function changes
+17,What is the derivative of e^x?,x e^(x-1),ln(x),e^x,1/x,e^x
+18,What does the second derivative of a function describe?,The slope of the tangent line,The concavity of the function,The limit of the function,The asymptote of the graph,The concavity of the function
+19,What does the mean value theorem state?,There exists a point where the derivative equals the average rate of change,The limit of a function exists at every point,The slope of the tangent is always positive,The function must be continuous everywhere,There exists a point where the derivative equals the average rate of change
+20,What is meant by a higher-order derivative?,A derivative taken more than once,The integral of a derivative,The slope of a tangent line,The limit of a function at infinity,A derivative taken more than once
+21,What is the second derivative of position with respect to time called?,Velocity,Acceleration,Jerk,Snap,Acceleration
+22,What is the third derivative of position with respect to time called?,Jerk,Snap,Velocity,Acceleration,Jerk
+23,What is the nth derivative of a polynomial of degree n?,A constant,Zero,Another polynomial of degree n,Undefined,A constant
+24,What does a higher-order derivative indicate about a function?,Behavior of the function's slope and concavity,The integral of the function,The maximum range of the function,The intercepts of the graph,Behavior of the function's slope and concavity
+25,What does the notation f''(x) represent?,First derivative,Second derivative,Third derivative,Integral of f(x),Second derivative
+26,What is the derivative of cos(x)?,sin(x),"""-SIN(x)""",cos(x),"""-COS(x)""","""-SIN(x)"""
+27,What does Taylor series use higher-order derivatives for?,To approximate functions near a point,To compute integrals,To evaluate limits,To test continuity,To approximate functions near a point
+28,What does the fourth derivative of position represent in physics?,Acceleration,Velocity,Snap,Jerk,Snap
+29,What happens to higher-order derivatives of sine and cosine functions?,They increase without bound,They repeat in cycles,They converge to zero,They are undefined,They repeat in cycles
+30,What is a parametric equation?,An equation written only in terms of x and y,A set of equations expressing coordinates as functions of a parameter,An equation representing only straight lines,A type of differential equation,A set of equations expressing coordinates as functions of a parameter
+31,What is the role of the parameter in parametric equations?,It represents the slope of the tangent line,It defines how the coordinates change with respect to another variable,It always represents time,It is the limit of the function,It defines how the coordinates change with respect to another variable
+32,What is the derivative dy/dx in parametric equations?,(dy/dt) / (dx/dt),(dx/dt) / (dy/dt),dx/dt,dy/dt,(dy/dt) / (dx/dt)
+33,What does eliminating the parameter in parametric equations mean?,Differentiating the equation,Rewriting the curve in terms of x and y only,Finding the tangent line,Solving for the slope,Rewriting the curve in terms of x and y only
+34,"What type of curve is represented by x = cos(t), y = sin(t)?",A parabola,A straight line,A circle,A hyperbola,A circle
+35,"What does the parametric equation x = t, y = t≤ represent?",A line,A parabola,A circle,An ellipse,A parabola
+36,What is dx/dt called in parametric equations?,Slope,Rate of change of x with respect to t,Derivative of y with respect to x,Integral of x,Rate of change of x with respect to t
+37,What does parametric differentiation allow us to find?,Slope of a curve given by parametric equations,The area under a curve,The average rate of change,The inverse function,Slope of a curve given by parametric equations
+38,Which parameter value determines the starting point of a parametric curve?,The derivative,The initial condition of t,The maximum slope,The tangent equation,The initial condition of t
+39,What is curvature in parametric equations?,A measure of how sharply a curve bends,The slope of a tangent line,The intercept with the y-axis,The integral of a parametric curve,A measure of how sharply a curve bends
+40,What is partial differentiation?,Differentiating a function of one variable,Differentiating with respect to one variable while treating others as constants,Integrating a multivariable function,Finding higher-order derivatives,Differentiating with respect to one variable while treating others as constants
+41,What notation represents the partial derivative of z with respect to x?,dz/dx,àÇz/àÇx,d≤z/dx≤,Œîz/Œîx,àÇz/àÇx
+42,What does the gradient vector represent?,The slope of a tangent line,The direction of maximum increase of a function,The curvature of a curve,The value of a limit,The direction of maximum increase of a function
+43,What is a mixed partial derivative?,A derivative taken with respect to two variables in succession,A second-order derivative of one variable,The derivative of a constant,The slope of a line,A derivative taken with respect to two variables in succession
+44,What does Clairaut's theorem state about mixed partial derivatives?,They do not exist,They are always zero,They are equal if continuous near the point,They are always different,They are equal if continuous near the point
+45,What is the meaning of a partial derivative àÇf/àÇx?,"The rate of change of f with respect to x, holding other variables constant",The rate of change of x with respect to f,The total derivative of f,The slope of the tangent line,"The rate of change of f with respect to x, holding other variables constant"
+46,What is the Hessian matrix?,A matrix of second-order partial derivatives,A table of integrals,A matrix of function values,A determinant of the Jacobian,A matrix of second-order partial derivatives
+47,What is the Jacobian used for?,To evaluate limits,To compute derivatives of vector functions,To transform variables in multivariable calculus,To approximate integrals,To transform variables in multivariable calculus
+48,What is the Laplacian operator?,The sum of first-order derivatives,The sum of second-order partial derivatives,The difference between two gradients,The cross product of gradients,The sum of second-order partial derivatives
+49,What does it mean if àÇf/àÇx = 0 at a point?,The function has no value at that point,The function is increasing with respect to x,The function does not change with respect to x at that point,The function has an infinite slope,The function does not change with respect to x at that point
+50,What does integration represent in calculus?,The slope of a tangent line,The summation of infinitely small areas,The limit of a function,The derivative of a function,The summation of infinitely small areas
+52,What is the integral of a constant c with respect to x?,cx + C,0,1,ln(c),cx + C
+53,What is the integral of x^n with respect to x (n â† -1)?,x^(n-1)/(n-1) + C,x^(n+1)/(n+1) + C,n x^(n-1) + C,e^x + C,x^(n+1)/(n+1) + C
+54,What is the integral of e^x?,ln(x) + C,e^x + C,1/x + C,x e^(x-1) + C,e^x + C
+55,What is the integral of 1/x dx?,e^x + C,ln|x| + C,1/(x^2) + C,x^2/2 + C,ln|x| + C
+56,What is the integral of cos(x)?,sin(x) + C,-sin(x) + C,cos(x) + C,-cos(x) + C,sin(x) + C
+57,What is the integral of sin(x)?,cos(x) + C,-cos(x) + C,tan(x) + C,-sin(x) + C,-cos(x) + C
+58,What does the constant C in indefinite integrals represent?,The area under the curve,An arbitrary constant of integration,The derivative of the function,The slope of the tangent line,An arbitrary constant of integration
+59,What is the integral of sec≤(x)?,tan(x) + C,sec(x) + C,-cot(x) + C,csc(x) + C,tan(x) + C
+60,Which method is used to reverse the product rule in differentiation?,Substitution,Integration by parts,Trigonometric substitution,Partial fractions,Integration by parts
+62,What is substitution in integration?,Changing the variable to simplify the integral,Using the product rule in reverse,Expanding the function into a series,Approximating the integral numerically,Changing the variable to simplify the integral
+63,Which substitution works for integrals involving sqrt(a≤ - x≤)?,x = a tan(x),x = a sin(x),x = a sec(x),x = a cosh(x),x = a sin(x)
+64,What is partial fraction decomposition used for?,Breaking down a rational function into simpler fractions,Changing the variable of integration,Finding improper integrals,Approximating integrals with Riemann sums,Breaking down a rational function into simpler fractions
+65,Which technique is used to integrate rational functions?,Integration by parts,Partial fractions,Trigonometric substitution,Numerical integration,Partial fractions
+66,What is the method of completing the square useful for in integration?,Simplifying denominators of rational functions,Simplifying trigonometric identities,Changing integrals into standard forms,Removing improper fractions,Simplifying denominators of rational functions
+68,What does trigonometric substitution help evaluate?,Polynomials,Integrals involving square roots,Logarithmic functions,Improper integrals,Integrals involving square roots
+69,What is the tabular method a shortcut for?,Integration by parts,Substitution method,Trigonometric substitution,Partial fraction decomposition,Integration by parts
+70,What is an improper integral?,An integral with infinite limits or unbounded integrand,An integral of a polynomial function,An integral solved using substitution,An integral without a constant of integration,An integral with infinite limits or unbounded integrand
+71,How is the convergence of an improper integral tested?,By comparison or limit tests,By differentiation,By substitution only,By factoring the function,By comparison or limit tests
+73,What is the value of integral from 1 to z of 1/x dx?,z,0,1,2,z
+74,Which type of improper integral involves discontinuous integrands?,Type I,Type II,Type III,Definite integrals,Type II
+75,What is the main difference between definite and improper integrals?,Definite integrals may diverge while improper integrals always converge,Improper integrals may involve infinity as limits or discontinuities,Improper integrals always use substitution,Definite integrals always equal infinity,Improper integrals may involve infinity as limits or discontinuities
+76,What does it mean if an improper integral diverges?,The integral has a finite value,The integral tends to infinity or does not exist,The integral can be approximated,The integral equals zero,The integral tends to infinity or does not exist
+77,What is the improper integral of e^-x from 0 to z?,0,1,z,2,1
+78,"Which function's improper integral converges over [1, z)?",1/x,1/x≤,ln(x),x,1/x≤
+79,What does the p-test state for improper integrals of 1/x^p?,"Converges if p > 1, diverges if p â§ 1","Diverges if p > 1, converges if p â§ 1",Always converges,Always diverges,"Converges if p > 1, diverges if p â§ 1"
+80,What is the area under a curve defined as?,The derivative of the function,The definite integral of the function,The slope of the tangent line,The indefinite integral,The definite integral of the function
+81,What does the Fundamental Theorem of Calculus connect?,Differentiation and Integration,Limits and Continuity,Improper and Proper Integrals,Partial and Total Derivatives,Differentiation and Integration
+82,What does the definite integral from a to b of f(x) dx represent?,The slope of the curve,The area under f(x) from a to b,The tangent line equation,The limit of f(x),The area under f(x) from a to b
+83,Which application of integrals involves finding the volume of solids?,Disk and washer methods,Chain rule,Partial fractions,Taylor series,Disk and washer methods
+86,What does the integral of density times area represent?,Moment of inertia,Center of mass,Volume,Arc length,Center of mass
+87,What does à´ P dv represent in thermodynamics?,Work done by a gas,Heat absorbed by a system,Potential energy,Kinetic energy,Work done by a gas
+90,What is a double integral?,An integral applied twice to the same function,An integral used for functions of two variables,The derivative of an integral,The integral of a derivative,An integral used for functions of two variables
+91,"What does à´à´ f(x, y) dA represent?",The slope of the tangent line,The volume under a surface,The length of a curve,The derivative of a function,The volume under a surface
+92,What is the order of integration in iterated integrals?,It is always dx then dy,It can vary depending on limits,It must always be dy then dx,It does not matter at all,It can vary depending on limits
+93,What is a triple integral used for?,Finding arc length,Finding volume in three dimensions,Finding area under a curve,Finding the slope of a tangent line,Finding volume in three dimensions
+94,What is a Jacobian used for in multiple integration?,Transforming coordinates,Calculating derivatives,Finding surface area,Evaluating improper integrals,Transforming coordinates
+95,What does changing variables in multiple integration often simplify?,The derivative,The integration region,The tangent line slope,The curvature of a curve,The integration region
+96,What does à´à´R 1 dA represent for a region R?,The perimeter of R,The area of R,The volume of R,The gradient of R,The area of R
+97,"What does third integral ofÅ(x, y, z) dV represent in physics?",Kinetic energy,Mass of a solid region,Work done,Arc length,Mass of a solid region
+98,Which coordinate system is often useful for circular regions in multiple integration?,Polar coordinates,Cartesian coordinates,Parametric coordinates,Complex plane,Polar coordinates
+99,Which coordinate system is useful for spherical regions in triple integrals?,Cylindrical coordinates,Polar coordinates,Spherical coordinates,Rectangular coordinates,Spherical coordinates
+100,"Which form represents a first-order, first-degree ordinary differential equation?",dy/dx + P(x)y = Q(x),d≤y/dx≤ + P(x)y = Q(x),dy/dx = y≤ + x≤,d≥y/dx≥ + y = 0,dy/dx + P(x)y = Q(x)
+101,"The general solution of dy/dx = ky, where k is constant, is:",y = C + kx,y = Ce^(kx),y = Cx^k,y = ln(x) + C,y = Ce^(kx)
+102,Which method is typically used to solve first-order linear differential equations?,Variation of Parameters,Integrating Factor Method,Laplace Transform,Separation of Variables only,Integrating Factor Method
+103,The logistic differential equation is commonly used to model:,Radioactive decay,Population growth with carrying capacity,Simple harmonic motion,Projectile motion,Population growth with carrying capacity
+105,Which equation is a higher-order ODE?,dy/dx = x≤,d≤y/dx≤ + y = 0,dy/dx + y = e^x,dy/dx = sin(x),d≤y/dx≤ + y = 0
+106,The standard form of a second-order linear homogeneous differential equation is:,dy/dx + P(x)y = Q(x),d≤y/dx≤ + P(x)dy/dx + Q(x)y = 0,"dy/dx = f(x,y)",d≤y/dx≤ = g(x),d≤y/dx≤ + P(x)dy/dx + Q(x)y = 0
+107,Which method is best for solving linear ODEs with constant coefficients?,Method of Undetermined Coefficients,Separation of Variables,Euler's Method,Laplace Transforms only,Method of Undetermined Coefficients
+108,The equation y'' + œâ≤y = 0 models:,Free fall under gravity,Exponential decay,Simple harmonic motion,Projectile trajectory,Simple harmonic motion
+109,"For y'' + y = sin(x), the particular solution can be found using:",Laplace Transforms,Method of Undetermined Coefficients,Integrating Factor Method,Euler's Method,Method of Undetermined Coefficients
+110,Laplace transform of f(t) = e^(at) is:,1/(s - a),s/(s≤ + a≤),1/s≤,a/(s≤ + a≤),1/(s - a)
+112,The Laplace transform of sin(at) is:,a/(s≤ + a≤),1/(s - a),s/(s≤ + a≤),1/s≤,a/(s≤ + a≤)
+113,Which property of Laplace transforms helps solve ODEs with initial conditions?,Convolution property,Differentiation property,Shifting property,Scaling property,Differentiation property
+114,The Laplace transform of (t) (Dirac delta function) is:,1,s,1/s,e^(-st),1
+115,The Laplace transform of cos(at) is:,s/(s≤ + a≤),a/(s≤ + a≤),1/(s - a),1/s≤,s/(s≤ + a≤)
+116,The inverse Laplace transform of 1/s is:,e^t,t,1,sin(t),1
+117,The inverse Laplace transform of 1/(s≤ + a≤) is:,cos(at),sin(at)/a,e^(at),t^n/n!,sin(at)/a
+118,Laplace transforms are especially useful in solving:,Nonlinear ODEs only,Linear ODEs with initial conditions,Partial differential equations,Integral inequalities,Linear ODEs with initial conditions
+119,The convolution theorem in Laplace transforms is used to:,Find transforms of products of functions,Solve initial-value problems,Find inverse transforms of products in s-domain,Simplify partial fractions,Find inverse transforms of products in s-domain
+120,"Which form represents a first-order, first-degree ordinary differential equation?",dy/dx + P(x)y = Q(x),d≤y/dx≤ + P(x)y = Q(x),dy/dx = y≤ + x≤,d≥y/dx≥ + y = 0,dy/dx + P(x)y = Q(x)
+121,"The general solution of dy/dx = ky, where k is constant, is:",y = C + kx,y = Ce^(kx),y = Cx^k,y = ln(x) + C,y = Ce^(kx)
+122,Which method is typically used to solve first-order linear differential equations?,Variation of Parameters,Integrating Factor Method,Laplace Transform,Separation of Variables only,Integrating Factor Method
+123,The logistic differential equation is commonly used to model:,Radioactive decay,Population growth with carrying capacity,Simple harmonic motion,Projectile motion,Population growth with carrying capacity
+124,"If dy/dx = -ky models Newton's Law of Cooling, the solution is:",T(t) = TÇÄe^(-kt) + T_s,T(t) = kt + C,T(t) = Ce^(kt),T(t) = ln(t) + C,T(t) = TÇÄe^(-kt) + T_s
+125,Which equation is a higher-order ODE?,dy/dx = x≤,d≤y/dx≤ + y = 0,dy/dx + y = e^x,dy/dx = sin(x),d≤y/dx≤ + y = 0
+126,The standard form of a second-order linear homogeneous differential equation is:,dy/dx + P(x)y = Q(x),d≤y/dx≤ + P(x)dy/dx + Q(x)y = 0,"dy/dx = f(x,y)",d≤y/dx≤ = g(x),d≤y/dx≤ + P(x)dy/dx + Q(x)y = 0
+127,Which method is best for solving linear ODEs with constant coefficients?,Method of Undetermined Coefficients,Separation of Variables,Euler's Method,Laplace Transforms only,Method of Undetermined Coefficients
+128,The equation y'' + œâ≤y = 0 models:,Free fall under gravity,Exponential decay,Simple harmonic motion,Projectile trajectory,Simple harmonic motion
+129,"For y'' + y = sin(x), the particular solution can be found using:",Laplace Transforms,Method of Undetermined Coefficients,Integrating Factor Method,Euler's Method,Method of Undetermined Coefficients
+130,Laplace transform of f(t) = e^(at) is:,1/(s - a),s/(s≤ + a≤),1/s≤,a/(s≤ + a≤),1/(s - a)
+131,The Laplace transform is defined as:,L{f(t)} = à´ÇÄ^z e^(-st) f(t) dt,L{f(t)} = à´ÇÄ^z e^(st) f(t) dt,L{f(t)} = à´_(-z)^z f(t) dt,L{f(t)} = à´ÇÄ^z t f(t) dt,L{f(t)} = à´ÇÄ^z e^(-st) f(t) dt
+132,The Laplace transform of sin(at) is:,a/(s≤ + a≤),1/(s - a),s/(s≤ + a≤),1/s≤,a/(s≤ + a≤)
+133,Which property of Laplace transforms helps solve ODEs with initial conditions?,Convolution property,Differentiation property,Shifting property,Scaling property,Differentiation property
+134,The Laplace transform of (t) (Dirac delta function) is:,1,s,1/s,e^(-st),1
+135,The Laplace transform of cos(at) is:,s/(s≤ + a≤),a/(s≤ + a≤),1/(s - a),1/s≤,s/(s≤ + a≤)
+136,The inverse Laplace transform of 1/s is:,e^t,t,1,sin(t),1
+137,The inverse Laplace transform of 1/(s≤ + a≤) is:,cos(at),sin(at)/a,e^(at),t^n/n!,sin(at)/a
+138,Laplace transforms are especially useful in solving:,Nonlinear ODEs only,Linear ODEs with initial conditions,Partial differential equations,Integral inequalities,Linear ODEs with initial conditions
+139,The convolution theorem in Laplace transforms is used to:,Find transforms of products of functions,Solve initial-value problems,Find inverse transforms of products in s-domain,Simplify partial fractions,Find inverse transforms of products in s-domain
+140,Which method is used to numerically approximate ODE solutions?,Euler's Method,Laplace Transform,Undetermined Coefficients,Separation of Variables,Euler's Method
+141,The equation dy/dx = ky has which type of solution behavior when k > 0?,Exponential growth,Exponential decay,Oscillation,Constant solution,Exponential growth
+142,The ODE dy/dx = -y has a solution that represents:,Exponential growth,Exponential decay,Logarithmic growth,Linear decrease,Exponential decay
+143,Which equation is solved using separation of variables?,dy/dx = yx,d≤y/dx≤ + y = 0,dy/dx + y = sin(x),d≥y/dx≥ + y = 0,dy/dx = yx
+144,The integrating factor for dy/dx + P(x)y = Q(x) is:,e^(à´P(x) dx),à´P(x) dx,1/P(x),Q(x)/P(x),e^(à´P(x) dx)
+145,The ODE y'' - 2y' + y = 0 has what type of solution?,Exponential with distinct roots,Exponential with repeated roots,Oscillatory solution,Polynomial solution,Exponential with repeated roots
+146,The characteristic equation for y'' + 4y = 0 is:,r≤ + 4 = 0,r≤ - 4 = 0,r + 4 = 0,r≤ + r + 4 = 0,r≤ + 4 = 0
+147,The solution of y'' + 4y = 0 is:,y = Ae^(2x) + Be^(-2x),y = A cos(2x) + B sin(2x),y = Cx + D,y = Ce^(4x),y = A cos(2x) + B sin(2x)
+148,The Laplace transform of 1 is:,1/s,s,1/s≤,e^(-s),1/s
+149,Laplace transform of t is:,1/s≤,1/s,s/(s≤ + 1),e^(-st),1/s≤
+150,The Laplace transform of e^(-at) is:,1/(s + a),1/(s - a),s/(s≤ + a≤),a/(s≤ + a≤),1/(s + a)
+151,Laplace transform is mainly applied in:,Circuit analysis,Geometry,Probability,Combinatorics,Circuit analysis
+152,The Laplace transform of a derivative reduces differential equations to:,Algebraic equations,Integral equations,Polynomial equations,Trigonometric equations,Algebraic equations
+153,Laplace transform of Heaviside step function u(t-a) is:,e^(-as)/s,1/s,s/(s≤ + a≤),1/(s-a),e^(-as)/s
+154,Inverse Laplace of 2/s is:,2,e^(2t),2t,sin(2t),2
+155,The Laplace transform of cosh(at) is:,s/(s≤ - a≤),a/(s≤ + a≤),1/(s - a),s/(s≤ + a≤),s/(s≤ - a≤)
+156,Laplace transform of sinh(at) is:,a/(s≤ - a≤),s/(s≤ + a≤),1/s≤,1/(s-a),a/(s≤ - a≤)
+157,Inverse Laplace of 1/(s-3) is:,e^(3t),e^(-3t),3t,sin(3t),e^(3t)
+158,Laplace transform can handle inputs such as:,Unit step,Impulse,Periodic functions,All of the above,All of the above
+160,The unit step function u(t-a) is equal to:,"0 for t < a, 1 for t â• a","1 for t < a, 0 for t â• a",t-a,a/t,"0 for t < a, 1 for t â• a"
+161,The Laplace transform of a periodic function with period T is:,1/(1 - e^(-sT)) à´ÇÄ^T e^(-st) f(t) dt,à´ÇÄ^z e^(-st) f(t) dt,f(t)/T,e^(-sT) f(t),1/(1 - e^(-sT)) à´ÇÄ^T e^(-st) f(t) dt
+162,Which of the following is NOT an application of Laplace transforms?,Solving linear ODEs,Solving PDEs with separation of variables,Circuit analysis,Control systems,Solving PDEs with separation of variables
+163,Laplace transform of t^n is:,n!/s^(n+1),1/s^n,s^n/n!,t^n/s,n!/s^(n+1)
+164,Inverse Laplace of s/(s≤ + 9) is:,cos(3t),sin(3t),e^(3t),t,cos(3t)
+165,Inverse Laplace of 3/(s≤ + 9) is:,cos(3t),sin(3t),e^(3t),t,sin(3t)
+166,Which of the following is the polar form of a complex number z = x + iy?,z = r cosi∏,z = r(cosi∏ + i sini∏),z = x≤ + y≤,z = e^(ix),z = r(cosi∏ + i sini∏)
+167,The modulus of the complex number z = 3 - 4i is:,5,7,25,1,5
+168,Euler's formula expresses e^(i) as:,cosi∏ + i sini∏,cosi∏ - i sini∏,tani∏ + i coti∏,sini∏ + cosi∏,cosi∏ + i sini∏
+169,"If z1 = 2 + 3i and z2 = 1 - i, then z1 * z2 =",5 + i,2 - i,5 + 5i,3 + i,5 + i
+170,The conjugate of z = 6 - 8i is:,6 + 8i,-6 - 8i,8 - 6i,-6 + 8i,6 + 8i
+171,Which of the following best represents an Argand diagram?,A diagram of vectors in 3D,A plot of real and imaginary parts of complex numbers,A graph of exponential functions,A trigonometric circle,A plot of real and imaginary parts of complex numbers
+172,"In electrical engineering, the imaginary unit i is often replaced with:",j,k,z,Œ∏,j
+173,The roots of the quadratic equation z≤ + 1 = 0 are:,±i,±1,0 and i,1 and -i,±i
+174,"If z = e^(iœÄ), then z equals:",0,-1,1,i,-1
+175,The magnitude of impedance Z = R + iX is given by:,R≤ + X≤,àö(R≤ + X≤),R + X,R/X,àö(R≤ + X≤)
+176,The Fourier series represents a periodic function as a sum of:,Polynomials,Exponential terms only,Sines and cosines,Logarithmic functions,Sines and cosines
+178,The Fourier transform converts a function of time into a function of:,Amplitude,Frequency,Phase,Power,Frequency
+179,Which of the following series diverges?,Geometric series with |r| < 1,Harmonic series,Alternating series,p-series with p > 1,Harmonic series
+180,A function is said to be periodic if:,f(x+T) = f(x) for all x,f(x+T) = f(x) + 1,f(x) is bounded,f(x) is continuous,f(x+T) = f(x) for all x
+181,"In Fourier analysis, the coefficients a0, an, and bn represent:","Constant, cosine, and sine terms",Exponential coefficients,Polynomial degrees,Integration constants,"Constant, cosine, and sine terms"
+182,Laplace and Fourier transforms are used mainly for:,Converting nonlinear equations to linear,Transforming differential equations into algebraic equations,Finding square roots,Integrating trigonometric functions,Transforming differential equations into algebraic equations
+183,The Fourier transform of (t) (Dirac delta function) is:,1,0,(f),z,1
+184,A Taylor series expansion approximates a function using:,Trigonometric identities,Derivatives at a point,Random values,Matrix transformations,Derivatives at a point
+185,The convergence of a series depends mainly on:,The ratio of terms,The sum of terms,The degree of polynomials,The limit of integration,The ratio of terms
+186,The general solution of dy/dx = 2y is:,y = 2x,y = e^(2x),y = Ce^(2x),y = 2 + x,y = Ce^(2x)
+187,Which method is commonly used to solve first-order linear ODEs?,Integration by parts,Separation of variables,Fourier series,Laplace transforms,Separation of variables
+188,The wave equation is classified as a:,First-order ODE,Second-order PDE,First-order PDE,Algebraic equation,Second-order PDE
+189,The heat equation is an example of:,Ordinary differential equation,Partial differential equation,Integral equation,Polynomial equation,Partial differential equation
+190,The complementary function in ODEs is associated with:,Homogeneous solutions,Particular solutions,Boundary conditions,Initial conditions,Homogeneous solutions
+191,Laplace transforms are often applied to:,Boundary value problems,Initial value problems,Both initial and boundary value problems,None of these,Initial value problems
+192,"If d≤y/dx≤ = 0, the general solution is:",y = C1 + C2x,y = C1 e^x,y = sin x,y = C1 e^x + C2 e^(-x),y = C1 + C2x
+193,A system of ODEs describes:,One dependent variable,Multiple dependent variables,One independent variable,Constant functions only,Multiple dependent variables
+194,The order of the equation y'' + y' + y = 0 is:,1,2,3,0,2
+195,The Laplace transform of y'(t) is:,sY(s) - y(0),s≤Y(s),Y(s)/s,1/s,sY(s) - y(0)
+196,Gaussian elimination is used to solve:,Nonlinear equations,Linear systems of equations,Differential equations,Integral equations,Linear systems of equations
+197,A system of equations has a unique solution if:,Determinant = 0,Determinant â† 0,It is nonlinear,There are more unknowns than equations,Determinant â† 0
+198,Newton-Raphson method is used for:,Linear equations,Nonlinear equations,Partial derivatives,Fourier transforms,Nonlinear equations
+199,The Gauss-Seidel method is classified as a:,Direct method,Iterative method,Transform method,Approximation method,Iterative method
+200,Cramer's rule uses:,Determinants,Integrals,Fourier transforms,Taylor series,Determinants
+201,The Jacobi method is used to solve:,Differential equations,Simultaneous equations,Improper integrals,Eigenvalue problems,Simultaneous equations
+202,Which of the following is nonlinear?,x + y = 5,xy = 10,2x + 3y = 7,x - y = 4,xy = 10
+203,"For Ax = b, the matrix A is called:",Coefficient matrix,Augmented matrix,Inverse matrix,Diagonal matrix,Coefficient matrix
+204,LU decomposition is used for solving:,Nonlinear equations,Linear equations,Differential equations,Integral equations,Linear equations
+205,"If determinant of coefficient matrix is 0, the system is:",Consistent with unique solution,Inconsistent or has infinite solutions,Always consistent,None of the above,Inconsistent or has infinite solutions
+206,Numerical differentiation is often done using:,Finite differences,Integration,Laplace transforms,Fourier transforms,Finite differences
+207,Trapezoidal rule is used for:,Numerical differentiation,Numerical integration,Numerical optimization,Solving ODEs,Numerical integration
+208,Simpson's rule improves accuracy by using:,Straight lines,Parabolas,Cubic functions,Exponential functions,Parabolas
+209,Which of the following is a numerical optimization method?,Newton's method,Gradient descent,Fourier transform,Laplace transform,Gradient descent
+210,Euler's method is used to approximate solutions of:,ODEs,PDEs,Series,Nonlinear equations,ODEs
+211,The error in the trapezoidal rule is proportional to:,h,h≤,h≥,hÅ¥,h≤
+212,Numerical integration is useful when:,The integral is difficult or impossible analytically,The function is polynomial,The derivative is easy,The Fourier series is known,The integral is difficult or impossible analytically
+213,Golden section search is used in:,Differentiation,Integration,Optimization,Laplace transforms,Optimization
+214,Runge-Kutta methods are widely used for:,Numerical ODE solving,Numerical integration,Fourier transforms,Linear algebra,Numerical ODE solving
+215,Which of the following is a disadvantage of numerical methods?,They provide approximate results,They are always exact,They can handle complex problems,They work for nonlinear cases,They provide approximate results
+216,Which of the following is considered primary data collection?,Census survey,Company financial reports,Government publications,Textbook references,Census survey
+217,Secondary data refers to:,Data collected first-hand,Data previously collected by others,Data collected by experiments,Data collected only through interviews,Data previously collected by others
+218,Which of the following is NOT a data collection method?,Observation,Interview,Regression,Questionnaire,Regression
+219,A population refers to:,A subset of individuals selected for analysis,The entire group of individuals of interest,Only numerical data,A fixed sample size,The entire group of individuals of interest
+220,Which data type consists of attributes like gender or color?,Continuous,Ordinal,Nominal,Ratio,Nominal
+221,Quantitative data refers to:,Data that represents categories,Data that can be measured numerically,Data from literature reviews,Data without numerical value,Data that can be measured numerically
+222,A structured interview is considered:,Unsystematic data collection,Qualitative data collection,Primary data collection,Secondary data collection,Primary data collection
+223,Which is a disadvantage of primary data?,Up-to-date information,Expensive and time-consuming,Specific to the researcher's needs,High accuracy,Expensive and time-consuming
+224,Which data collection method is best for sensitive topics?,Direct observation,Personal interview,Anonymous questionnaire,Telephone survey,Anonymous questionnaire
+225,Which type of data is collected without intervention?,Experimental data,Observational data,Simulated data,Secondary data,Observational data
+226,A sample is:,The whole population,A subset of the population,Always random,Always equal to the population,A subset of the population
+227,In simple random sampling:,Every member has an equal chance of selection,Only specific groups are chosen,Sampling depends on convenience,The sample size is always 100,Every member has an equal chance of selection
+228,The normal distribution curve is:,Asymmetric,Bimodal,Symmetric and bell-shaped,Flat and uniform,Symmetric and bell-shaped
+229,The mean of a sampling distribution of the mean equals:,Sample mean,Population mean,Variance,Standard error,Population mean
+230,The Central Limit Theorem states that sampling distribution tends to:,Poisson distribution,Normal distribution,Exponential distribution,Binomial distribution,Normal distribution
+231,The standard error decreases when:,Sample size decreases,Sample size increases,Variance increases,Population mean increases,Sample size increases
+232,A confidence interval provides:,Exact population mean,A range where the population parameter is likely to fall,Hypothesis test results,Sample size requirements,A range where the population parameter is likely to fall
+233,A 95% confidence interval means:,95% of the population lies in the interval,95% of sample data lies in the interval,95% chance the true parameter is within the interval,95% accuracy in data collection,95% chance the true parameter is within the interval
+234,Which distribution is used for large sample sizes?,t-distribution,Normal distribution,F-distribution,Poisson distribution,Normal distribution
+235,Which distribution is used when population variance is unknown and n < 30?,Normal distribution,t-distribution,Chi-square distribution,Binomial distribution,t-distribution
+236,The null hypothesis is usually a statement of:,Difference,Equality,Change,Correlation,Equality
+237,Rejecting a true null hypothesis is called:,Type I error,Type II error,Correct decision,Bias,Type I error
+238,Failing to reject a false null hypothesis is called:,Type I error,Type II error,Significance,Power,Type II error
+239,The p-value represents:,The probability of rejecting H0 when it is true,The probability of data given H0 is true,The probability of making a Type II error,The population mean,The probability of data given H0 is true
+240,"At 5% significance level,what is the significance level =",0.01,0.05,0.1,0.95,0.05
+241,A two-tailed test is used when:,Only increase is tested,Only decrease is tested,Both increase and decrease are tested,Neither direction is tested,Both increase and decrease are tested
+242,Which test is used to compare means of two independent samples?,Chi-square test,t-test,ANOVA,Z-test,t-test
+243,Chi-square test is mainly used for:,Testing variance,Testing proportions,Testing means,Regression,Testing proportions
+244,ANOVA is used to test:,Difference between two means,Difference between more than two means,Difference between two variances,Difference between two proportions,Difference between more than two means
+245,"If p-value <alpha, we:",Fail to reject H0,Reject H0,Accept H0,Ignore test,Reject H0
+246,Correlation measures:,Causation,Strength and direction of linear relationship,Sample size,Variance,Strength and direction of linear relationship
+248,"In simple linear regression, the dependent variable is modeled as:",Y = aX + b,Y = a + bX,Y = abX,Y = X≤ + a,Y = a + bX
+249,"If r = 0.95, the relationship between X and Y is:",Weak positive,Strong positive,Weak negative,Strong negative,Strong positive
+250,The coefficient of determination (R≤) indicates:,The slope of regression line,Proportion of variance explained by the model,Correlation between variables,Mean of errors,Proportion of variance explained by the model
+251,Which method estimates regression coefficients?,Method of least squares,Method of moments,Newton-Raphson method,Simpson's rule,Method of least squares
+252,A positive correlation implies:,"As X increases, Y decreases","As X increases, Y increases",No relationship,Inverse relationship,"As X increases, Y increases"
+253,"If regression line passes through origin, intercept is:",0,1,Undefined,Equal to slope,0
+254,Which of the following is a non-linear regression model?,Y = a + bX,Y = aX^b,Y = a + bX + cX≤,Y = a + bX,Y = aX^b
+255,Multicollinearity occurs when:,Independent variables are highly correlated,Dependent variables are correlated,Errors are correlated,Sample size is small,Independent variables are highly correlated
+256,The basic principle of design of experiments is:,Maximization,"Randomization, replication, and local control",Correlation,Sampling,"Randomization, replication, and local control"
+257,Randomization in experiments ensures:,Bias,Elimination of systematic errors,Maximization of results,Higher significance,Elimination of systematic errors
+258,Replication in experiments helps to:,Introduce bias,Reduce variability,Eliminate correlation,Reduce sample size,Reduce variability
+259,Blocking in experimental design is used to:,Increase randomness,Reduce variability from known sources,Avoid hypothesis testing,Improve correlation,Reduce variability from known sources
+260,A completely randomized design (CRD) is best suited when:,Experimental units are heterogeneous,Experimental units are homogeneous,There is correlation,There are multiple regressions,Experimental units are homogeneous
+261,Factorial designs are used to:,Test one factor at a time,Study effects of two or more factors simultaneously,Eliminate all variability,Randomize data collection,Study effects of two or more factors simultaneously
+262,"In ANOVA, the total variation is divided into:",Treatment and error,Regression and correlation,Mean and variance,Blocks and samples,Treatment and error
+263,Which design compares treatments in pairs?,Factorial design,Completely randomized design,Paired comparison design,Randomized block design,Paired comparison design
+264,Latin square design controls variability in:,One direction,Two directions,Three directions,No direction,Two directions
+265,The directional derivative of a scalar function f in the direction of a unit vector u is defined as:,Nabla x u,Nabla ∑ u,f(u)'' =f(0),d(x)/du,Nabla ∑ u
+266,Which operator is represented by Nabla ∑ F?,Gradient,Divergence,Curl,Scalar Laplacian,Divergence
+267,The curl of a vector field F is written as:,Nabla ∑ F,Nabla x F,NablaF,F ∑ Nabla,Nabla x F
+268,"If The curl of a function is zero, the field is said to be:",Solenoidal,Irrotational,Divergent,Conservative only if The divergence of a function is zero,Irrotational
+269,"If The divergence of a function is zero, the field is:",Solenoidal,Conservative,Rotational,Zero everywhere,Solenoidal
+270,The Laplacian of a scalar function f is:,Nabla x f,Nabla≤f = Nabla ∑ (?f),Nabla ∑ f,Nabla∑ Nabla,Nabla≤f = Nabla ∑ (?f)
+271,Which theorem relates the flux of a vector field through a closed surface to the divergence of the field inside?,Green's Theorem,Stokes' Theorem,Divergence Theorem,Gauss-Jordan Theorem,Divergence Theorem
+272,Which theorem relates a line integral around a closed curve to a double integral of the curl over the surface bounded by the curve?,Green's Theorem,Stokes' Theorem,Divergence Theorem,Cauchy Integral Theorem,Green's Theorem
+273,Green's theorem is a special case of which more general theorem?,Stokes' Theorem,Divergence Theorem,Gauss' Theorem,Lagrange's Identity,Stokes' Theorem
+274,The gradient of a scalar field is always:,A scalar,A vector,A matrix,Zero,A vector
+275,The divergence of a curl is always:,Zero,Equal to Laplacian,The gradient,Not defined,Zero
+276,The curl of a gradient is always:,Zero,Equal to divergence,Equal to Laplacian,A constant vector,Zero
+277,The divergence theorem is also known as:,Gauss' Theorem,Green's Theorem,Stokes' Theorem,Euler's Theorem,Gauss' Theorem
+278,"If nabla x F = 0 , then the vector field F is called:",Solenoidal,Conservative,Rotational,Irrotational only if curl is zero,Conservative
+279,Which of the following operators gives the flux density at a point?,Gradient,Divergence,Curl,Dot Product,Divergence
+280,Which theorem converts a surface integral of curl into a line integral?,Green's Theorem,Stokes' Theorem,Divergence Theorem,Helmholtz Decomposition Theorem,Stokes' Theorem
+281,"If a vector field has zero curl, it is locally:",Conservative,Solenoidal,Uniform,Non-divergent,Conservative
+282,"In Green's theorem, the line integral over a closed curve equals:",A double integral of divergence,A double integral of curl,A volume integral,A Laplacian integral,A double integral of curl
+283,The Laplacian operator is often used in:,Heat and wave equations,Basic algebra,Probability,Geometry only,Heat and wave equations
+284,The vector operator (Reverse Delta) is called:,Nabla,Lambda,Delta,Curl,Nabla
+285,Which of the following represents the circulation of a vector field?,Line integral,Surface integral of divergence,Volume integral of Laplacian,Gradient vector,Line integral
+286,The divergence theorem converts a volume integral into:,A line integral,A surface integral,A scalar function,A curl integral,A surface integral
+287,The curl of a velocity field in fluid mechanics represents:,Expansion,Rotation (vorticity),Acceleration,Pressure,Rotation (vorticity)
+288,Which theorem is applied in electromagnetism to convert volume charge density to electric flux?,Stokes' Theorem,Gauss' Divergence Theorem,Green's Theorem,Lagrange's Theorem,Gauss' Divergence Theorem
+289,The vector Laplacian of a vector field F is given by:,Nabla ∑ (NablaF),Nabla≤F,Nabla x (Nabla ∑ F),F x Nabla≤,Nabla≤F
+290,"If Nabla= 0 everywhere, then f is:",Constant,Zero,Divergent,Undefined,Constant
+291,A vector field is solenoidal if:,The divergence of a function is zero,The curl of a function is zero,The laplacian of a function is zero,F = 0,The divergence of a function is zero
+292,Which theorem relates work done in a force field to potential difference?,Conservative Field Theorem,Green's Theorem,Stokes' Theorem,Divergence Theorem,Conservative Field Theorem
+293,The operator delta squared is commonly called:,Divergence,Curl,Laplacian,Gradient,Laplacian
+295,"In physics, the gradient of potential energy gives:",Velocity,Force,Work,Acceleration,Force
+296,"In fluid dynamics, Nabla ∑ V = 0 implies:",Compressible flow,Incompressible flow,Rotational flow,Unsteady flow,Incompressible flow
+297,The curl of a vector field F at a point gives:,The magnitude of field,The rotation of field around that point,The divergence at that point,The Laplacian at that point,The rotation of field around that point
+298,Which theorem is used in converting between surface and line integrals in 2D?,Stokes' Theorem,Green's Theorem,Gauss' Theorem,Fourier Theorem,Green's Theorem
+299,Which operation is path independent for conservative fields?,Line integral,Surface integral,Volume integral,Curl integral,Line integral
+300,The operator Nabla produces:,A scalar field,A vector field,A tensor field,Zero field,A vector field
+301,The divergence theorem requires the region to be:,Bounded and closed,Unbounded,Infinite,Flat surface only,Bounded and closed
+302,Which theorem relates curl with line integral of a vector field?,Stokes' Theorem,Divergence Theorem,Green's Theorem,Gauss' Theorem,Stokes' Theorem
+303,"If the curl of a vector field is not zero, the field is said to be:",Rotational,Conservative,Solenoidal,Uniform,Rotational
+304,"In Green's theorem, dxdy region corresponds to:",The enclosed area in the xy-plane,The volume in space,The flux of field,The curl in 3D,The enclosed area in the xy-plane
+305,The Laplacian of a vector field is applied in which equation of electromagnetism?,Poisson's Equation,Faraday's Law,Ampere's Law,Gauss' Law,Poisson's Equation
+306,Which theorem is applied in fluid dynamics to relate flux and divergence?,Divergence Theorem,Stokes' Theorem,Green's Theorem,Fourier Transform Theorem,Divergence Theorem
+307,"If a field is both solenoidal and irrotational, then:",It must be zero everywhere,It is harmonic (satisfies Laplace's equation),It is infinite,It cannot exist,It is harmonic (satisfies Laplace's equation)
+308,Which theorem reduces 3D integrals to 2D integrals?,Stokes' Theorem,Divergence Theorem,Helmholtz Theorem,Green's Theorem,Divergence Theorem
+309,Which theorem reduces 2D integrals to 1D integrals?,Green's Theorem,Stokes' Theorem,Gauss' Divergence Theorem,Cauchy's Theorem,Green's Theorem
+310,The unit normal vector in divergence theorem points:,Inward,Outward,Along x-axis,Along curl,Outward
+311,The curl operator is related to which type of integral?,Line integral,Surface integral,Volume integral,Laplacian integral,Line integral
+312,The divergence operator is related to which type of integral?,Line integral,Surface integral,Volume integral,Path integral,Surface integral
+313,The Z-transform of a discrete-time sequence x[n] is defined as:,x[n] e^{-jnœâ},x[n] z^{-n},à´ x(t) e^{-st} dt,x[n] sin(n),x[n] z^{-n}
+314,What is the inverse Z-transform used for?,To convert frequency domain to time domain,To convert continuous signals to discrete signals,To recover x[n] from its Z-transform X(z),To compute Laplace transforms,To recover x[n] from its Z-transform X(z)
+315,The region of convergence (ROC) of a Z-transform is:,A set of real numbers,A set of complex z-values,Always the unit circle,Equal to frequency domain values,A set of complex z-values
+316,Which condition ensures the existence of a Z-transform?,The sequence must be finite,The sequence must converge absolutely,The sequence must be causal only,The sequence must be periodic,The sequence must converge absolutely
+317,What is the Z-transform of [n] (unit impulse)?,z,1,1/(1-z^{-1}),z^{-1},1
+318,The Z-transform of u[n] (unit step) is:,1/(1-z^{-1}),z/(z-1),1/(1+z^{-1}),z^{-1}/(1-z^{-1}),z/(z-1)
+319,The Z-transform is most closely related to:,Laplace Transform,Fourier Transform,Convolution,Correlation,Laplace Transform
+320,The convolution theorem of Z-transform states:,Convolution in time corresponds to multiplication in Z-domain,Convolution in Z-domain corresponds to addition in time domain,Convolution in time corresponds to division in Z-domain,Convolution in frequency corresponds to integration,Convolution in time corresponds to multiplication in Z-domain
+321,What is the initial value theorem for Z-transform?,x[0] = lim (z to z) X(z),x[z] = lim (z to z) X(z),x[0] = lim (z to 0) X(z),x[n] = lim (z to 1) X(z),x[0] = lim (z to z) X(z)
+322,What is the final value theorem for Z-transform?,x[z] = lim (z to z) X(z),x[z] = lim (z to 1) (1-z^{-1}) X(z),x[0] = lim (z to 0) X(z),x[z] = lim (z to 1) X(z),x[z] = lim (z to 1) (1-z^{-1}) X(z)
+323,The convolution of two sequences x[n] and h[n] is defined as:,x[n] h[n],x[k] h[n-k],x[n] h[k],x[k] h[k+n],x[k] h[n-k]
+324,Convolution of a sequence with [n] (impulse) yields:,Zero,Unit step,The original sequence,Scaled sequence,The original sequence
+325,Which property holds true for convolution?,Associative,Distributive,Commutative,All of the above,All of the above
+326,Convolution in time domain corresponds to what in frequency domain?,Multiplication,Division,Addition,Correlation,Multiplication
+327,The graphical method of convolution is called:,Time folding and shifting,Region of convergence,Partial fraction expansion,Laplace inversion,Time folding and shifting
+328,Which operation measures similarity between two signals as one is shifted over the other?,Convolution,Correlation,Z-transform,Laplace transform,Correlation
+329,Cross-correlation of two signals x[n] and y[n] is defined as:,x[k] y[k],x[k] y[n+k],x[k] y[n-k],x[n] y[k-n],x[k] y[n+k]
+330,Auto-correlation of a signal is:,Correlation of signal with shifted impulse,Correlation of signal with itself,Convolution of signal with its inverse,Always equal to zero,Correlation of signal with itself
+331,Which property is true for auto-correlation?,Even function,Odd function,Always zero,Non-causal,Even function
+332,Correlation is used to measure:,Similarity,Energy,Causality,ROC,Similarity
+333,Which transform is useful for analyzing linear shift-invariant systems in discrete time?,Laplace Transform,Fourier Transform,Z-Transform,Hilbert Transform,Z-Transform
+334,"Which sequence corresponds to X(z) = 1/(1-az^{-1}), |z| > |a|?",[n],u[n],a^n u[n],(-a)^n u[n],a^n u[n]
+335,"If X(z) = z/(z-a), then the time-domain sequence is:",a^n u[n],[n-a],e^{an},n a^n,a^n u[n]
+336,The convolution of two finite sequences results in:,A shorter sequence,A sequence with length N+M-1,Always same length,Infinite sequence only,A sequence with length N+M-1
+337,Which of the following is NOT a property of convolution?,Commutativity,Associativity,Distributivity,Differentiability,Differentiability
+338,Cross-correlation differs from convolution in that:,There is no time-reversal in correlation,Correlation is always symmetric,Convolution requires periodic signals,Correlation only works in frequency domain,There is no time-reversal in correlation
+339,Which operation is used in matched filtering in communication?,Correlation,Convolution,Z-transform,Fourier Transform,Correlation
+340,Which transform is obtained by evaluating the Z-transform on the unit circle?,Laplace Transform,Fourier Transform,Inverse Transform,Correlation Transform,Fourier Transform
+341,What does the ROC of a right-sided sequence exclude?,Outside a circle,Inside a circle,The origin,Infinity,Inside a circle
+342,What does the ROC of a left-sided sequence exclude?,Outside a circle,Inside a circle,The unit circle,Zero,Outside a circle
+343,The convolution of two causal sequences is always:,Causal,Anti-causal,Finite,Periodic,Causal
+344,Which value does auto-correlation Rxx[0] represent?,Energy of the signal,Similarity with shifted version,Zero always,ROC boundary,Energy of the signal
+345,"If x[n] = {1,2} and h[n] = {1,1} their convolution length is:",2,3,4,5,3
+346,Which theorem states multiplication in time corresponds to convolution in frequency?,Convolution Theorem,Correlation Theorem,Duality Theorem,Parseval's Theorem,Duality Theorem
+347,The Z-transform is especially useful in analyzing:,Continuous-time systems,Discrete-time systems,Analog circuits only,Purely nonlinear systems,Discrete-time systems
+348,"If x[n] = [n] + [n-1], its Z-transform is:",1 + z^{-1},z + z^2,1 - z^{-1},z/(z-1),1 + z^{-1}
+349,The convolution operation in time domain is equivalent to what operation in Z-domain?,Multiplication,Division,Addition,Shifting,Multiplication
+350,Correlation helps determine:,Causality of system,Periodicity of sequence,Similarity and delay between signals,Region of convergence,Similarity and delay between signals
+351,The symmetry property of cross-correlation is:,Rxy[n] = Ryx[n],Rxy[n] = Ryx[-n],Rxy[n] = -Ryx[n],Rxy[n] = Rxx[n],Rxy[n] = Ryx[-n]
+352,Which property is true for energy signals in correlation?,Rxx[0] = Energy,Rxx[n] = Energy for all n,Rxx[n] = 0 for all n,Rxx[z] = Energy,Rxx[0] = Energy
+353,"If x[n] = {1,2,3} and y[n] = {1,1} then correlation length is:",3,4,5,6,4
+354,Correlation in frequency domain is represented by:,Product of Fourier transforms,Product of Fourier transform of one and conjugate of the other,Convolution of transforms,Division of transforms,Product of Fourier transform of one and conjugate of the other
+355,The Z-transform of a shifted sequence x[n-k] is:,z^k X(z),z^{-k} X(z),X(z+k),X(z-k),z^{-k} X(z)
+356,Convolution is essential for finding:,Impulse response,System output,Autocorrelation,Z-transform,System output
+357,Which type of correlation is commonly used in radar and communication systems?,Auto-correlation,Cross-correlation,Circular correlation,Normalized correlation,Cross-correlation
+358,The Z-transform of a^n u[n] is:,1/(1-az^{-1}),z/(z-a),1/(1-a),1+az^{-1},z/(z-a)
+359,The Fourier transform of the auto-correlation function gives:,Phase spectrum,Energy spectrum,Power spectral density,Impulse response,Power spectral density
+360,What are poles of a transfer function?,Values of s that make the numerator zero,Values of s that make the denominator zero,Values of s that maximize the gain,Values of s that correspond to system zeros,Values of s that make the denominator zero
+361,What are zeros of a transfer function?,Values of s that make the numerator zero,Values of s that make the denominator zero,Points where the system has infinite gain,Locations of system stability,Values of s that make the numerator zero
+362,Which of the following indicates a stable system in pole-zero analysis?,Poles lie on the right-half of the s-plane,Poles lie on the left-half of the s-plane,Zeros lie on the right-half of the s-plane,Zeros lie at infinity,Poles lie on the left-half of the s-plane
+363,"If the transfer function has a pole at s = 0, what does it indicate?",System is unstable,System has an integrator,System is overdamped,System has oscillatory response,System has an integrator
+364,What is the effect of adding a zero to the transfer function?,Shifts system poles,Changes transient response,Always destabilizes the system,Removes damping,Changes transient response
+365,Which tool is commonly used to represent poles and zeros graphically?,Nyquist plot,Bode plot,Pole-zero plot,Nichols chart,Pole-zero plot
+366,What is the dominant pole?,The pole with the largest magnitude,The pole closest to the imaginary axis,The pole farthest from the origin,The pole that corresponds to system zeros,The pole closest to the imaginary axis
+367,What is the steady-state response of a system determined by?,Zeros only,Poles only,Both poles and zeros,Only the system gain,Poles only
+368,The location of system poles in the s-plane determines:,Steady-state error,Transient response and stability,Signal flow representation,Block diagram structure,Transient response and stability
+369,"For a critically damped system, where are the poles located?",On the imaginary axis,At the origin,Repeated real poles on the negative real axis,Complex conjugates,Repeated real poles on the negative real axis
+370,What does a complex conjugate pair of poles represent?,Oscillatory behavior,Purely overdamped response,System instability,Constant gain response,Oscillatory behavior
+371,What is the transient response?,The response after steady-state is achieved,The response due to initial energy storage elements,The final system output,The frequency-domain response only,The response due to initial energy storage elements
+372,What determines the speed of transient response?,Pole location,Zero location,System order only,Feedback gain only,Pole location
+373,A larger damping ratio results in:,Faster oscillations,Slower settling,Reduced overshoot,Increased instability,Reduced overshoot
+374,Which system has no oscillations in transient response?,Underdamped system,Overdamped system,Critically damped system,Both overdamped and critically damped systems,Both overdamped and critically damped systems
+375,The rise time of a system response is:,Time taken to reach maximum overshoot,Time to rise from 10% to 90% of final value,Time to settle within ±5%,Time constant of the system,Time to rise from 10% to 90% of final value
+376,What is settling time?,Time to reach 50% of steady-state value,Time to settle within a tolerance band of final value,Time to first peak overshoot,Time constant of the dominant pole,Time to settle within a tolerance band of final value
+377,Which transient response parameter measures maximum overshoot?,Rise time,Peak time,Settling time,Steady-state error,Peak time
+378,The presence of right-half-plane poles results in:,Overdamped behavior,Unstable response,Improved transient response,Stable oscillations,Unstable response
+379,"If all poles are at negative infinity, the system behaves like:",An integrator,A differentiator,A pure delay,A constant gain system,A constant gain system
+380,Which component of response vanishes over time in a stable system?,Steady-state response,Transient response,Forced response,Input signal,Transient response
+381,Which response remains after transients decay?,Initial response,Impulse response,Steady-state response,Step response,Steady-state response
+382,A unit step input is commonly used to analyze:,Frequency response,Transient response,Block diagrams,Zeros of system,Transient response
+383,Which of the following is NOT part of transient response specifications?,Rise time,Peak overshoot,Settling time,DC gain,DC gain
+384,What is the main purpose of block diagram representation?,To display physical components only,To represent system equations graphically,To determine step response,To measure damping ratio,To represent system equations graphically
+385,What does a block in a block diagram represent?,System dynamics as transfer function,Physical wiring,Poles only,Zeros only,System dynamics as transfer function
+386,What does a summing point in a block diagram indicate?,Multiplication of signals,Addition or subtraction of signals,Feedback loop elimination,Signal delay,Addition or subtraction of signals
+387,What does a take-off point in a block diagram represent?,Merging signals,Branching of signals,Signal inversion,Pole-zero cancellation,Branching of signals
+388,What is signal flow graph mainly used for?,To find stability of system,To find transfer function using Mason's gain formula,To analyze frequency response,To draw pole-zero plot,To find transfer function using Mason's gain formula
+389,Which formula is used to determine overall gain from a signal flow graph?,Routh-Hurwitz formula,Mason's gain formula,Laplace transform,Fourier transform,Mason's gain formula
+390,What does a feedback loop in a block diagram represent?,Signal delay,Return of a portion of output to input,Only positive gain,Only integrator action,Return of a portion of output to input
+391,"In block diagram reduction, series blocks are:",Added,Multiplied,Subtracted,Divided,Multiplied
+392,"In block diagram reduction, parallel blocks are:",Added,Multiplied,Subtracted,Divided,Added
+393,A unity feedback system means:,Feedback transfer function = 0,Feedback transfer function = 1,No feedback applied,Poles and zeros cancel,Feedback transfer function = 1
+394,What is the advantage of using block diagrams?,Complexity increases,Provides clear structure for system analysis,Removes need for Laplace transform,Eliminates poles and zeros,Provides clear structure for system analysis
+395,Which rule is applied for reducing block diagrams with feedback?,Mason's rule,Feedback formula G/(1+GH),Superposition theorem,Cramer's rule,Feedback formula G/(1+GH)
+396,Which representation is more general than block diagram?,Signal flow graph,Pole-zero plot,Nyquist plot,Step response,Signal flow graph
+397,Which parameter is NOT found using signal flow graph?,Overall transfer function,Forward paths,Feedback loops,Rise time,Rise time
+398,What is a forward path in signal flow graph?,Any closed loop,A path from input to output without repeating nodes,A feedback loop,Path through summing points only,A path from input to output without repeating nodes
+399,What is a loop gain in signal flow graph?,Product of branch gains along a closed path,Sum of all feedback signals,Gain of series blocks,Gain of parallel blocks,Product of branch gains along a closed path
+400,Which of the following simplifies complex systems effectively?,Laplace transform,Block diagram reduction,Signal flow graph analysis,All of the above,All of the above
+401,Poles close to the imaginary axis result in:,Fast transient response,Slow transient response,Improved stability,No steady-state error,Slow transient response
+402,"If a system has no poles in the right half-plane, the system is:",Stable,Unstable,Marginally stable,Oscillatory unstable,Stable
+403,"If poles lie on the imaginary axis, the system is:",Stable,Unstable,Marginally stable,Overdamped,Marginally stable
+404,Which component dictates overshoot in transient response?,Poles only,Zeros only,Damping ratio,Gain margin,Damping ratio
+405,Pole-zero cancellation in transfer function usually results in:,Improved stability always,Potential loss of controllability or observability,No effect on transient response,Faster rise time always,Potential loss of controllability or observability
+406,Which is true about signal flow graph vs block diagram?,Signal flow graph handles complex interconnections better,Block diagram always shows less information,Block diagrams are equivalent to pole-zero plots,Signal flow graphs cannot show feedback,Signal flow graph handles complex interconnections better
+407,A delay element in block diagrams is represented by:,1/s,e^(-sT),s,K,e^(-sT)
