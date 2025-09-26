@@ -10,7 +10,7 @@
 **Overview**
 - SupaDrills is a comprehensive, feature-rich desktop application designed to help Electronics Engineering (ECE) and Electronics Technician (ECT) students master exam concepts through intelligent quiz sessions. Built with Python and CustomTkinter, it offers a modern, user-friendly interface with smart question selection and detailed performance analytics.
 
-**New Features in v1.3**
+**New Features in v1.5**
 
  **Smart Question System**
 - Topic-Based Filtering: Select questions by subject area (Mathematics, Science, Electronics, Ethics, Engineering)
