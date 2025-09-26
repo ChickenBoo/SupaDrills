@@ -5,7 +5,7 @@
 
 
 
-# SupaDrills v1.3 - Intelligent Quiz Master for ECE/ECT Exam Preparation
+# SupaDrills v1.5 - Intelligent Quiz Master for ECE/ECT Exam Preparation
 
 **Overview**
 - SupaDrills is a comprehensive, feature-rich desktop application designed to help Electronics Engineering (ECE) and Electronics Technician (ECT) students master exam concepts through intelligent quiz sessions. Built with Python and CustomTkinter, it offers a modern, user-friendly interface with smart question selection and detailed performance analytics.
