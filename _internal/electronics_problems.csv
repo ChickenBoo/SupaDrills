@@ -1,662 +1,249 @@
 ID,Question,Choice_1,Choice_2,Choice_3,Choice_4,Answer
-1,What is the definition of electric current in a DC resistive network?,Voltage is the flow of electric charge in a circuit.,Current is the flow of electric charge in a circuit.,Resistance is the flow of electric charge in a circuit.,Power is the flow of electric charge in a circuit.,Current is the flow of electric charge in a circuit.
-2,What does Ohm's Law state in the context of DC resistive circuits?,Voltage is inversely proportional to current.,Current is inversely proportional to resistance.,Ohm's Law states that the current flowing through a conductor is directly proportional to the applied voltage.,Resistance is directly proportional to the power in the circuit.,Ohm's Law states that the current flowing through a conductor is directly proportional to the applied voltage.
-3,"In a DC resistive circuit, what happens to the total resistance when resistors are connected in series?",Series resistors add up to the total resistance in a circuit.,Total resistance remains constant regardless of resistor arrangement.,Series resistors decrease the total resistance in a circuit.,The total resistance is determined by the resistance of the smallest resistor.,Series resistors add up to the total resistance in a circuit.
-4,How does connecting resistors in parallel affect the total resistance in a DC resistive network?,Parallel resistors result in a total resistance higher than the largest resistor in the network.,Parallel resistors result in a total resistance lower than the smallest resistor in the network.,Total resistance remains the same regardless of the arrangement.,Parallel resistors have no impact on the total resistance.,Parallel resistors result in a total resistance lower than the smallest resistor in the network.
-5,What is the principle behind Kirchhoff's Voltage Law in DC resistive circuits?,The voltage across resistors in series is equal.,Voltage is directly proportional to current.,Kirchhoff's Voltage Law states that the total voltage in a circuit is constant.,Kirchhoff's Voltage Law states that the sum of the voltages in any closed loop of a circuit is equal to the sum of the applied voltages.,Kirchhoff's Voltage Law states that the sum of the voltages in any closed loop of a circuit is equal to the sum of the applied voltages.
-6,How is power dissipation calculated in a resistor within a DC resistive network?,The power dissipated in a resistor is given by the formula P = I2R.,Power is inversely proportional to the resistance.,Power is directly proportional to the voltage across the resistor.,Power is calculated as P = VI.,The power dissipated in a resistor is given by the formula P = I2R.
-7,What does Kirchhoff's Current Law (KCL) state in the context of DC electrical circuits?,Voltage is the flow of electric charge in a circuit.,Kirchhoff's Current Law (KCL) states that the total current entering a node is equal to the total current leaving the node.,"Ohm's Law defines the relationship between current, voltage, and resistance.",The power dissipated in a resistor is given by the formula P = I^2R.,Kirchhoff's Current Law (KCL) states that the total current entering a node is equal to the total current leaving the node.
-8,What is mesh analysis used for in the analysis of DC electrical circuits?,Mesh analysis determines the current flowing through a node.,It calculates the total resistance in a circuit.,Mesh analysis is a method used to analyze and solve electric circuits by applying Kirchhoff's Voltage Law (KVL).,It measures the power dissipated in resistors.,Mesh analysis is a method used to analyze and solve electric circuits by applying Kirchhoff's Voltage Law (KVL).
-9,"In the context of DC electrical circuits, what is a node?",A node is a point in a circuit where two or more circuit elements are connected.,Nodes are elements that resist the flow of current in a circuit.,It refers to a closed loop formed by resistors in a circuit.,A node is a measure of voltage drop in a circuit.,A node is a point in a circuit where two or more circuit elements are connected.
-10,How is a mesh defined in the context of DC electrical circuits?,A mesh is a point where two or more nodes are connected.,It refers to a circuit element with high resistance.,A mesh is a measure of current flow in a circuit.,A mesh is a closed loop in a circuit where no other loops exist within it.,A mesh is a closed loop in a circuit where no other loops exist within it.
-11,How is the number of mesh equations determined in mesh analysis?,The number of mesh equations is always one less than the number of nodes in the circuit.,The number of mesh equations is equal to the number of meshes in the circuit.,Mesh equations are unrelated to the number of elements in the circuit.,The number of mesh equations depends on the voltage drop across each resistor.,The number of mesh equations is equal to the number of meshes in the circuit.
-12,What is the supermesh method used for in mesh analysis of DC electrical circuits?,It analyzes circuits with only resistive elements.,The supermesh method simplifies the number of mesh equations in a circuit.,The supermesh method is used to analyze circuits with current sources inside a mesh.,It calculates the total power in the circuit.,The supermesh method is used to analyze circuits with current sources inside a mesh.
-13,How is the node voltage method applied in the analysis of DC electrical circuits?,The node voltage method is based on applying Kirchhoff's Current Law (KCL) at each node.,It calculates the total resistance in a circuit.,Node voltage is determined by Ohm's Law.,The node voltage method is used to analyze circuits with only resistive elements.,The node voltage method is based on applying Kirchhoff's Current Law (KCL) at each node.
-14,What is the purpose of a reference node in the context of DC electrical circuits?,The reference node is a node with the highest voltage value in the circuit.,"The reference node is a chosen point in the circuit with a known voltage value, often assigned as zero volts.",Reference nodes are points where current sources are connected.,It is a node with the lowest resistance in the circuit.,"The reference node is a chosen point in the circuit with a known voltage value, often assigned as zero volts."
-15,"When analyzing DC electrical circuits, what is the purpose of the supernode method?",The supernode method simplifies the calculation of mesh equations.,It determines the voltage drop across resistors in a circuit.,The supernode method is used to analyze circuits with voltage sources connected between two non-reference nodes.,It calculates the total current in a circuit.,The supernode method is used to analyze circuits with voltage sources connected between two non-reference nodes.
-16,How is the number of mesh equations determined in mesh analysis?,The number of mesh equations is always one less than the number of nodes in the circuit.,The number of mesh equations is equal to the number of meshes in the circuit.,Mesh equations are unrelated to the number of elements in the circuit.,The number of mesh equations depends on the voltage drop across each resistor.,The number of mesh equations is equal to the number of meshes in the circuit.
-17,What is the supermesh method used for in mesh analysis of DC electrical circuits?,It analyzes circuits with only resistive elements.,The supermesh method simplifies the number of mesh equations in a circuit.,The supermesh method is used to analyze circuits with current sources inside a mesh.,It calculates the total power in the circuit.,The supermesh method is used to analyze circuits with current sources inside a mesh.
-18,How is the node voltage method applied in the analysis of DC electrical circuits?,The node voltage method is based on applying Kirchhoff's Current Law (KCL) at each node.,It calculates the total resistance in a circuit.,Node voltage is determined by Ohm's Law.,The node voltage method is used to analyze circuits with only resistive elements.,The node voltage method is based on applying Kirchhoff's Current Law (KCL) at each node.
-19,What is the purpose of a reference node in the context of DC electrical circuits?,The reference node is a node with the highest voltage value in the circuit.,"The reference node is a chosen point in the circuit with a known voltage value, often assigned as zero volts.",Reference nodes are points where current sources are connected.,It is a node with the lowest resistance in the circuit.,"The reference node is a chosen point in the circuit with a known voltage value, often assigned as zero volts."
-20,"When analyzing DC electrical circuits, what is the purpose of the supernode method?",The supernode method simplifies the calculation of mesh equations.,It determines the voltage drop across resistors in a circuit.,The supernode method is used to analyze circuits with voltage sources connected between two non-reference nodes.,It calculates the total current in a circuit.,The supernode method is used to analyze circuits with voltage sources connected between two non-reference nodes.
-21,What does the Superposition Theorem state in the context of DC electrical circuits?,Voltage sources are equivalent to current sources.,The Superposition Theorem states that the response in a resistor network is the algebraic sum of individual responses due to each independent source acting alone.,Ohm's Law applies only to resistive elements.,The power dissipated in a resistor is independent of the circuit configuration.,The Superposition Theorem states that the response in a resistor network is the algebraic sum of individual responses due to each independent source acting alone.
-22,What is the essence of Norton's Theorem in the context of DC electrical circuits?,Norton's Theorem states that any linear electrical network with voltage and current sources and resistances can be replaced by an equivalent current source in parallel with an equivalent resistance.,Voltage sources are equivalent to current sources.,Ohm's Law applies only to resistive elements.,The power dissipated in a resistor is independent of the circuit configuration.,Norton's Theorem states that any linear electrical network with voltage and current sources and resistances can be replaced by an equivalent current source in parallel with an equivalent resistance.
-23,What is the principle behind Thevenin's Theorem in the context of DC electrical circuits?,Voltage sources are equivalent to current sources.,Thevenin's Theorem states that any linear electrical network with voltage and current sources and resistances can be replaced by an equivalent voltage source in series with an equivalent resistance.,Ohm's Law applies only to resistive elements.,The power dissipated in a resistor is independent of the circuit configuration.,Thevenin's Theorem states that any linear electrical network with voltage and current sources and resistances can be replaced by an equivalent voltage source in series with an equivalent resistance.
-24,What is the concept behind Millman's Theorem in DC electrical circuits?,Voltage sources are equivalent to current sources.,Millman's Theorem states that any linear electrical network with voltage and current sources and resistances can be replaced by an equivalent voltage source in series with an equivalent resistance.,Ohm's Law applies only to resistive elements.,Millman's Theorem states that the voltage across any branch in a parallel circuit is the product of the branch current and the equivalent resistance of the parallel network divided by the sum of the currents and the equivalent resistances.,Millman's Theorem states that the voltage across any branch in a parallel circuit is the product of the branch current and the equivalent resistance of the parallel network divided by the sum of the currents and the equivalent resistances.
-25,What is the purpose of the substitution theorem in DC electrical circuits?,Voltage sources are equivalent to current sources.,The substitution theorem allows replacing a circuit element with an equivalent element without affecting the operation of the rest of the circuit.,Ohm's Law applies only to resistive elements.,The power dissipated in a resistor is independent of the circuit configuration.,The substitution theorem allows replacing a circuit element with an equivalent element without affecting the operation of the rest of the circuit.
-26,What is the role of Tellegen's Theorem in DC electrical circuits?,Voltage sources are equivalent to current sources.,Tellegen's Theorem states that any linear electrical network with voltage and current sources and resistances can be replaced by an equivalent voltage source in series with an equivalent resistance.,Tellegen's Theorem relates the sum of instantaneous powers in any network to the sum of the voltages and currents in the network.,The power dissipated in a resistor is independent of the circuit configuration.,Tellegen's Theorem relates the sum of instantaneous powers in any network to the sum of the voltages and currents in the network.
-27,What is the principle behind the maximum power transfer theorem in DC electrical circuits?,Maximum power transfer theorem states that the maximum power is transferred from a source to a load when the load resistance is equal to the source resistance.,Voltage sources are equivalent to current sources.,Ohm's Law applies only to resistive elements.,The power dissipated in a resistor is independent of the circuit configuration.,Maximum power transfer theorem states that the maximum power is transferred from a source to a load when the load resistance is equal to the source resistance.
-28,What is the concept behind the reciprocity theorem in DC electrical circuits?,Voltage sources are equivalent to current sources.,Thevenin's Theorem states that any linear electrical network with voltage and current sources and resistances can be replaced by an equivalent voltage source in series with an equivalent resistance.,Ohm's Law applies only to resistive elements.,Reciprocity theorem states that the ratio of voltage to current at any branch in a network remains the same when the positions of the voltage source and the measuring instrument are interchanged.,Reciprocity theorem states that the ratio of voltage to current at any branch in a network remains the same when the positions of the voltage source and the measuring instrument are interchanged.
-29,What is the purpose of the compensation theorem in DC electrical circuits?,Voltage sources are equivalent to current sources.,Thevenin's Theorem states that any linear electrical network with voltage and current sources and resistances can be replaced by an equivalent voltage source in series with an equivalent resistance.,Compensation theorem allows the simplification of a network by introducing a new element to nullify the effect of an existing element.,The power dissipated in a resistor is independent of the circuit configuration.,Compensation theorem allows the simplification of a network by introducing a new element to nullify the effect of an existing element.
-30,What is the main focus of transient analysis in DC electrical circuits?,Transient analysis studies steady-state conditions only.,Transient analysis focuses on studying the circuit's response during the time when the circuit transitions from one state to another.,Ohm's Law is the primary concern in transient analysis.,Transient analysis deals exclusively with resistive elements.,Transient analysis focuses on studying the circuit's response during the time when the circuit transitions from one state to another.
-31,"In transient analysis, what does the time constant represent?",Time constant indicates the time it takes for a circuit to reach steady-state conditions.,It measures the total time duration of the transient response.,Time constant is a measure of how quickly a circuit's transient response decays.,The time constant determines the rate of change of current in a circuit.,Time constant is a measure of how quickly a circuit's transient response decays.
-32,What do initial conditions represent in the context of transient analysis?,Initial conditions refer to the voltages and currents in the circuit at the moment the transient analysis begins.,Initial conditions indicate the steady-state values of the circuit.,Ohm's Law governs the initial conditions in transient analysis.,Initial conditions are irrelevant in transient analysis.,Initial conditions refer to the voltages and currents in the circuit at the moment the transient analysis begins.
-33,What is the node voltage method in the context of solving DC network problems?,It calculates the total resistance in a circuit.,The mesh analysis method is another term for the node voltage method.,The node voltage method is a technique that involves writing equations for the voltage at each node in the circuit.,Node voltage is determined by Ohm's Law.,The node voltage method is a technique that involves writing equations for the voltage at each node in the circuit.
-34,What is mesh analysis used for in the solution of DC electrical network problems?,Mesh analysis is a method used to analyze and solve electric circuits by applying Kirchhoff's Voltage Law (KVL).,It calculates the total current in a circuit.,Mesh analysis simplifies the calculation of node voltages.,Ohm's Law is the primary method for solving DC network problems.,Mesh analysis is a method used to analyze and solve electric circuits by applying Kirchhoff's Voltage Law (KVL).
-35,What is the principle behind the superposition theorem in solving DC network problems?,Thevenin's Theorem simplifies the analysis of DC circuits.,The superposition theorem states that the response in a resistor network is the algebraic sum of individual responses due to each independent source acting alone.,Ohm's Law is not applicable in the superposition theorem.,Mesh analysis is the foundation of the superposition theorem.,The superposition theorem states that the response in a resistor network is the algebraic sum of individual responses due to each independent source acting alone.
-36,What is the purpose of Millman's Theorem in solving DC electrical network problems?,Voltage sources are equivalent to current sources.,Millman's Theorem simplifies the calculation of node voltages.,Ohm's Law is not applicable in Millman's Theorem.,Millman's Theorem states that the voltage across any branch in a parallel circuit is the product of the branch current and the equivalent resistance of the parallel network divided by the sum of the currents and the equivalent resistances.,Millman's Theorem states that the voltage across any branch in a parallel circuit is the product of the branch current and the equivalent resistance of the parallel network divided by the sum of the currents and the equivalent resistances.
-37,What role does the substitution theorem play in solving DC electrical network problems?,The substitution theorem allows replacing a circuit element with an equivalent element without affecting the operation of the rest of the circuit.,Ohm's Law is not applicable in the substitution theorem.,It calculates the total resistance in a circuit.,Thevenin's Theorem is an alternative term for the substitution theorem.,The substitution theorem allows replacing a circuit element with an equivalent element without affecting the operation of the rest of the circuit.
-38,How does Tellegen's Theorem contribute to the solution of DC electrical network problems?,Voltage sources are equivalent to current sources.,Tellegen's Theorem simplifies the analysis of DC circuits.,Tellegen's Theorem relates the sum of instantaneous powers in any network to the sum of the voltages and currents in the network.,Ohm's Law is not applicable in Tellegen's Theorem.,Tellegen's Theorem relates the sum of instantaneous powers in any network to the sum of the voltages and currents in the network.
-39,What is the principle behind the maximum power transfer theorem in solving DC network problems?,Maximum power transfer theorem states that the maximum power is transferred from a source to a load when the load resistance is equal to the source resistance.,Ohm's Law is not applicable in the maximum power transfer theorem.,It calculates the total current in a circuit.,The substitution theorem is an alternative term for the maximum power transfer theorem.,Maximum power transfer theorem states that the maximum power is transferred from a source to a load when the load resistance is equal to the source resistance.
-40,What is the concept behind the reciprocity theorem in solving DC electrical network problems?,Voltage sources are equivalent to current sources.,Thevenin's Theorem simplifies the calculation of node voltages.,Ohm's Law is not applicable in the reciprocity theorem.,Reciprocity theorem states that the ratio of voltage to current at any branch in a network remains the same when the positions of the voltage source and the measuring instrument are interchanged.,Reciprocity theorem states that the ratio of voltage to current at any branch in a network remains the same when the positions of the voltage source and the measuring instrument are interchanged.
-41,How does the compensation theorem aid in solving DC electrical network problems?,Compensation theorem simplifies the calculation of node voltages.,Compensation theorem allows the simplification of a network by introducing a new element to nullify the effect of an existing element.,Ohm's Law is not applicable in the compensation theorem.,It calculates the total current in a circuit.,Compensation theorem allows the simplification of a network by introducing a new element to nullify the effect of an existing element.
-42,What is the purpose of Kirchhoff's voltage law in solving DC network problems?,To determine the current in a resistor,To calculate the power dissipated in a circuit,To analyze the voltage drops and rises in a closed loop,To measure the resistance of a component,To analyze the voltage drops and rises in a closed loop
-43,"In a DC circuit, how is the total resistance (RT) calculated for resistors in series?",RT = R1 + R2,RT = R1 * R2,RT = 1 / (1/R1 + 1/R2),RT = R1 - R2,RT = R1 + R2
-44,What is the primary function of Kirchhoff's current law in solving DC network problems?,To calculate the voltage across a resistor,To analyze the current distribution at a junction,To determine the capacitance in a circuit,To measure the inductance of a coil,To analyze the current distribution at a junction
-45,"For resistors in parallel in a DC circuit, how is the total resistance (RT) calculated?",RT = R1 + R2,RT = R1 * R2,RT = 1 / (1/R1 + 1/R2),RT = R1 - R2,RT = 1 / (1/R1 + 1/R2)
-46,What is the purpose of a Thevenin equivalent circuit in solving DC network problems?,To simplify a complex circuit into a single voltage source and resistor,To introduce additional resistors in the circuit,To analyze magnetic fields in the circuit,To measure the total capacitance of the circuit,To simplify a complex circuit into a single voltage source and resistor
-47,"In a DC circuit, what does the term 'node' refer to?",A type of resistor,A closed loop in the circuit,A point where two or more components are connected,A measure of circuit power,A point where two or more components are connected
-48,What is the primary purpose of nodal analysis in solving DC network problems?,To analyze the voltage distribution in a circuit,To calculate the total resistance of a circuit,To determine the inductance in a coil,To measure the capacitance of a component,To analyze the voltage distribution in a circuit
-49,"How does Ohm's Law relate voltage, current, and resistance in a DC circuit?",V = I / R,I = V / R,R = V - I,V = I + R,I = V / R
-50,What does the term 'mesh' refer to in mesh analysis for DC circuits?,A type of resistor,A closed loop in the circuit,A point where two or more components are connected,A measure of circuit power,A closed loop in the circuit
-51,What is the primary purpose of impedance in AC circuits?,To measure current in the circuit,To analyze the voltage drops in a closed loop,To represent the opposition to the flow of AC current,To calculate power dissipation in the circuit,To represent the opposition to the flow of AC current
-52,How is the total impedance (ZT) calculated for resistors in series in an AC circuit?,ZT = Z1 + Z2,ZT = Z1 * Z2,ZT = 1 / (1/Z1 + 1/Z2),ZT = Z1 - Z2,ZT = Z1 + Z2
-53,What is the significance of the power factor in AC circuits?,It measures the total power consumed in the circuit,It indicates the efficiency of power transmission,It represents the ratio of real power to apparent power,It measures the total resistance in the circuit,It represents the ratio of real power to apparent power
-54,"In an AC circuit, how is the total impedance (ZT) calculated for resistors in parallel?",ZT = Z1 + Z2,ZT = Z1 * Z2,ZT = 1 / (1/Z1 + 1/Z2),ZT = Z1 - Z2,ZT = 1 / (1/Z1 + 1/Z2)
-55,What does the term 'reactance' represent in AC circuits?,Resistance to the flow of DC current,Resistance to the flow of AC current,Opposition to the change in magnetic field,Total power consumed in the circuit,Resistance to the flow of AC current
-56,What is the purpose of phasor diagrams in solving AC network problems?,To represent DC circuit components,To calculate the total capacitance of the circuit,To analyze the phase relationships between voltages and currents,To measure the resistance of a component,To analyze the phase relationships between voltages and currents
-57,"In AC circuits, what does the term 'resonance' refer to?",Maximum power dissipation in the circuit,Condition when the power factor is zero,Matching of circuit impedance with the source impedance,Minimum impedance in the circuit,Matching of circuit impedance with the source impedance
-58,How does the frequency of an AC signal affect the inductive reactance (XL)?,Higher frequency increases XL,Lower frequency increases XL,Frequency has no effect on XL,XL is independent of frequency,Higher frequency increases XL
-59,What is the purpose of Norton's theorem in solving AC network problems?,To analyze magnetic fields in the circuit,To simplify a complex circuit into a single current source and impedance,To measure the total capacitance of the circuit,To determine the inductance in a coil,To simplify a complex circuit into a single current source and impedance
-60,What does impedance represent in an AC circuit?,Voltage drop across a resistor,Current flow through a capacitor,Total opposition to the flow of alternating current,Resistance in a DC circuit,Total opposition to the flow of alternating current
-61,"In a complex impedance (Z), how is the reactive component (X) represented for a circuit with both resistance and reactance?",Z = R - jX,Z = R + jX,Z = R * jX,Z = R / jX,Z = R + jX
-62,What is the relationship between impedance and admittance in AC circuits?,Admittance is the reciprocal of impedance,Admittance is the square root of impedance,Admittance is equal to impedance,Admittance is unrelated to impedance,Admittance is the reciprocal of impedance
-63,How is the magnitude of impedance (Z) calculated in a circuit with both resistance (R) and reactance (X)?,Z = R + X,Z = R * X,Z = R / X,Z = sqrt(R^2 + X^2),Z = sqrt(R^2 + X^2)
-64,How is impedance represented in phasor form in AC circuits?,Impedance is a scalar quantity,"Impedance has only magnitude, no phase angle",Impedance is a vector quantity with magnitude and phase angle,"Impedance has a phase angle, but no magnitude",Impedance is a vector quantity with magnitude and phase angle
-65,"In a complex admittance (Y), how is the susceptance component (B) represented for a circuit with both conductance and susceptance?",Y = G - jB,Y = G + jB,Y = G * jB,Y = G / jB,Y = G + jB
-66,What is the unit of measurement for admittance?,Ohms (),Farads (F),Siemens (S),Henrys (H),Siemens (S)
-67,How is impedance represented geometrically in a phasor diagram?,Impedance is the phasor sum of resistance and reactance,Impedance is only represented by the real axis,Impedance is the product of resistance and reactance,Impedance is perpendicular to the phasor diagram,Impedance is the phasor sum of resistance and reactance
-68,What is the relationship between admittance (Y) and impedance (Z) in an AC circuit?,Y = Z + 1,Y = Z - 1,Y = Z * 1,Y = 1/Z,Y = 1/Z
-69,What is the definition of resonance in an AC circuit?,The frequency at which the voltage is maximum,The frequency at which the current is minimum,The frequency at which the inductive reactance equals the capacitive reactance,The frequency at which the total impedance is zero,The frequency at which the inductive reactance equals the capacitive reactance
-70,In which type of circuit does resonance typically occur?,Series RL circuit,Parallel LC circuit,Series RC circuit,Series RLC circuit,Parallel LC circuit
-71,"At resonance in a series RLC circuit, what happens to the current flowing through the circuit?",Maximum current,Minimum current,Zero current,Constant current,Maximum current
-72,"In a resonant circuit, what factors are considered when discussing the impedance of the circuit?",Only the amplitude of the current,Only the phase of the current,Neither amplitude nor phase,Both the amplitude and phase of the current are important,Both the amplitude and phase of the current are important
-73,What effect does increasing the quality factor (Q) of a resonant circuit have on its bandwidth?,Increase the bandwidth of the circuit,No effect on the bandwidth,Decrease the bandwidth of the circuit,Change the resonant frequency,Decrease the bandwidth of the circuit
-74,"In a resonant circuit, at the resonant frequency, what condition must be met regarding reactances?",Capacitive reactance is maximum,Capacitive reactance equals inductive reactance,Inductive reactance is minimum,Resonant frequency does not exist,Capacitive reactance equals inductive reactance
-75,What components contribute to the apparent power in an AC circuit?,Only real power,Only reactive power,Both real and reactive power,Only apparent power,Both real and reactive power
-76,What is the power that performs actual work in an AC circuit?,True power,Reactive power,Apparent power,Complex power,True power
-77,What is the ratio of true power to apparent power in an AC circuit?,Real factor,Reactive factor,Apparent factor,Power Factor,Power Factor
-78,"In terms of power factor, what indicates a more efficient utilization of power in an AC circuit?",Power factor closer to 0,Power factor closer to -1,Power factor closer to 1,Power factor equal to 0,Power factor closer to 1
-79,How is true power (real power) calculated in an AC circuit?,V x I x sin(θ),V x I x cos(θ),V x I x tan(θ),V x I x ϕ,V x I x cos(θ)
-80,What is the process of improving the power factor in an AC circuit to make it more efficient?,Power factor correction,Reactive power compensation,Apparent power adjustment,Real power optimization,Power factor correction
-81,Which set of parameters is commonly used to characterize a two-port network in terms of voltage and current relationships?,Z parameters,Y parameters,H parameters,ABCD parameters,ABCD parameters
-82,What does the transfer function represent in a two-port network?,Power dissipation,Voltage transfer ratio (Vout/Vin),Impedance matching,Current gain,Voltage transfer ratio (Vout/Vin)
-83,"If a two-port network is characterized by its input current and output voltage, which set of parameters is used?",Impedance parameters (Z parameters),Hybrid parameters (H parameters),Admittance parameters (Y parameters),ABCD parameters,Hybrid parameters (H parameters)
-84,"If a two-port network is characterized by its input impedance and output impedance, which set of parameters is used?",Z parameters,Y parameters,H parameters,ABCD parameters,Z parameters
-85,Which set of parameters allows for the direct calculation of voltage and current at the input and output of a two-port network?,Z parameters,Y parameters,H parameters,ABCD parameters,ABCD parameters
-86,"In Z parameters, which parameters represent the input impedance of the network and the voltage ratio Vin/V2?",Z11 and Z21,Z12 and Z22,Z21 and Z22,Z11 and Z12,Z11 and Z21
-87,"In H parameters, which parameters represent the input current and the voltage ratio V1/V2?",H12 and H22,H11 and H21,H21 and H22,H11 and H12,H11 and H21
-88,"If a two-port network is characterized by its input admittance and output admittance, which set of parameters is used?",Z parameters,H parameters,Y parameters,ABCD parameters,Y parameters
-89,What is the significance of the determinant of the matrix [Z] in Z parameters?,Voltage transfer ratio,Current gain,Determinant of the matrix [Z],Impedance matching,Determinant of the matrix [Z]
-90,Which principle states that the total electric flux through a closed surface is equal to the net electric charge enclosed by the surface divided by the permittivity of free space?,Ampere's Law,Gauss's Law,Faraday's Law,Ohm's Law,Gauss's Law
-91,What law describes the force between two point charges and is crucial for understanding the behavior of electric fields in static conditions?,Gauss's Law,Ampere's Law,Biot-Savart Law,Coulomb's Law,Coulomb's Law
-92,"In magnetostatics, what property represents the strength and orientation of a magnetic source, such as a magnetic dipole?",Magnetic permeability,Magnetic field intensity,Magnetic dipole moment,Magnetic flux density,Magnetic dipole moment
-93,What is a characteristic feature of the magnetic field lines in a magnetostatic field?,Magnetic field lines form closed loops,Magnetic field lines always point radially outward,Magnetic field lines are parallel to electric field lines,Magnetic field lines originate from positive charges,Magnetic field lines form closed loops
-94,Which law describes how a changing magnetic field induces an electromotive force (EMF) and subsequently an electric current in a nearby conductor?,Ampere's Law,Faraday's Law of Electromagnetic Induction,Gauss's Law for Magnetism,Biot-Savart Law,Faraday's Law of Electromagnetic Induction
-95,What law relates the magnetic field around a closed loop to the current passing through the loop and is a fundamental principle in understanding magnetostatic fields?,Faraday's Law of Electromagnetic Induction,Biot-Savart Law,Gauss's Law for Magnetism,Ampere's Circuital Law,Ampere's Circuital Law
-96,What type of material is characterized by its ability to store electric charge and is commonly used in capacitors?,Insulator,Dielectric material,Conductor,Semiconductor,Dielectric material
-97,"In the context of magnetic materials, what property describes the ability of a material to support the formation of a magnetic field?",Susceptibility,Retentivity,Reluctance,Permeability,Permeability
-98,"Which type of magnetic material exhibits magnetic moments aligned in opposite directions, resulting in a net magnetic moment?",Paramagnetic,Diamagnetic,Ferrimagnetic,Antiferromagnetic,Ferrimagnetic
-99,What type of material exhibits spontaneous electric polarization that can be reversed by the application of an external electric field?,Ferroelectric,Antiferroelectric,Piezoelectric,Dielectric,Ferroelectric
-100,"In the study of magnetic materials, what graphical representation illustrates the relationship between the magnetic flux density (B) and the magnetizing force (H) during magnetization and demagnetization cycles?",B-H curve,Hysteresis loop,Permeability curve,Magnetic susceptibility curve,Hysteresis loop
-101,"In the context of dielectric materials, what property describes the ability of a material to permit the passage of an electric field?",Susceptibility,Insulating strength,Permittivity,Resistivity,Permittivity
-102,What term describes the phenomenon where the magnetic flux generated by one coil induces an electromotive force (EMF) in an adjacent coil?,Mutual inductance,Self-inductance,Magnetic reluctance,Magnetic hysteresis,Mutual inductance
-103,"In the context of magnetic circuits, what term refers to the magnetic flux that does not follow the intended path but 'leaks' outside the core?",Magnetizing flux,Reluctance flux,Fringing flux,Leakage flux,Leakage flux
-104,"In a magnetic circuit, what factors primarily determine the reluctance of the core?",Number of turns,Core material and its dimensions,Cross-sectional area,Permeability of the surrounding medium,Core material and its dimensions
-105,What parameter indicates the degree of magnetic coupling between two coils in a transformer and ranges from 0 (no coupling) to 1 (perfect coupling)?,Self-inductance,Magnetic reluctance,The coefficient of coupling,Permeability,The coefficient of coupling
-106,"In a magnetic circuit, what is the force that establishes the magnetic field and is analogous to the electromotive force (EMF) in an electric circuit?",Magnetic reluctance,The magnetomotive force (MMF),Magnetic flux,Magnetic permeability,The magnetomotive force (MMF)
-107,What factor significantly contributes to an increase in the reluctance of a magnetic circuit?,Decreasing the number of turns,Increasing the permeability of the core,Air gap in the magnetic circuit,Decreasing the cross-sectional area,Air gap in the magnetic circuit
-108,"Which Maxwell's equation accounts for the displacement current, allowing for the inclusion of time-varying electric fields?",Ampere's Law with Maxwell's addition,Gauss's Law for Electricity,Faraday's Law of Electromagnetic Induction,Gauss's Law for Magnetism,Ampere's Law with Maxwell's addition
-109,What Maxwell's equation describes how a changing magnetic field induces an electromotive force (EMF) and subsequently an electric current in a nearby conductor?,Gauss's Law for Magnetism,Ampere's Law,Faraday's Law of Electromagnetic Induction,Gauss's Law for Electricity,Faraday's Law of Electromagnetic Induction
-110,Which mathematical operation appears in Maxwell's equations and is used to describe how electric fields change with time?,Divergence of the magnetic field (B),Curl of the electric field (E),Gradient of the electric field (E),Integral of the magnetic field (B),Curl of the electric field (E)
-111,"What Maxwell's equation states that the magnetic flux through any closed surface is zero, reflecting the absence of magnetic monopoles?",Gauss's Law for Magnetism,Ampere's Law with Maxwell's addition,Faraday's Law of Electromagnetic Induction,Gauss's Law for Electricity,Gauss's Law for Magnetism
-112,"Which Maxwell's equation relates the circulation of the magnetic field around a closed loop to the total current passing through the loop, including displacement current?",Gauss's Law for Electricity,Faraday's Law of Electromagnetic Induction,Gauss's Law for Magnetism,Ampere's Law,Ampere's Law
-113,"What Maxwell's equation relates the electric flux through a closed surface to the total charge enclosed, including free and bound charges?",Faraday's Law of Electromagnetic Induction,Ampere's Law,Gauss's Law for Electricity,Gauss's Law for Magnetism,Gauss's Law for Electricity
-114,What type of diode circuit is designed to remove or 'clip' portions of a signal beyond a certain voltage level?,Limiter,Rectifier,Clamper,Clipper,Clipper
-115,Which special diode is commonly used for voltage regulation due to its ability to maintain a nearly constant voltage across its terminals?,Schottky diode,Zener diode,Light-emitting diode,Tunnel diode,Zener diode
-116,What type of diode is known for its fast switching speed and is commonly used in high-frequency applications?,Zener diode,Light-emitting diode,Schottky diode,Tunnel diode,Schottky diode
-117,Which diode is designed to function as a voltage-variable capacitor and is often used in frequency-modulation (FM) receivers?,Varactor diode,Zener diode,Tunnel diode,Schottky diode,Varactor diode
-118,"In a Zener diode, what mechanism leads to the sudden increase in current and prevents the voltage from rising above the breakdown voltage?",Forward bias,Tunneling effect,Avalanche breakdown,Reverse recovery time,Avalanche breakdown
-119,What type of diode circuit is designed to prevent the amplitude of a signal from exceeding a certain level by limiting both positive and negative excursions?,Voltage Regulator,Rectifier,Clamper,Clipper,Clipper
-120,Which diode exhibits negative resistance and is often used in microwave oscillators and amplifiers?,Light-emitting diode,Tunnel diode,Schottky diode,Zener diode,Tunnel diode
-121,"In a tunnel diode, what region of the current-voltage characteristic curve results in a decrease in current with an increase in voltage?",Forward bias region,Saturation region,Breakdown region,Negative resistance region,Negative resistance region
-122,What type of diode circuit is designed to shift the DC level of a waveform?,Limiter,Rectifier,Clamper,Clipper,Clamper
-123,"In BJT and FET small signal analysis, what kind of signal variation is considered around the quiescent operating point?",Large signal,Small signal,AC signal,Nonlinear signal,Small signal
-124,"In BJT small signal analysis, what parameter represents the change in collector current with respect to the change in base-emitter voltage?",Early voltage,Threshold voltage,Transconductance,Reverse saturation current,Transconductance
-125,"What small signal model is commonly used for analyzing BJT circuits, simplifying the analysis by replacing the transistor with equivalent circuit elements?",T model,Ebers-Moll model,CE model,Hybrid-π model,Hybrid-π model
-126,"In BJT small signal analysis, which transistor configuration is often used to determine parameters such as current gain and input impedance?",Common-emitter configuration,Common-base configuration,Common-collector configuration,Emitter-follower configuration,Common-emitter configuration
-127,"In FET small signal analysis, what type of device is a FET considered to be, where the drain current is controlled by the gate-source voltage?",Current-controlled device,Voltage-controlled device,Power-controlled device,Resistance-controlled device,Voltage-controlled device
-128,"In FET small signal analysis, what parameter represents the change in drain current with respect to the change in gate-source voltage?",Transconductance,Threshold voltage,Output conductance,Drain saturation current,Transconductance
-129,"In FET small signal analysis, which transistor configuration is often used to determine parameters such as voltage gain and input impedance?",Common-gate configuration,Common-drain configuration,Common-source configuration,Source-follower configuration,Common-source configuration
-130,"In BJT small signal analysis, which configuration exhibits a phase inversion between the input and output signals?",Common-base configuration,Common-emitter configuration,Common-collector configuration,Emitter-follower configuration,Common-emitter configuration
-131,"What small signal model is commonly used for analyzing FET circuits, simplifying the analysis by replacing the FET with equivalent circuit elements?",Hybrid-π model,T model,Ebers-Moll model,CE model,Hybrid-π model
-132,"In FET small signal analysis, which configuration is also known as a source-follower and provides a high input impedance and unity voltage gain?",Common-gate configuration,Common-source configuration,Common-base configuration,Common-drain configuration,Common-drain configuration
-133,"In BJT small signal analysis, which configuration exhibits low input impedance and high current gain?",Common-emitter configuration,Common-collector configuration,Common-base configuration,Emitter-follower configuration,Common-emitter configuration
-134,"In BJT small signal analysis, what parameter represents the output conductance and is crucial for determining the output impedance of the transistor?",Transconductance,Early voltage,Threshold voltage,Reverse saturation current,Early voltage
-135,What diode equivalent circuit model assumes zero forward voltage drop and infinite reverse resistance?,Ideal diode model,Piecewise-linear model,Exponential model,Shockley diode model,Ideal diode model
-136,"What diode equivalent circuit model is often used for analyzing diode behavior in the vicinity of the operating point, considering small variations in voltage?",Ideal diode model,Piecewise-linear model,Small-signal model,Exponential model,Small-signal model
-137,Which diode equivalent circuit model represents the diode as a combination of a voltage source and a resistor in different regions of operation?,Ideal diode model,Piecewise-linear model,Exponential model,Shockley diode model,Piecewise-linear model
-138,What type of voltage multiplier circuit generates an output voltage that is approximately twice the peak input voltage?,Voltage tripler,Voltage doubler,Voltage quadrupler,Voltage inverter,Voltage doubler
-139,"In a voltage regulator circuit, which component is commonly used to maintain a stable output voltage by providing a constant reference voltage?",Transistor,Resistor,Zener diode,Capacitor,Zener diode
-140,"In the context of power supply filters, what term refers to the small AC component superimposed on the DC output voltage?",Load regulation,Line regulation,Output voltage,Ripple voltage,Ripple voltage
-141,"In a power supply, what type of transformer is typically used to reduce the high-voltage AC from the mains to a lower voltage suitable for rectification?",Step-down transformer,Step-up transformer,Isolation transformer,Autotransformer,Step-down transformer
-142,What type of rectifier circuit is more efficient in converting AC to DC compared to a half-wave rectifier?,Half-wave rectifier,Full-wave rectifier,Bridge rectifier,Center-tapped rectifier,Full-wave rectifier
-143,"In a power supply, what term refers to the ability of the supply to maintain a constant output voltage despite variations in the input AC voltage?",Load regulation,Ripple voltage,Line regulation,Output voltage,Line regulation
-144,"In a Bipolar Junction Transistor (BJT) NPN, which region is lightly doped and majority carriers are holes?",Base,Collector,Emitter,Substrate,Base
-145,"In a Field-Effect Transistor (FET), which configuration exhibits high input impedance and low output impedance?",Common Gate,Common Drain,Common Base,Common Source,Common Drain
-146,"In a Bipolar Junction Transistor (BJT), which terminal is heavily doped and is the source of majority carriers?",Base,Collector,Emitter,Substrate,Emitter
-147,"In a Bipolar Junction Transistor (BJT), which configuration provides both voltage and current gain?",Common Emitter,Common Collector,Common Base,Emitter Follower,Common Emitter
-148,"In a Field-Effect Transistor (FET), which type of region forms between the source and drain when a voltage is applied to the gate?",Enhancement,Depletion,Accumulation,Inversion,Depletion
-149,"In a Bipolar Junction Transistor (BJT), which configuration offers low input impedance and unity current gain?",Common Emitter,Common Collector,Common Base,Emitter Follower,Common Base
-150,"In a Bipolar Junction Transistor (BJT), which type of transistor has a p-type semiconductor as the base and n-type semiconductors as the emitter and collector?",NPN,PNP,N-MOSFET,P-MOSFET,NPN
-151,"In a Bipolar Junction Transistor (BJT), which configuration provides low output impedance and unity voltage gain?",Common Emitter,Common Collector,Common Base,Emitter Follower,Common Collector
-152,"In a Field-Effect Transistor (FET), what type of transistor requires an external voltage to create a conducting channel between the source and drain?",Depletion,Inversion,Enhancement,Accumulation,Enhancement
-153,"In a Bipolar Junction Transistor (BJT), which configuration offers a voltage gain slightly less than unity but high input impedance and low output impedance?",Common Emitter,Common Collector,Common Base,Common Gate,Common Collector
-154,"In a Bipolar Junction Transistor (BJT), how is the collector current controlled in the Common Emitter configuration?",Collector current is independent of base current,Base current controls the collector current,Emitter current controls the collector current,Collector current is controlled by external resistance,Base current controls the collector current
-155,"In a Field-Effect Transistor (FET), which terminal corresponds to the collector terminal in a Bipolar Junction Transistor (BJT)?",Drain,Source,Gate,Substrate,Drain
-156,"In the frequency response of a common-emitter BJT amplifier, the coupling capacitor results in which type of filter response for the amplifier?",Band-pass,Low-pass,High-pass,Notch,High-pass
-157,What phenomenon in a common-emitter BJT amplifier leads to increased input capacitance due to the interaction of the transistor's internal capacitances?,Early effect,Miller effect,Base spreading resistance,Beta distortion,Miller effect
-158,"In the frequency response of a BJT, what parameter characterizes the frequency at which the current gain starts to decrease significantly?",Cutoff frequency,Break frequency,Transition frequency (fT),Roll-off frequency,Transition frequency (fT)
-159,"In the frequency response of a Field-Effect Transistor (FET) amplifier, which configuration exhibits low input impedance and high voltage gain?",Common-source,Common-drain,Common-gate,Source-follower,Common-source
-160,What parameter is commonly used in the analysis of operational amplifiers to characterize the trade-off between gain and bandwidth?,Slew rate,Gain-bandwidth product (GBW),Common-mode rejection ratio (CMRR),Offset voltage,Gain-bandwidth product (GBW)
-161,"In the frequency response of a BJT, what phenomenon is responsible for the increase in the collector current with increasing collector voltage in the active region?",Miller effect,Beta distortion,Early effect,Base spreading resistance,Early effect
-162,"In the frequency response of a Field-Effect Transistor (FET) amplifier, which configuration provides low output impedance and unity voltage gain?",Common-gate,Common-source,Common-drain,Source-follower,Common-drain
-163,"In the frequency response of a BJT, what factor limits the upper-frequency response and is associated with the time taken by carriers to traverse the base region?",Early voltage,Transit time,Collector resistance,Base-width modulation,Transit time
-164,"In the frequency response of a BJT amplifier, what term is often used interchangeably with the 3 dB down point, marking the start of the roll-off region?",Cutoff frequency,Transition frequency,Break frequency,Resonant frequency,Cutoff frequency
-165,"In operational amplifiers, what parameter characterizes the maximum rate of change of the output voltage in response to a step input?",Gain-bandwidth product (GBW),Offset voltage,Common-mode rejection ratio (CMRR),Slew rate,Slew rate
-166,"In the frequency response of a Field-Effect Transistor (FET) amplifier, which configuration is also known as a source-follower and provides high input impedance and unity voltage gain?",Common-gate,Common-drain,Common-source,Common-base,Common-drain
-167,"In the frequency response of a Field-Effect Transistor (FET) amplifier, which configuration exhibits low input impedance and high voltage gain?",Common-source,Common-drain,Common-gate,Source-follower,Common-source
-168,"In a cascade connection of two amplifiers, what advantages does it offer over a single amplifier?",Increased overall voltage gain,Improved bandwidth,Increased overall voltage gain and improved bandwidth,Decreased input impedance,Increased overall voltage gain and improved bandwidth
-169,"In a cascode connection, what is a characteristic feature that distinguishes it from a common-emitter configuration?",Increased output impedance,Decreased overall voltage gain,Higher input capacitance,Reduced bandwidth,Increased output impedance
-170,"In a cascode amplifier, what advantage does it provide in terms of common-mode signals compared to a single-transistor amplifier?",Decreased output impedance,Higher overall voltage gain,Wider bandwidth,Improved common-mode rejection,Improved common-mode rejection
-171,What is a characteristic feature of a cascode connection in terms of biasing?,Both transistors operate at the same bias point,Both transistors operate at different bias points,The input transistor operates in cut-off,The output transistor operates in saturation,Both transistors operate at different bias points
-172,"In which type of amplifier connection is the input transistor connected in common-base configuration, and the output transistor connected in common-collector configuration?",Cascade,Darlington,Cascode,Common-emitter,Cascode
-173,What is a potential advantage of using a cascode connection in RF (Radio Frequency) amplifiers?,Improved bandwidth,Decreased overall voltage gain,Lower input impedance,Reduced power dissipation,Improved bandwidth
-174,What is the primary function of a current mirror in electronic circuits?,It generates a constant voltage,It mirrors the input current,It amplifies the input current,It produces a constant resistance,It mirrors the input current
-175,What characteristic defines an ideal current source?,It provides a constant current regardless of load changes,It maintains a constant voltage across its terminals,It exhibits zero output resistance,It has infinite power dissipation,It provides a constant current regardless of load changes
-176,Which type of current mirror is designed to minimize the effects of Early voltage in bipolar transistors?,Simple current mirror,Improved current mirror,Wilson current mirror,Beta-multiplier current mirror,Wilson current mirror
-177,What type of current mirror compensates for variations in the current gain (β) of transistors?,Simple current mirror,Improved current mirror,Wilson current mirror,Beta-multiplier current mirror,Beta-multiplier current mirror
-178,"In an electronic circuit, what component behaves most similarly to an infinite resistance?",Ideal current source,Ideal voltage source,Ideal capacitor,Ideal inductor,Ideal current source
-179,What type of current mirror configuration addresses issues such as Early voltage and finite output resistance?,Simple current mirror,Improved current mirror,Wilson current mirror,Beta-multiplier current mirror,Improved current mirror
-180,"In a differential amplifier, what term refers to the voltage that is common to both input terminals?",Differential voltage,Common-mode voltage,Output voltage,Bias voltage,Common-mode voltage
-181,"In a differential amplifier, what mode of operation involves applying signals of equal magnitude but opposite phase to the input terminals?",Common mode,Single-ended mode,Differential mode,Cascade mode,Differential mode
-182,What is the primary function of a differential amplifier?,Voltage Subtraction,Voltage Addition,Voltage Amplification,Voltage Rectification,Voltage Subtraction
-183,"In the performance evaluation of a differential amplifier, what parameter indicates its ability to reject common-mode signals?",Open-loop voltage gain,Common-mode rejection ratio (CMRR),Differential voltage gain,Input impedance,Common-mode rejection ratio (CMRR)
-184,"What type of amplifier is designed to perform mathematical operations such as addition, subtraction, integration, and differentiation?",Differential amplifier,Common-mode amplifier,Cascaded amplifier,Operational amplifier,Operational amplifier
-185,"In an operational amplifier circuit, what component is commonly used to control the gain and other performance parameters?",Voltage source,Input resistor,Feedback network,Power supply,Feedback network
-186,"What type of feedback is commonly used in amplifier circuits to improve stability, bandwidth, and reduce distortion?",Positive feedback,Negative feedback,Voltage feedback,Current feedback,Negative feedback
-187,What term describes the sustained output in an oscillator circuit without an external input?,Amplification,Modulation,Oscillation,Damping,Oscillation
-188,"What type of filter incorporates an active component, such as an operational amplifier, to provide amplification and flexibility in shaping the frequency response?",Active filter,Passive filter,LC filter,High-pass filter,Active filter
-189,Which type of oscillator is commonly used for generating sine wave signals due to its simplicity and ease of frequency adjustment?,Colpitts oscillator,Hartley oscillator,Crystal oscillator,Wien Bridge oscillator,Wien Bridge oscillator
-190,What type of filter allows signals with frequencies below a certain cutoff frequency to pass through while attenuating higher frequencies?,Band-pass filter,Low-pass filter,High-pass filter,Notch filter,Low-pass filter
-191,"What set of conditions determines the stability and conditions for oscillation in a feedback system, particularly in the context of electronic oscillators?",Nyquist criteria,Routh-Hurwitz criteria,Barkhausen criteria,Shannon criteria,Barkhausen criteria
-192,"What graphical representation is commonly used to illustrate the frequency response of a system, including gain and phase information?",Bode plot,Nyquist plot,Root locus plot,Step response plot,Bode plot
-193,What type of filter allows a specific band of frequencies to pass through while attenuating frequencies both above and below the band?,Band-pass filter,Band-stop filter,Low-pass filter,High-pass filter,Band-pass filter
-194,What type of oscillator circuit utilizes a combination of capacitors and inductors to create a resonant LC tank circuit?,Colpitts oscillator,Hartley oscillator,Crystal oscillator,Wien Bridge oscillator,Colpitts oscillator
-195,What type of filter allows all frequencies to pass through without attenuation but may introduce a phase shift?,Band-pass filter,Low-pass filter,High-pass filter,All-pass filter,All-pass filter
-196,What type of oscillator circuit employs a tapped inductor to create a resonant LC tank circuit?,Colpitts oscillator,Wien Bridge oscillator,Hartley oscillator,Crystal oscillator,Hartley oscillator
-197,What graphical representation is commonly used to analyze the stability of a system by plotting the system's frequency response in the complex plane?,Nyquist plot,Bode plot,Root locus plot,Polar plot,Nyquist plot
-198,What type of oscillator allows the frequency to be varied by applying an external voltage?,Phase-locked loop (PLL),Voltage-controlled oscillator (VCO),Crystal oscillator,Relaxation oscillator,Voltage-controlled oscillator (VCO)
-199,What type of filter design provides a maximally flat frequency response in the passband with a slower roll-off compared to other filter designs?,Butterworth,Chebyshev,Elliptic,Bessel,Butterworth
-200,"In the context of operational amplifier circuits, what type of circuit configuration can be used to implement a low-pass filter?",Differentiator,Summing amplifier,Integrator,Comparator,Integrator
-201,What thyristor device is widely used for controlling high-power loads in AC circuits and exhibits latching behavior until the current through it drops below a certain threshold?,Unijunction Transistor (UJT),Programmable Unijunction Transistor (PUT),Triode for Alternating Current (TRIAC),Silicon-Controlled Rectifier (SCR),Silicon-Controlled Rectifier (SCR)
-202,"In a Unijunction Transistor (UJT), what region of the device's characteristic curve is exploited for relaxation oscillator applications?",Saturation region,Negative resistance region,Forward bias region,Reverse bias region,Negative resistance region
-203,Which device is similar to the Unijunction Transistor (UJT) but allows for programmable characteristics by adjusting the internal resistor values?,Silicon-Controlled Rectifier (SCR),Triode for Alternating Current (TRIAC),Programmable Unijunction Transistor (PUT),Diode for Alternating Current (DIAC),Programmable Unijunction Transistor (PUT)
-204,What device is commonly used for controlling both halves of an AC waveform and is suitable for AC power control applications?,Silicon-Controlled Rectifier (SCR),Unijunction Transistor (UJT),Triode for Alternating Current (TRIAC),Programmable Unijunction Transistor (PUT),Triode for Alternating Current (TRIAC)
-205,What characteristic distinguishes a TRIAC from other thyristors?,Unidirectional conduction,Negative resistance region,Single gate terminal,Bidirectional conduction,Bidirectional conduction
-206,"In a DIAC (Diode for Alternating Current), what term refers to the voltage at which the device enters a low-resistance state, allowing current to flow through it?",Avalanche voltage,Forward voltage,Threshold voltage,Breakover voltage,Breakover voltage
-207,What optoelectronic device is designed to convert light into an electrical current and is commonly used in applications such as light detection and solar cells?,Light-emitting diode (LED),Phototransistor,Photodiode,Laser diode,Photodiode
-208,What type of sensor is commonly used in electronic devices to measure the intensity of ambient light and adjust display brightness accordingly?,Ambient light sensor,Proximity sensor,Infrared sensor,Temperature sensor,Ambient light sensor
-209,"Which optoelectronic device operates similarly to a regular transistor but is sensitive to light, allowing it to be used in applications such as optical switches and light sensors?",Photovoltaic cell,Phototransistor,Light-dependent resistor (LDR),Photonic crystal,Phototransistor
-210,What electronic component is used to convert continuous analog signals into discrete digital values for processing in a microcontroller or computer?,Digital-to-Analog Converter,Voltage Regulator,Microcontroller,Analog-to-Digital Converter,Analog-to-Digital Converter
-211,"What type of transducer is commonly used to measure changes in mechanical deformation, providing a proportional electrical signal?",Thermocouple,Strain gauge,Photoresistor,Hall Effect sensor,Strain gauge
-212,What term refers to the process of connecting different electronic systems or components to ensure compatibility and efficient communication?,Modulation,Demodulation,Interfacing,Synchronization,Interfacing
-213,What is a primary application of Programmable Logic Controllers (PLCs) in industrial automation?,Sequential logic control,Analog signal processing,Radiofrequency identification (RFID),Power distribution,Sequential logic control
-214,What programming language is commonly used for programming PLCs and represents control logic using graphical symbols resembling relay logic diagrams?,C++,Python,Java,Ladder Logic,Ladder Logic
-215,"In a PLC system, what do the terms ""I/O"" stand for?",Internal Operations,Inputs and Outputs,Integrated Oscillators,Interface Options,Inputs and Outputs
-216,"What mathematical concept is fundamental to the operation of PLCs, where logical operations determine the state of outputs based on the state of inputs?",Arithmetic logic,Statistical logic,Boolean logic,Fuzzy logic,Boolean logic
-217,"What term refers to the process in which a PLC continuously reads input signals, executes the control program, and updates output signals in a cyclical manner?",Scan cycle,Execution cycle,Response cycle,Sampling cycle,Scan cycle
-218,What component is often integrated with a PLC system to provide operators with a graphical interface for monitoring and controlling industrial processes?,Sensor array,Actuator module,Programmable Relay,Human-Machine Interface (HMI),Human-Machine Interface (HMI)
-219,"What system is responsible for integrating and controlling various building services such as HVAC, lighting, and security to optimize energy efficiency and occupant comfort?",Home Automation System,Surveillance Control System,Building Management System (BMS),Audio-Video System,Building Management System (BMS)
-220,"What subsystem within a Building Management System (BMS) is primarily concerned with regulating temperature, humidity, and air quality within a building?",HVAC Controls,Lighting Controls,Security Controls,Audio-Video Controls,HVAC Controls
-221,"In a Security Control System, what component is responsible for regulating and monitoring entry to secure areas through methods such as key cards or biometric identification?",Intrusion Detection,Access Control,Surveillance Cameras,Alarm System,Access Control
-222,What is a critical component of a Safety Control System designed to detect and mitigate fire hazards within a building?,Emergency Lighting,Intrusion Detection,Fire Detection and Suppression,Access Control,Fire Detection and Suppression
-223,What technology is commonly used in Surveillance Control Systems to monitor and record video footage for security and safety purposes?,Infrared Sensors,Motion Detectors,Access Control,Closed-Circuit Television (CCTV),Closed-Circuit Television (CCTV)
-224,"In Lighting Controls, what devices are used to adjust the brightness of electric lights, providing flexibility in creating different lighting atmospheres?",Dimmers,Occupancy Sensors,Time Clocks,Power Panels,Dimmers
-225,What aspect of Audio-Video Controls involves routing audio signals to different zones or rooms within a building for distribution?,Video Display,Home Theater System,Audio Distribution,Lighting Scenes,Audio Distribution
-226,"In the context of Building Management Systems, what component is responsible for distributing electrical power and managing loads to ensure optimal energy usage?",Circuit Breakers,Power Panels,Surge Protectors,Uninterruptible Power Supply (UPS),Power Panels
-227,"What concept is crucial in the design of modern building control systems, emphasizing the seamless connection and communication between different subsystems for efficient operation?",Integration,Segmentation,Isolation,Fragmentation,Integration
-228,What type of logic gate produces the complement (inverse) of its input?,AND gate,OR gate,NOT gate,XOR gate,NOT gate
-229,"In Boolean algebra, which operation is represented by the plus symbol (+) and corresponds to logical addition?",AND operation,OR operation,NOT operation,XOR operation,OR operation
-230,What type of logic gate outputs true (1) only when an odd number of true inputs are present?,AND gate,OR gate,NOT gate,XOR gate,XOR gate
-231,"In a truth table, when all input values are true (1), what is the output value for an AND gate?",1,0,Depends on other conditions,Cannot be determined,1
-232,What mathematical expression describes the relationship between the complement of the union of two sets and the intersection of their complements in Boolean algebra?,Boolean Identity,Boolean Absorption,De Morgan's theorem,Boolean Simplification,De Morgan's theorem
-233,What logic gate is the complement of an OR gate and outputs true (1) only when both inputs are false (0)?,NOR gate,NAND gate,XOR gate,AND gate,NOR gate
-234,What type of logic gate is often referred to as a 'universal gate' because any other basic gate can be constructed using only it?,XOR gate,NAND gate,NOR gate,NOT gate,NAND gate
-235,"In the context of logic circuits, what term refers to a mathematical expression formed from Boolean variables, constants, and logical operators?",Logic diagram,Truth table,Logic gate,Boolean expression,Boolean expression
-236,"What term describes a physical or abstract representation of a system that operates based on the principles of Boolean algebra, utilizing logic gates to perform specific functions?",Boolean function,Truth table,Logic circuit,Boolean expression,Logic circuit
-237,What graphical method is commonly used for simplifying Boolean expressions and minimizing combinational logic circuits?,Truth table,Karnaugh Map,Quine-McCluskey method,Boolean algebra,Karnaugh Map
-238,"What canonical form represents a Boolean expression as a series of ANDed terms, where each term is a sum of literals?",Sum-of-Products (SOP),Exclusive-OR (XOR),NAND,Product-of-Sums (POS),Product-of-Sums (POS)
-239,"In the context of Karnaugh maps, what term refers to a minterm or maxterm that covers at least one cell that cannot be covered by any other implicant?",Essential prime implicant,Redundant implicant,Dominant implicant,Adjacent implicant,Essential prime implicant
-240,How many cells are there in a complete 4-variable Karnaugh Map?,8,16,32,64,16
-241,"What canonical form represents a Boolean expression as a sum of ANDed terms, where each term is a product of literals?",Sum-of-Products (SOP),Exclusive-NOR (XNOR),NOR,Product-of-Sums (POS),Sum-of-Products (SOP)
-242,What method is used for finding the prime implicants of a Boolean function and is an extension of the tabulation method?,Veitch diagram method,Consensus theorem,Gray code method,Quine-McCluskey method,Quine-McCluskey method
-243,"In the context of Karnaugh maps, what term refers to input combinations for which the function output can be either 0 or 1, and their inclusion in the simplification process can lead to further reduction?",Prime implicants,Essential implicants,Don't Care conditions,Redundant conditions,Don't Care conditions
-244,What method is used for minimizing Boolean functions by representing the function in Gray code and finding a simplified expression?,Gray code method,Consensus theorem,Quine-McCluskey method,Veitch diagram method,Gray code method
-245,What technique is used for finding all the prime implicants of a Boolean function after applying the Quine-McCluskey method?,Tabulation method,Petrick's method,Consensus theorem,Gray code method,Petrick's method
-246,What Boolean identity is often used in the simplification of logic expressions and states that XY + X'Z + YZ = XY + X'Z?,Involution law,Absorption law,Consensus theorem,De Morgan's theorem,Consensus theorem
-247,What theorem is used in the simplification of logic expressions and states that XY + X'Z + YZ = XY + X'Z?,Absorption theorem,Consensus theorem,Quine-McCluskey theorem,Demorgans theorem,Consensus theorem
-248,What algebraic system is used to represent and manipulate logic expressions and is the foundation for the simplification of combinational logic circuits?,Algebraic geometry,Linear algebra,Boolean algebra,Abstract algebra,Boolean algebra
-249,"What is the fundamental building block of sequential logic circuits, capable of storing one bit of information?",Multiplexer,Decoder,Encoder,Flip-Flop,Flip-Flop
-250,"In sequential logic circuits, what signal is used to synchronize the operation of flip-flops and control the timing of the circuit?",Data signal,Clock signal,Enable signal,Reset signal,Clock signal
-251,"What term is often used interchangeably with the flip-flop in the context of sequential logic circuits, emphasizing its role in storing binary information?",Counter,Register,Memory element,Comparator,Memory element
-252,"In sequential circuits, what undesirable phenomenon occurs when two or more signals arrive at the inputs of a flip-flop simultaneously, leading to uncertain output states?",Race condition,Hazard condition,Critical condition,Reset condition,Race condition
-253,What type of flip-flop configuration is commonly used to eliminate the race condition by dividing the clock cycle into two phases?,D Flip-Flop,T Flip-Flop,Master-Slave Flip-Flop,J-K Flip-Flop,Master-Slave Flip-Flop
-254,What type of flip-flop has a single data input and is widely used for data storage and synchronization in digital systems?,D Flip-Flop,J-K Flip-Flop,T Flip-Flop,S-R Flip-Flop,D Flip-Flop
-255,"In flip-flops, what term describes the mechanism by which the circuit samples the input data only at the rising or falling edge of the clock signal?",Level-triggered,Edge-triggered,Synchronous,Asynchronous,Edge-triggered
-256,What graphical representation is used to depict the different states that a sequential circuit can transition through based on its inputs and outputs?,Timing diagram,Truth table,State diagram,Logic diagram,State diagram
-257,What type of sequential circuit is designed to count the number of clock pulses and produce a binary output representing the count?,Shift register,Memory register,Latch,Counter,Counter
-258,"In the context of digital systems, an Algorithmic State Machine (ASM) is a specification for designing which type of circuit?",Combinational logic circuit,Arithmetic logic circuit,Sequential logic circuit,Multiplexer circuit,Sequential logic circuit
-259,What term in the context of an Algorithmic State Machine (ASM) refers to a condition of the system at a specific point in time?,State,Transition,Input,Output,State
-260,"In the graphical representation of an Algorithmic State Machine (ASM), what symbol is used to represent a condition that determines the next state or action?",State box,Decision box,Transition arrow,Output box,Decision box
-261,"In the design of an Algorithmic State Machine (ASM), what signals are responsible for steering the system through different states and transitions?",Clock signals,Data signals,Input signals,Control signals,Control signals
-262,What type of output in an Algorithmic State Machine (ASM) depends on the current state and the input conditions?,Next state output,Direct output,Conditional output,Parallel output,Conditional output
-263,"In the context of Algorithmic State Machines (ASMs), which type of machine has outputs that depend only on the current state?",Moore Machine,Mealy Machine,Synchronous Machine,Asynchronous Machine,Moore Machine
-264,What type of flip-flop is commonly used in asynchronous sequential logic circuits to introduce a variable delay to address timing issues?,D Flip-Flop,J-K Flip-Flop,Delay Flip-Flop,T Flip-Flop,Delay Flip-Flop
-265,"In asynchronous circuits, what term describes a situation where the output may momentarily glitch or exhibit incorrect behavior due to changes in input signals?",Flip-flop,Hazard,Synchronizer,Latch,Hazard
-266,"What undesirable condition may occur in asynchronous circuits when different signals arrive at a gate or flip-flop at nearly the same time, leading to unpredictable behavior?",Race condition,Hazard condition,Critical condition,Reset condition,Race condition
-267,"In asynchronous circuits, what type of hazard occurs when the output momentarily goes low before reaching its final stable state?",Dynamic-1 Hazard,Dynamic-0 Hazard,Static-0 Hazard,Static-1 Hazard,Static-0 Hazard
-268,"What type of storage element is often used in asynchronous sequential circuits, where the output is continuously updated based on the input signals?",Latch,Flip-Flop,Gate,Register,Latch
-269,What specific type of gate or circuit is often employed in asynchronous design to resolve hazards and ensure stable output transitions?,NAND gate,XOR gate,AND gate,Muller C-Element,Muller C-Element
-270,"In the representation of a dynamic system, which graphical method uses nodes and directed branches to illustrate the flow of signals through the system's interconnections?",Block diagram,State diagram,Signal Flow Graph,Truth table,Signal Flow Graph
-271,"What term refers to the mathematical expression relating the Laplace transforms of the output and input signals in a dynamic system, often derived from the Signal Flow Graph or Block Diagram?",Transfer function,State equation,Boolean expression,Logic gate diagram,Transfer function
-272,What unit of the microprocessor is responsible for managing communication between the microprocessor and external devices?,Arithmetic Logic Unit (ALU),Control Unit (CU),Memory Unit,Input-Output Unit (IOU),Input-Output Unit (IOU)
-273,What component of the microprocessor is responsible for performing arithmetic and logical operations on data?,Control Unit (CU),Memory Unit,Arithmetic Logic Unit (ALU),Input-Output Unit (IOU),Arithmetic Logic Unit (ALU)
-274,"What component of the microprocessor is responsible for managing the operations of other units, fetching instructions, and controlling the flow of data?",Control Unit (CU),Memory Unit,Arithmetic Logic Unit (ALU),Input-Output Unit (IOU),Control Unit (CU)
-275,What parameter of a microprocessor determines the number of instructions it can execute per second and is measured in Hertz (Hz)?,Instruction set,Clock speed,Data bus width,Address bus width,Clock speed
-276,"In the context of microprocessors, what is a small, fast storage location within the CPU used for temporary data storage and manipulation?",Cache,Memory,Register,Stack,Register
-277,"What architecture is commonly used in microprocessors, where the program and data share the same memory space?",Harvard architecture,RISC architecture,CISC architecture,Von Neumann architecture,Von Neumann architecture
-278,What parameter of a microprocessor determines the number of bits that can be transferred between the microprocessor and memory in a single bus operation?,Clock speed,Instruction set size,Data bus width,Address bus width,Data bus width
-279,"In microprocessor design, which architecture features a single shared memory space for both program instructions and data?",Harvard architecture,RISC architecture,CISC architecture,Von Neumann architecture,Von Neumann architecture
-280,What component of the microprocessor is responsible for performing mathematical and logical operations on data?,Arithmetic Logic Unit (ALU),Control Unit (CU),Memory Unit,Input-Output Unit (IOU),Arithmetic Logic Unit (ALU)
-281,What type of memory loses its stored data when power is turned off?,Non-volatile memory,Volatile memory,RAM,ROM,Volatile memory
-282,Which type of memory allows for both read and write operations and is used for temporary data storage in a microprocessor system?,Read-Only Memory (ROM),Flash memory,Random Access Memory (RAM),Cache memory,Random Access Memory (RAM)
-283,"What type of high-speed memory is situated between the main memory and the CPU, storing frequently accessed instructions and data?",RAM,ROM,Flash memory,Cache memory,Cache memory
-284,Which type of memory is used to store firmware and retains its data even when the power is turned off?,Read-Only Memory (ROM),Dynamic RAM (DRAM),Static RAM (SRAM),Flash memory,Read-Only Memory (ROM)
-285,What category of memory retains its stored data even when the power is turned off?,Volatile memory,Non-volatile memory,RAM,Cache memory,Non-volatile memory
-286,Which type of RAM requires refreshing of its stored data thousands of times per second to prevent loss?,Static RAM (SRAM),Flash memory,Dynamic RAM (DRAM),Non-volatile RAM (NVRAM),Dynamic RAM (DRAM)
-287,"In the I/O subsystem, what category of devices is responsible for providing data to the microprocessor?",Output devices,Input devices,Peripheral devices,Secondary storage devices,Input devices
-288,What term is commonly used to refer to devices connected to the microprocessor for input and output operations?,System devices,Core devices,Peripheral devices,Central devices,Peripheral devices
-289,What component of the I/O subsystem facilitates communication between the microprocessor and external devices?,Input-Output Interface,Peripheral Controller,I/O Bus,Address Bus,Input-Output Interface
-290,What method is used in the I/O subsystem to check the status of devices periodically to determine if they need service?,Interrupt,DMA (Direct Memory Access),Handshaking,Polling,Polling
-291,"In the I/O subsystem, what category of devices is responsible for receiving data from the microprocessor?",Input devices,Output devices,Peripheral devices,Storage devices,Output devices
-292,What communication method in the I/O subsystem involves a series of control signals exchanged between the microprocessor and a device to synchronize data transfer?,Interrupt,Polling,Handshaking,DMA (Direct Memory Access),Handshaking
-293,What is the lowest-level programming language directly understood by the microprocessor?,High-level language,Assembly language,Machine language,Source code language,Machine language
-294,"Which programming language uses mnemonic codes and symbolic names to represent operations and addresses, making it easier for humans to understand than machine language?",High-level language,Assembly language,Machine language,Source code language,Assembly language
-295,"In an instruction of the microprocessor, what field specifies the operation to be performed?",Address,Operand,Mnemonic,Opcode,Opcode
-296,"Which type of programming language provides a higher level of abstraction from the hardware, making it easier for programmers to write and understand code?",High-level language,Assembly language,Machine language,Source code language,High-level language
-297,"In assembly programming, what is a small, fast storage location within the CPU used for temporary data storage and manipulation?",Stack,Memory,Register,Cache,Register
-298,What term in assembly programming refers to the way in which an operand is specified in an instruction?,Opcode,Addressing mode,Mnemonic,Operand mode,Addressing mode
-299,"What term describes a microcontroller integrated into a larger system, designed to perform specific dedicated functions?",Standalone system,Mainframe system,Embedded system,Peripheral system,Embedded system
-300,What are the essential components present in a typical microcontroller architecture?,"GPU, HDD, and RAM","CPU, RAM, and ROM","ALU, Cache, and EEPROM","I/O ports, FPGA, and Flash memory","CPU, RAM, and ROM"
-301,Which feature of a microcontroller allows it to communicate with external devices for input and output operations?,Input-Output (I/O) ports,EEPROM memory,Clock oscillator,Program counter,Input-Output (I/O) ports
-302,"In a microcontroller, where is the program memory typically located, allowing for reprogramming?",EEPROM memory,RAM,ROM,Flash memory,Flash memory
-303,What are common data bus widths found in microcontrollers?,"4-bit, 8-bit, and 16-bit","16-bit, 32-bit, and 64-bit","8-bit, 16-bit, and 32-bit","12-bit, 24-bit, and 48-bit","8-bit, 16-bit, and 32-bit"
-304,What feature of a microcontroller allows it to keep track of time in applications that require accurate timing?,Real-Time Clock (RTC),Counter Timer Unit (CTU),Pulse Width Modulation (PWM),Analog-to-Digital Converter (ADC),Real-Time Clock (RTC)
-305,Which type of memory in a microcontroller is often used for storing non-volatile data that needs to be retained even when power is turned off?,RAM,EEPROM memory,Flash memory,Cache memory,EEPROM memory
-306,What feature of a microcontroller is commonly used for generating variable-width pulses to control the speed of motors or the brightness of LEDs?,Analog-to-Digital Converter (ADC),Digital-to-Analog Converter (DAC),Pulse Width Modulation (PWM),Serial Communication Interface (SCI),Pulse Width Modulation (PWM)
-307,Which feature of a microcontroller facilitates communication with other devices using serial communication protocols?,General-Purpose Input/Output (GPIO),Universal Asynchronous Receiver/Transmitter (UART),Inter-Integrated Circuit (I2C),Serial Communication Interface (SCI),Serial Communication Interface (SCI)
-308,What graphical method is commonly used to represent the interconnected components of a feedback control system?,State diagram,Signal Flow Graph,Block Diagram,Nyquist plot,Block Diagram
-309,What method employs nodes and directed branches to illustrate the flow of signals through the components of a control system?,Root locus plot,Signal Flow Graph,Bode plot,Transfer function,Signal Flow Graph
-310,"In the context of control systems, what mathematical representation relates the Laplace transforms of the output and input signals?",Transfer function,State space representation,Nyquist plot,Root locus plot,Transfer function
-311,"In a block diagram, what symbol is used to represent a point where signals are added or combined?",Transfer function,Node,Branch,Summing point,Summing point
-312,"In a block diagram, what path represents the direct transmission of the input signal to the output without passing through feedback?",Return path,Feedback path,Forward path,Closed loop,Forward path
-313,"In a Signal Flow Graph, what term is used to represent a point where signals are either summed or split?",Transfer function,Node,Loop,Branch,Node
-314,"What type of system exhibits the properties of superposition, homogeneity, and time-invariance?",Nonlinear system,Linear Time-Invariant (LTI) System,Time-variant system,Feedback system,Linear Time-Invariant (LTI) System
-315,"In a control system, what term refers to the behavior of the system as it approaches a new operating point after a change in input?",Steady-state response,Frequency response,Transient response,Impulse response,Transient response
-316,"In transient analysis, what type of input is commonly used to observe the response of a system as it transitions from one state to another?",Step input,Ramp input,Impulse input,Sinusoidal input,Step input
-317,"What is the system's output when an ideal impulse is applied as the input, considering the system is initially at rest?",Step response,Frequency response,Transient response,Impulse response,Impulse response
-318,"In the context of transient analysis, what parameter characterizes the rate at which a system responds to changes in input?",Gain,Damping ratio,Time constant,Natural frequency,Time constant
-319,What behavior is typically observed in the transient response of a stable second-order system?,Sinusoidal oscillations,Exponential decay,Linear increase,Sustained oscillations,Exponential decay
-320,What mathematical representation describes the relationship between the Laplace transform of the system's output and input?,State space model,Block diagram,Transfer function,Nyquist plot,Transfer function
-321,"In the context of control systems, what mathematical tool is commonly used to analyze dynamic systems and their behavior?",Fourier series,Laplace transform,Z-transform,Taylor series,Laplace transform
-322,What modeling technique represents a control system using a set of first-order differential equations and algebraic equations?,State space model,Transfer function,Block diagram,Root locus plot,State space model
-323,"In the transfer function of a control system, what part of the expression represents the characteristic equation of the system?",Numerator polynomial,Zeros,Poles,Denominator polynomial,Denominator polynomial
-324,What graphical method is commonly used to represent the interconnection of various components in a control system?,Signal flow graph,Root locus plot,Block diagram,Bode plot,Block diagram
-325,"In the transfer function of a control system, what term refers to the values of the input for which the system's output becomes zero?",Zeros,Poles,Denominator polynomial,Numerator polynomial,Zeros
-326,"In the context of control systems, what term refers to the values of the input for which the transfer function becomes zero?",Poles,Zeros,Root locus,Stability,Zeros
-327,What graphical method is used to illustrate how the poles of the closed-loop system vary with a parameter in the open-loop transfer function?,Nyquist plot,Bode plot,Root locus,Block diagram,Root locus
-328,"In control systems, what property is associated with the ability of a system to return to equilibrium after a disturbance?",Poles,Zeros,Root locus,Stability,Stability
-329,"In the transfer function of a control system, what term refers to the values of the input for which the system's output becomes infinite?",Poles,Zeros,Root locus,Stability,Poles
-330,What elements of the transfer function are crucial in determining the stability and dynamic behavior of a control system?,Poles and zeros,Root locus,Nyquist plot,Bode plot,Poles and zeros
-331,What graphical method is used to assess the stability of a system by plotting the frequency response on a polar coordinate system?,Bode plot,Nyquist plot,Root locus,Block diagram,Nyquist plot
-332,"In control systems, what term refers to the difference between the desired output and the actual output as time approaches infinity?",Transient response,Frequency response,Steady-state error,Gain margin,Steady-state error
-333,What parameter in frequency response analysis measures the stability of a system by indicating how much the gain can be increased before the system becomes unstable?,Phase margin,Gain margin,Bandwidth,Crossover frequency,Gain margin
-334,What graphical representation is commonly used to display the frequency response of a system in terms of magnitude and phase?,Bode plot,Nyquist plot,Root locus plot,Step response plot,Bode plot
-335,"In frequency response analysis, what frequency corresponds to the point where the magnitude of the system's transfer function is 0 dB?",Resonant frequency,Natural frequency,Corner frequency,Crossover frequency,Crossover frequency
-336,What parameter in frequency response analysis represents the range of frequencies over which a system can operate effectively?,Resonant frequency,Crossover frequency,Bandwidth,Nyquist frequency,Bandwidth
-337,"In frequency response analysis, what parameter measures the stability of a system by indicating how much phase can be added before the system becomes unstable?",Gain margin,Phase margin,Crossover frequency,Bandwidth,Phase margin
-338,"In a DC circuit featuring two resistors connected in series (R1 = 100 ohms, R2 = 150 ohms), determine the source voltage corresponding to an ammeter reading of 20 mA.",4V,5V,6V,7V,5V
-339,"In a DC circuit with two resistors connected in series (R1 = 100 ohms, R2 = 150 ohms), find the total resistance.",50 ohms,150 ohms,200 ohms,250 ohms,250 ohms
-340,"In a DC circuit with two resistors connected in series (R1 = 100 ohms, R2 = 150 ohms), determine the current flowing through R1 when the source voltage is 5V.",10 mA,15 mA,20 mA,25 mA,20 mA
-341,"In a DC circuit with two resistors connected in series (R1 = 100 ohms, R2 = 150 ohms), determine the current flowing through R2 when the source voltage is 5V.",10 mA,15 mA,20 mA,25 mA,20 mA
-342,"In a DC circuit featuring two resistors connected in series (R1 = 100 ohms, R2 = 150 ohms), with a source voltage of 5V, which of the following options accurately describes the voltage across R1?",1V,2V,3V,4V,2V
-343,"In a DC circuit featuring two resistors connected in series (R1 = 100 ohms, R2 = 150 ohms), with a source voltage of 5V, which of the following options accurately characterizes the voltage across R2?",1V,2V,3V,4V,3V
-344,"In a DC circuit with two resistors connected in series (R1 = 100 ohms, R2 = 150 ohms), calculate the total current flowing in the circuit when the source voltage is 5V.",10 mA,15 mA,20 mA,25 mA,20 mA
-345,"In a DC circuit with two resistors connected in parallel (R1 = 100 ohms, R2 = 150 ohms), calculate the total current when the voltmeter reads 10 Volts across R1.",50 mA,100 mA,150 mA,166.67 mA,166.67 mA
-346,"In a DC circuit with two resistors connected in parallel (R1 = 100 ohms, R2 = 150 ohms), which of the following options provides the correct total resistance?",40 ohms,60 ohms,100 ohms,250 ohms,60 ohms
-347,"In a DC circuit with two resistors connected in parallel (R1 = 100 ohms, R2 = 150 ohms), calculate the current flowing through R1 when the voltmeter reads 10 Volts across R2.",50 mA,75 mA,100 mA,150 mA,100 mA
-348,"In a DC circuit with two resistors connected in parallel (R1 = 100 ohms, R2 = 150 ohms), calculate the current flowing through R2 when the voltmeter reads 10 Volts across R1.",33.33 mA,50 mA,66.67 mA,75 mA,66.67 mA
-349,"In a DC circuit with two resistors connected in parallel (R1 = 100 ohms, R2 = 150 ohms), calculate the voltage across R2 when the current flow in R1 is 100 mA.",5 V,7.5 V,10 V,12.5 V,10 V
-350,"In a DC circuit with two resistors connected in parallel (R1 = 100 ohms, R2 = 150 ohms), find the voltage across R1 when the current flow in R2 is 66.67 mA.",5 V,7.5 V,10 V,12.5 V,10 V
-351,"In a DC circuit with two resistors connected in parallel (R1 = 100 ohms, R2 = 150 ohms), calculate the source voltage when the ammeter reads 66.67 mA in R2.",5 V,7.5 V,10 V,12.5 V,10 V
-352,"In a DC circuit with two resistors connected in parallel (R1 = 100 ohms, R2 = 150 ohms), calculate the total current flowing in the circuit when the source voltage is 10V.",100 mA,133.33 mA,166.67 mA,200 mA,166.67 mA
-353,Which of the following is the correct resistance in a circuit where the voltmeter reads 24 V and the ammeter displays 3.0 A?,27 ohms,8 ohms,2.67 ohms,22 ohms,8 ohms
-354,Which of the following represents the resistance when the current is 18 mA and the voltage is 229 mV?,1.4 ohms,21.5 ohms,13 ohms,6 ohms,13 ohms
-355,Which of the following represents the resistance in the circuit if the ammeter reads 52 µA and the voltmeter indicates 2.33 kV?,22.4 megaohms,84.4 megaohms,44.8 megaohms,90.4 megaohms,44.8 megaohms
-356,Which of the following represents the power dissipated in the circuit if the voltmeter reads 12 V and the ammeter shows 50 mA?,0.38 W,0.54 W,0.60 W,0.30 W,0.60 W
-357,Which of the following represents the power dissipated in the circuit if the resistance is 999 ohms and the voltage source delivers 3 V?,333 mW,111 mW,9 mW,37 mW,9 mW
-358,What is the power dissipated by a circuit with a resistance of 47 kiloohms and a current of 680 mA?,14.47 kW,21.7 kW,6.5 mW,3.25 W,21.7 kW
-359,How much voltage would be required to drive 680 mA through a resistance of 47 kiloohms?,14.5 kV,32 kV,9.8 kV,3.25 kV,32 kV
-360,"Consider five resistors connected in parallel, labeled R1 through R5. The resistance values are as follows: R1 = 100 ohms, R2 = 200 ohms, R3 = 300 ohms, R4 = 400 ohms, and R5 = 500 ohms. What is the total resistance?",30.0 ohms,43.86 ohms,38.4 ohms,35.7 ohms,43.86 ohms
-361,"Consider five resistors connected in parallel, labeled R1 through R5. The resistance values are as follows: R1 = 100 ohms, R2 = 200 ohms, R3 = 300 ohms, R4 = 400 ohms, and R5 = 500 ohms. What is the total conductance?",0.0333 S,0.0228 S,0.0261 S,0.0280 S,0.0228 S
-362,"In a DC circuit with three parallel resistors, namely R1 = 22 ohms, R2 = 47 ohms, and R3 = 68 ohms, connected across a battery supplying a voltage of E = 3.0 V, what is the power dissipated by R1?",304 mW,409 mW,512 mW,617 mW,409 mW
-363,"In a DC circuit with three parallel resistors, namely R1 = 22 ohms, R2 = 47 ohms, and R3 = 68 ohms, connected across a battery supplying a voltage of E = 3.0 V, what is the power dissipated by R2?",105 mW,191 mW,275 mW,360 mW,191 mW
-364,"In a DC circuit with three parallel resistors, namely R1 = 22 ohms, R2 = 47 ohms, and R3 = 68 ohms, connected across a battery supplying a voltage of E = 3.0 V, what is the power dissipated by R3?",102 mW,132 mW,162 mW,192 mW,132 mW
-365,"Consider a series circuit with a power supply of 150 V and three resistances: R1 = 330 ohms, R2 = 680 ohms, and R3 = 910 ohms. What is the power dissipated by R2?",2.84 W,4.15 W,6.37 W,8.21 W,4.15 W
-366,"In a series circuit with a power supply of 150 V and three resistances: R1 = 330 ohms, R2 = 680 ohms, and R3 = 910 ohms, what is the power dissipated by R1?",1.36 W,2 W,2.64 W,3.42 W,2 W
-367,"In a series circuit with a power supply of 150 V and three resistances: R1 = 330 ohms, R2 = 680 ohms, and R3 = 910 ohms, what is the power dissipated by R3?",1.36 W,2 W,5.55 W,3.42 W,5.55 W
-368,"In a series circuit with a power supply of 150 V and three resistances: R1 = 330 ohms, R2 = 680 ohms, and R3 = 910 ohms, what is the current flowing through R3?",14.85 mA,12 mA,16.5 mA,78 mA,78 mA
-369,"Consider three resistors in parallel across a battery supplying E = 12 V. The resistances are R1 = 22 ohms, R2 = 47 ohms, and R3 = 68 ohms. These resistances carry currents I1, I2, and I3, respectively. What is the current, I3, flowing through R3?",87.59 mA,133.3 mA,104.3 mA,176.5 mA,176.5 mA
-370,"A coil has an inductance of 0.500 H, and the frequency of the AC passing through it is 60.0 Hz. What is the inductive reactance?",98.5 ohms,128.5 ohms,158.5 ohms,188.5 ohms,188.5 ohms
-371,What will be the inductive reactance of a coil (inductance of 0.500 H) if the supply is a battery that supplies pure DC?,π ohms,2π ohms,60 ohms,Inductance doesn’t have any practical effect with pure DC.,Inductance doesn’t have any practical effect with pure DC.
-372,"If a coil exhibits an inductive reactance of 100 ohms at a frequency of 5.00 MHz, what is its inductance?",3.18 mH,3.18 µH,3.18 H,3.18 kH,3.18 µH
-373,Suppose an RL circuit operates at a frequency of 1.0 MHz with a resistance of 10 ohms and an inductance of 90 mH. What is the phase angle?,45 degrees,60 degrees,75 degrees,90 degrees,90 degrees
-374,"Suppose the inductive reactance in an RL circuit is 680 ohms, and the resistance is 840 ohms. What is the phase angle?",36 degrees,39 degrees,54 degrees,51 degrees,39 degrees
-375,What is the total inductance when three 40.0-µH inductors are connected in series without any mutual inductance?,40 µH,80 µH,120 µH,160 µH,120 µH
-376,"What is the total inductance, in millihenrys, of three inductors with values of 20.0 mH, 55.0 µH, and 400 nH, respectively, when they are connected in series?",20.0 mH,20.1 mH,20.4 mH,21.0 mH,20.1 mH
-377,"What is the net inductance of the combination when three inductors, each with a value of 40 µH, are connected in parallel with no mutual inductance?",10 µH,20 µH,30 µH,13.333 µH,13.333 µH
-378,"What is the net inductance of the combination when four inductors, with values of L1 = 75.0 mH, L2 = 40.0 mH, L3 = 333 µH, and L4 = 7.00 H, are connected in parallel with no mutual inductance?",75.0 mH,40.0 mH,333 µH,328.79 μH,328.79 μH
-379,"What is the total inductance of the combination when two coils, with inductances of 30 µH and 50 µH, are connected in series so that their fields reinforce, and the coefficient of coupling is 0.500?",30 µH,50 µH,80 µH,120 µH,120 µH
-380,"What is the net inductance of the pair when two coils, with inductances of L1 = 835 µH and L2 = 2.44 mH, are connected in series with a coefficient of coupling of 0.922, and they oppose each other's fields?",835 µH,2.44 mH,643 μH,1.29 mH,643 μH
-381,What is the guaranteed range of capacitance for a capacitor rated at 0.10 µF with a 10% tolerance?,0.09 to 0.11,0.08 to 0.09,0.10 to 0.12,0.11 to 0.13,0.09 to 0.11
-382,"What is the total capacitance when three capacitors, with values of C1 = 0.100 µF, C2 = 0.0100 µF, and C3 = 0.001000 µF, are connected in parallel?",0.001 µF,0.011 µF,0.111 µF,1.111 µF,0.111 µF
-383,"What is the net capacitance when two capacitors, with values of C1 = 0.10 µF and C2 = 0.050 µF, are connected in series?",0.050 µF,0.033 µF,0.015 µF,0.060 µF,0.033 µF
-384,By what percentage does the actual capacitance differ from the rated capacitance for a capacitor rated at 330 pF but shows an actual value of 317 pF?,-3.53%,-3.67%,-3.94%,-4.29%,-3.94%
-385,Suppose a capacitor is rated at 33 pF with a 10% tolerance. Which of the following actual capacitance values is outside the acceptable range?,30 pF,37 pF,35 pF,31 pF,37 pF
-386,"What is the amount of power wasted in heat when the amount of useful output power provided by a device is 1.5 W, powered by a 48-V supply with 100 mA of current?",1.7 W,2.5 W,3.3 W,4.8 W,3.3 W
-387,What is the peak voltage of a sine wave that measures 220 VAC rms?,110 VAC,220 VAC,311 VAC,440 VAC,311 VAC
-388,"If a 1-mW signal is attenuated at the rate of 5 dB/1,000ft, what is the power level into a receiver that is 6,000 feet from the signal source?",-15 dBm,-20 dBm,-25 dBm,-30 dBm,-30 dBm
-389,"What is the voltage level at the amplifier output if a power amplifier has a gain of 20 dB and an input level of 2 volts, assuming that the input and output impedances are the same?",2 V,4 V,10 V,20 V,20 V
-390,"What is the actual resistance of a precision current shunt if it measures 100 millivolts across it, indicating a current of 25 A?",0.002,0.003,0.004,0.005,0.004
-391,"What is the true power used by a power system providing 200 VAC at 25 A, with a phase angle between current and voltage of 25 degrees?",4200 Watts,4387 Watts,4515 Watts,4531 Watts,4531 Watts
-392,"What is the voltage across the secondary (Es) of a transformer with 200 turns in the primary, 50 turns in the secondary, and 120 volts applied to the primary (Ep)?",15 V,24 V,30 V,60 V,30 V
-393,"How many turns must be wound on the coil to form the secondary winding of a transformer, given that there are 400 turns in the primary coil, and a secondary voltage of one volt is desired when the primary voltage is five volts?",80 turns,100 turns,200 turns,320 turns,80 turns
-394,"What is the current in the secondary of a transformer with a 6:1 voltage ratio, if the current in the primary is 200 milliamperes?",0.2 A,0.6 A,1.0 A,1.2 A,1.2 A
-395,What is the current in the primary of a transformer with a turns ratio of 1:12 if there are 3 amperes of current in the secondary?,0.25 A,1:00 AM,9:00 AM,36 A,36 A
-396,What is the efficiency of a transformer if the input power is 650 watts and the output power is 610 watts?,87.69%,90.15%,92.17%,93.85%,93.85%
-397,"What is the voltage developed across the secondary of a transformer with 500 turns on the primary and 1500 turns on the secondary, if 45 volts are applied to the primary? (Assume no losses)",15 V,45 V,90 V,135 V,135 V
-398,"What is the voltage applied to the primary of a transformer with a turns ratio of 7:1, if 5 volts is developed across the secondary?",1 V,5 V,25 V,35 V,35 V
-399,"How many turns are there in the secondary of a transformer if it has 60 volts applied to its primary and 420 volts appearing across its secondary, with 800 turns on the primary?",240 turns,3200 turns,5600 turns,9600 turns,5600 turns
-400,What is the current ratio of a transformer with a turns ratio of 1:3?,1:01,1:02,2:01,3:01,3:01
-401,"What is the current flowing in the primary of a transformer with a turns ratio of 5:1, if there is a current of 5 amperes flowing in the secondary?",1:00 AM,5:00 AM,25 A,125 A,1:00 AM
-402,"What is the efficiency of a transformer, expressed as a percentage, if the input power is 1,000 watts and the output power is 500 watts?",20%,40%,50%,60%,50%
-403,What is the required transformer ratio to change a load resistance of 30  to 270 ?,1:03,3:01,9:01,27:01:00,3:01
-404,What is the optimum value of load resistance for maximum power transfer if the load is connected to an amplifier with an output resistance of 147  through a transformer with a turns ratio of 7:2?,7,9,12,14,12
-405,What is the equivalent input resistance of a transformer supplying a load of resistance 50 if the transformer has a turns ratio of 8:1?,5 k,3.2 k,2.5 k,1.6 k,3.2 k
-406,"What is the primary current flowing in the load resistance of a single-phase, 240 V/2,880 V ideal transformer supplied from a 240 V source through a cable of resistance 3 , with a load across the secondary winding of 720 ?",15 A,20 A,25 A,30 A,30 A
-407,"What is the power dissipated in the load resistance of a single-phase, 240 V/2,880 V ideal transformer supplied from a 240 V source through a cable of resistance 3 , with a load across the secondary winding of 720 ?",1.5 kW,2.5 kW,3.5 kW,4.5 kW,4.5 kW
-408,"What is the base material of a printed circuit board (PCB) typically made of, providing mechanical support and electrical insulation?",Conductive metal,Insulating substrate,Semiconductor material,Dielectric material,Insulating substrate
-409,What process involves the deposition of conductive pathways on the insulating substrate of a PCB?,Etching,Soldering,Deposition,Printed wiring,Printed wiring
-410,Which assembly method involves inserting component leads through holes drilled in the PCB and soldering them to conductive traces on the opposite side?,Surface-mount technology,Ball grid array,Through-hole technology,Chip-on-board,Through-hole technology
-411,What assembly method involves mounting components directly onto the surface of the PCB without the need for holes or leads?,Surface-mount technology (SMT),Through-hole technology,Wire bonding,Ball grid array (BGA),Surface-mount technology (SMT)
-412,"What digital files contain information about the PCB layout, including the positions of components, traces, and drill holes?",CAM files,DXF files,STL files,Gerber files,Gerber files
-413,What protective layer is applied over the conductive traces on a PCB to prevent short circuits and corrosion?,Conformal coating,Solder mask,Flux,Varnish,Solder mask
-414,What term refers to the plated-through holes in a PCB that allow electrical connections between different layers of the board?,Traces,Pads,Vias,Lands,Vias
-415,What material is commonly used for the conductive traces on a PCB due to its excellent electrical conductivity and corrosion resistance?,Copper,Aluminum,Gold,Silver,Copper
-416,What process involves arranging multiple PCBs onto a larger panel for manufacturing efficiency?,Etching,Panelization,Depanelization,Lamination,Panelization
-417,What is the most common type of material used for the insulating substrate of PCBs due to its high mechanical strength and temperature resistance?,Aluminum oxide,Ceramic,Polyimide,FR-4,FR-4
-418,In which century did the modern printed circuit board (PCB) technology emerge?,19th century,20th century,21st century,18th century,20th century
-419,The development of PCBs was initially driven by which industry's need for more efficient electronic assembly?,Automotive industry,Textile industry,Radio industry,Food industry,Radio industry
-420,What problem did the invention of PCBs address by replacing traditional point-to-point wiring?,Wire-to-board connections,Component miniaturization,Electrical insulation,Thermal management,Wire-to-board connections
-421,"In the early days of PCB manufacturing, how were components connected to the conductive traces?",Surface-mount soldering,Wire bonding,Conformal coating,Holes drilled in the board,Holes drilled in the board
-422,Who is credited with the invention of the printed circuit board (PCB) in the 1930s?,Thomas Edison,Paul Eisler,Nikola Tesla,Alexander Graham Bell,Paul Eisler
-423,What was the primary purpose behind the development of PCB technology?,Increase cost-effectiveness,Enhance aesthetics,Improve reliability and reduce assembly time,Enable automated testing,Improve reliability and reduce assembly time
-424,"Before the widespread use of CAD software, how were PCB designs typically created?",Hand-drawn layouts,3D modeling,Computer simulations,CNC machining,Hand-drawn layouts
-425,What feature of PCBs allows for easy modification and customization of electronic circuits?,High-speed data transfer,Component density,Resistance to corrosion,Flexibility and modularity,Flexibility and modularity
-426,PCB technology gained significant traction during World War II for which purpose?,Consumer electronics,Military and aerospace applications,Medical devices,Automotive industry,Military and aerospace applications
-427,What innovation in PCB design allows for denser and more complex electronic circuits?,Single-sided construction,Through-hole technology,Multi-layered construction,Surface-mount technology,Multi-layered construction
-428,Which law explains why an induced emf opposes the change in magnetic flux producing it?,Gauss's Law,Faraday's Law,Lenz�'s Law,Coulomb's Law,Lenz's Law
-429,"In an operational amplifier, which characteristic ideally approaches infinity?",Output resistance,Input offset voltage,Input impedance,Bandwidth,Input impedance
-430,A digital circuit whose output depends only on present inputs is classified as:,Sequential circuit,Combinational circuit,Asynchronous circuit,Counter circuit,Combinational circuit
-431,The main disadvantage of using a cascade amplifier configuration is:,Reduced overall gain,Bandwidth limitations due to interstage loading,Elimination of phase shift,Increase in input resistance,Bandwidth limitations due to interstage loading
-432,"In magnetic materials, the hysteresis loop area corresponds to:",Energy stored in the material,Energy lost per cycle of magnetization,Flux density saturation point,Coercivity level,Energy lost per cycle of magnetization
-433,"In logic circuits, a hazard is best described as:",A permanent logic fault,A temporary incorrect output due to different path delays,Overheating of gates at high frequency,Metastability in flip-flops,A temporary incorrect output due to different path delays
-434,Which element stores energy in the form of an electric field?,Resistor,Capacitor,Inductor,Transformer,Capacitor
-435,"In resonance, the condition XC = XL ensures that:",Current is maximum and impedance is minimum,Current is minimum and impedance is maximum,Voltage across capacitor is zero,Power factor equals zero,Current is maximum and impedance is minimum
-436,Thevenin's theorem simplifies a linear circuit into:,A current source in series with resistance,A voltage source in series with resistance,A dependent source in parallel with a load,A single ideal resistance,A voltage source in series with resistance
-437,The device primarily used to trigger a TRIAC is:,UJT,DIAC,MOSFET,Zener diode,DIAC
-438,The transfer function of a system represents the ratio of:,Output to input in the Laplace domain,Output to input in the time domain,Frequency to gain in the s-plane,Poles to zeros of the system,Output to input in the Laplace domain
-439,"In a J-K flip-flop, when J = K = 1, the output will:",Remain the same,Reset to zero,Toggle state,Go to undefined state,Toggle state
-440,"In DC steady state, an ideal inductor behaves as:",Open circuit,Short circuit,Capacitor,Current source,Short circuit
-441,"In BJT operation, which region is used for amplification?",Cutoff,Saturation,Active,Breakdown,Active
-442,The stack pointer in a microprocessor is used to:,Point to the base address of ROM,Track the top of the stack in memory,Store the program counter value,Hold the instruction register,Track the top of the stack in memory
-443,A root locus plot is used primarily to determine:,Time response of a system,Stability as system gain is varied,Frequency bandwidth of circuits,State variables in system modeling,Stability as system gain is varied
-444,"In a transformer, eddy current loss can be reduced by:",Using laminated cores,Using thicker windings,Operating at lower frequency,Increasing load current,Using laminated cores
-445,Which Boolean expression is equivalent to A + A'B?,A + B,AB,A' + B,A A'� B',A + B
-446,The main advantage of synchronous counters compared to asynchronous counters is:,Less power consumption,Simultaneous triggering reduces propagation delay,Requirement of fewer flip-flops,They don't need a clock signal,Simultaneous triggering reduces propagation delay
-447,A MOSFET amplifier has high input impedance because:,The source terminal is reverse biased,The gate is insulated from the channel,Drain current is controlled by Vds only,It operates in depletion mode,The gate is insulated from the channel
-448,The quality factor (Q) of a resonant circuit measures:,Ratio of reactance to resistance at resonance,Ratio of real power to apparent power,Ratio of capacitance to inductance,Ratio of bandwidth to resonant frequency,Ratio of reactance to resistance at resonance
-449,A zener diode operates in the breakdown region to:,Act as a rectifier,Regulate voltage,Increase current,Produce oscillation,Regulate voltage
-450,The CMRR of a differential amplifier describes its ability to:,Amplify common-mode signals,Reject common-mode signals,Eliminate differential signals,Operate without biasing,Reject common-mode signals
-451,A Wien Bridge oscillator generates:,Square wave,Sinusoidal wave,Triangular wave,Pulse waveform,Sinusoidal wave
-452,The function of ladder diagrams in PLC programming is:,Perform binary arithmetic,Represent control logic similar to relay circuits,Generate sinusoidal waveforms,Minimize Boolean equations,Represent control logic similar to relay circuits
-453,"In feedback systems, negative feedback generally:",Increases distortion,Improves stability and reduces gain,Increases gain but decreases accuracy,Leads to oscillations,Improves stability and reduces gain
-454,The bandwidth of a low-pass filter is defined as:,The frequency at which output is zero,The frequency difference between lower and upper cutoff points,The gain at DC,The slope of the stopband,The frequency difference between lower and upper cutoff points
-455,The principle of superposition is valid for:,Nonlinear circuits,Linear bilateral circuits,Magnetic circuits only,Pure resistive circuits only,Linear bilateral circuits
-456,A microcontroller differs from a microprocessor mainly because it:,Requires more external devices,"Integrates CPU, memory, and peripherals in one chip",Is used only for high-speed computing,Cannot execute assembly instructions,"Integrates CPU, memory, and peripherals in one chip"
-457,"In a parallel resonant circuit, impedance at resonance is:",Maximum and resistive,Minimum and reactive,Zero,Infinite,Maximum and resistive
-458,The Miller effect primarily affects:,Low-frequency response of amplifiers,High-frequency response of amplifiers,Noise immunity of digital circuits,Stability of control systems,High-frequency response of amplifiers
-459,An SCR can be turned off by:,Removing the gate signal,Reducing anode current below holding current,Reversing gate polarity,Increasing cathode voltage,Reducing anode current below holding current
-460,A full adder circuit requires how many inputs?,Two,Three,Four,Five,Three
-461,"In electromagnetic waves, the direction of propagation is:",Along the electric field,Along the magnetic field,Perpendicular to both electric and magnetic fields,Parallel to displacement current,Perpendicular to both electric and magnetic fields
-462,The compensation capacitor in an op-amp is used to:,Improve frequency stability,Increase slew rate,Reduce input bias current,Increase bandwidth,Improve frequency stability
-463,The main disadvantage of an unregulated power supply is:,Higher efficiency,Ripple voltage varies with load,Simple construction,No need for filters,Ripple voltage varies with load
-464,A T flip-flop toggles output when:,T = 0,T = 1,Clock is absent,Reset is applied,T = 1
-465,Which filter type provides the steepest roll-off for a given order?,Butterworth,Chebyshev,Bessel,RC filter,Chebyshev
-466,"In steady-state DC analysis, a capacitor behaves as:",Short circuit,Open circuit,Resistor,Current source,Open circuit
-467,"In two-port networks, the h-parameters are most useful for analyzing:",Power systems,Transmission lines,Transistor amplifiers,Resonant circuits,Transistor amplifiers
-468,The soft starter in motor control reduces:,Power factor,Inrush current and mechanical stress,Speed at full load,Voltage rating of windings,Inrush current and mechanical stress
-469,"In sequential circuits, metastability occurs when:",Flip-flop setup and hold times are violated,Counter skips certain counts,Input voltage exceeds threshold,Clock frequency is reduced,Flip-flop setup and hold times are violated
-470,A DIAC is considered bidirectional because:,It conducts equally in both directions after breakover,It has two gate terminals,It operates in forward bias only,It is used in DC circuits,It conducts equally in both directions after breakover
-471,The damping ratio ζ in a second-order system primarily determines:,Gain margin,Overshoot and oscillation behavior,Number of poles and zeros,Root locus trajectory,Overshoot and oscillation behavior
-472,"In Boolean algebra, the involution law states that:",A + A = A,A · 1 = A,(A')' = A,A + 0 = A,(A')' = A
-473,A PLC scan cycle consists of:,"Reading inputs, executing program, updating outputs","Storing data, compiling program, resetting system","Fetching instructions, decoding, executing","Measuring current, voltage, and power","Reading inputs, executing program, updating outputs"
-474,"In an RL circuit, immediately after a switch is closed, the inductor current is:",Maximum,Zero,Equal to source current,Indeterminate,Zero
-475,"In control systems, the steady-state error is primarily affected by:",System type and input signal type,Number of poles in the left-half plane,Gain margin and phase margin,Bandwidth of the open-loop system,System type and input signal type
-476,A ferroelectric material is unique because:,Its magnetic domains align with external fields,It retains electric polarization even after field removal,It cannot be polarized at all,Its dielectric constant decreases with applied voltage,It retains electric polarization even after field removal
-477,"In a BJT, base width modulation is also known as:",Saturation effect,Punch-through,Early effect,Avalanche effect,Early effect
-478,Which Boolean law simplifies A + AB into A?,Idempotent Law,Absorption Law,Consensus Theorem,De Morgan's Law,Absorption Law
-479,A system is said to be marginally stable when:,All poles are in the left half-plane,Poles lie on the imaginary axis but not repeated,All poles are repeated on the imaginary axis,Zeros lie in the right half-plane,Poles lie on the imaginary axis but not repeated
-480,A current mirror circuit is mainly designed to:,Amplify voltage gain,Replicate a reference current in another branch,Convert AC into DC,Increase input resistance,Replicate a reference current in another branch
-481,The displacement current term was added by Maxwell to:,Satisfy continuity of current in capacitors,Model superconducting phenomena,Describe permanent magnets,Eliminate dielectric losses,Satisfy continuity of current in capacitors
-482,The ripple voltage in an unregulated DC power supply decreases when:,The load resistance decreases,The filter capacitance increases,The transformer turns ratio is reduced,The rectifier diode count decreases,The filter capacitance increases
-483,"In Boolean algebra, the complement law states that:",A + A = A,A · A' = 0,A + 1 = 1,A + A' = 1,A + A' = 1
-484,"In feedback amplifiers, positive feedback generally causes:",Reduced gain and better stability,Oscillations if Barkhausen criterion is satisfied,Elimination of distortion,Decrease in bandwidth,Oscillations if Barkhausen criterion is satisfied
-485,A PLC is preferred in industrial automation mainly because:,It has higher clock speed than microcontrollers,It can easily reprogram logic for changing requirements,It operates without input sensors,It does not require outputs to operate,It can easily reprogram logic for changing requirements
-486,A MOSFET operates in the saturation region when:,Vds < Vgs - Vth,Vds > Vgs - Vth,Vgs < Vth,Vds = 0,Vds > Vgs - Vth
-487,The Barkhausen criterion for oscillation requires:,Loop gain < 1 and phase shift of 90°,Loop gain = 1 and phase shift of 0� or 360�,Loop gain > 1 and phase shift of 180�,Loop gain = 0 and phase shift of 0�,Loop gain = 1 and phase shift of 0� or 360�
-488,Thevenin resistance of a circuit is found by:,Measuring resistance across load without sources,Turning off independent sources and finding equivalent resistance,Applying KVL to each loop,Using Norton's theorem only,Turning off independent sources and finding equivalent resistance
-489,A Mealy machine differs from a Moore machine because its outputs depend on:,Present state only,Next state only,Present state and external inputs,The number of flip-flops used,Present state and external inputs
-490,A transformer achieves electrical isolation because:,Primary and secondary share the same winding,Primary and secondary are magnetically coupled but electrically separate,Voltage ratio equals turns ratio,Flux leakage is minimized,Primary and secondary are magnetically coupled but electrically separate
-491,A multiplexer is primarily used to:,Generate clock signals,Select one input line from many and route it to output,Store binary data,Perform arithmetic operations,Select one input line from many and route it to output
-492,"In resonance, the power factor of an RLC series circuit is:",Zero,Leading,Lagging,Unity,Unity
-493,"In a crystal oscillator, the frequency stability is due to:",High gain of the amplifier,Low resistance of crystal,Mechanical resonance of the crystal,Use of feedback resistors,Mechanical resonance of the crystal
-494,Which law relates the magnetic flux through a surface to the current enclosed?,Gauss's Law for Electricity,Ampere's Law,Faraday's Law,Lenz's Law,Ampere's Law
-495,"In a synchronous motor, torque is produced due to:",Induction between rotor and stator,Interaction between stator field and rotor magnetic field,Slip frequency,Eddy currents,Interaction between stator field and rotor magnetic field
-496,"In control systems, a pole closer to the imaginary axis implies:",Faster time response,Slower time response,Greater stability,No effect on response,Slower time response
-497,An op-amp integrator circuit ideally provides:,Constant gain independent of frequency,Output proportional to integral of input voltage,Output proportional to derivative of input voltage,Unity gain for all frequencies,Output proportional to integral of input voltage
-498,"In logic minimization, Karnaugh maps are used to:",Generate binary counters,Simplify Boolean expressions,Determine propagation delay,Verify truth tables only,Simplify Boolean expressions
-499,An SCR can be triggered into conduction by:,Forward breakover voltage alone,Gate pulse while forward biased,Reverse voltage,High frequency input,Gate pulse while forward biased
-500,The Miller capacitance problem in amplifiers becomes severe at:,Low frequency,High frequency,DC conditions,Resonance,High frequency
-501,"In ladder logic, normally closed contacts are represented as:",A horizontal line,A vertical line,A symbol with a slash,A coil symbol,A symbol with a slash
-502,"In Maxwell's equations, Divergence of total Magnetic Flux through a closed surface is always equal to zero implies:",There are no magnetic monopoles,Magnetic flux density equals current density,Divergence of electric flux is zero,Magnetic fields do not exist in free space,There are no magnetic monopoles
-503,"In a NOR gate, the output is high only when:",All inputs are low,Any input is high,All inputs are high,Inputs alternate states,All inputs are low
-504,A UJT is often used in triggering because of its:,Negative resistance region,High frequency operation,High power handling,Constant voltage drop,Negative resistance region
-505,A notch filter is mainly used to:,Reject a narrow band of frequencies,Amplify low frequencies,Pass only high frequencies,Provide constant gain across all frequencies,Reject a narrow band of frequencies
-506,The characteristic equation of a control system is obtained from:,Open-loop transfer function numerator,Denominator of closed-loop transfer function,Zeros of the forward path transfer function,Poles of the feedback path only,Denominator of closed-loop transfer function
-507,A TRIAC differs from an SCR because it:,Operates only in forward bias,Can conduct in both directions,Requires no gate pulse to trigger,Is unidirectional,Can conduct in both directions
-508,The order of a system equals:,Number of zeros in transfer function,Highest power of s in denominator of transfer function,Number of poles plus zeros,Gain constant of the system,Highest power of s in denominator of transfer function
-509,A decoder converts:,Binary inputs into a single active output,Decimal into binary,Binary into Gray code,Inputs into multiplexed outputs,Binary inputs into a single active output
-510,"In electromagnetics, boundary conditions are applied to:",Ensure uniqueness of field solutions across interfaces,Eliminate displacement currents,Remove conduction currents,Reduce permittivity,Ensure uniqueness of field solutions across interfaces
-511,A transistor in cutoff region has:,Both junctions forward biased,"Base-emitter forward biased, collector-base reverse biased",Both junctions reverse biased,High collector current,Both junctions reverse biased
-512,The Nyquist plot helps determine:,Transient response,Absolute stability of feedback systems,Transfer function zeros,Steady-state error,Absolute stability of feedback systems
-513,A flip-flop is called edge-triggered if it:,Responds only during level change of input,Changes output only at rising or falling clock edge,Responds to input continuously,Operates without clock input,Changes output only at rising or falling clock edge
-514,The ripple factor of a rectifier measures:,Ratio of RMS AC component to DC component,Ratio of average voltage to peak voltage,Ratio of output DC to input AC,Ratio of frequency to amplitude,Ratio of RMS AC component to DC component
-515,A BJT emitter follower has a voltage gain approximately equal to:,0,1,Very large,Negative,1
-516,Which of the following improves the stability of a feedback amplifier?,Increasing loop gain,Adding phase lag compensation,Using positive feedback,Eliminating compensation capacitors,Adding phase lag compensation
-517,A PROM (Programmable Read-Only Memory) differs from ROM because it:,Can be written only once after manufacturing,Can be erased electrically,Stores data temporarily,Requires constant refreshing,Can be written only once after manufacturing
-518,"In AC circuits, reactive power is measured in:",W,VA,VAR,Joules,VAR
-519,The Early effect in BJTs results in:,Increase in output resistance,Decrease in output resistance,Increase in threshold voltage,Decrease in current gain,Decrease in output resistance
-520,Which logic gate is called the universal gate�?,XOR,NAND,NOR,AND,NAND
-521,"In a band-pass filter, the center frequency is the:",Sum of upper and lower cutoff frequencies,Product of cutoff frequencies,Square root of product of upper and lower cutoff frequencies,Average of cutoff frequencies,Square root of product of upper and lower cutoff frequencies
-522,A register in digital circuits is used to:,Perform logical operations,Store binary data temporarily,Generate control signals,Control propagation delay,Store binary data temporarily
-523,"In control systems, the phase margin indicates:",How much gain can increase before instability,How much phase can change before instability,The steady-state error of the system,The time constant of the system,How much phase can change before instability
-524,The Boolean expression (A + B)(A' + C) simplifies to:,AC + B,A + BC,AB + C,A + B + C,A + BC
-525,"In an RL series circuit, the current lags the voltage because:",Inductor resists change in voltage,Inductor resists change in current,Resistance is larger than reactance,Energy is dissipated in the resistor,Inductor resists change in current
-526,The output of an XOR gate is high when:,Both inputs are low,Both inputs are high,Inputs are different,Inputs are equal,Inputs are different
-527,A Class C amplifier is commonly used in:,Audio frequency amplification,RF oscillators and tuned circuits,DC voltage regulators,Digital counters,RF oscillators and tuned circuits
-528,Which Maxwell equation explains electromagnetic wave propagation?,Gauss's Law,Faraday's Law,Ampere-Maxwell Law,Lenz's Law,Ampere-Maxwell Law
-529,The duty cycle of a pulse waveform is defined as:,Ratio of on-time to total time period,Ratio of off-time to total time period,Inverse of frequency,Average voltage over one cycle,Ratio of on-time to total time period
-530,A Johnson counter differs from a ring counter because:,It requires fewer flip-flops,The feedback is inverted before applied to input,It counts twice as many states as number of flip-flops,It cannot be used in sequence generators,It counts twice as many states as number of flip-flops
-531,"In an op-amp comparator, the output saturates when:",Input difference is zero,Input difference is greater than zero,The two inputs are equal,The power supply is disconnected,Input difference is greater than zero
-532,The time constant of an RC circuit represents:,The time for current to reach 100% of final value,The time for voltage to decay to 1/e of its initial value,The frequency of oscillation,The delay in switching,The time for voltage to decay to 1/e of its initial value
-533,A TRIAC is often used in lamp dimming circuits because:,It can be triggered by DC gate current,It can control power in both halves of AC cycle,It acts as a full-wave rectifier,It operates only in forward direction,It can control power in both halves of AC cycle
-534,The gain-bandwidth product of an op-amp is:,Constant,Inversely proportional to frequency,Proportional to input resistance,Dependent on supply voltage,Constant
-535,A universal shift register can:,Store only parallel data,Shift only to the right,Shift in both directions and load parallel data,Operate only in synchronous mode,Shift in both directions and load parallel data
-536,"In electromagnetics, skin effect becomes significant at:",DC,Low frequencies,High frequencies,Zero frequency,High frequencies
-537,The oscillator that uses positive feedback and phase shift networks is called:,Wien Bridge oscillator,Colpitts oscillator,RC Phase-shift oscillator,Hartley oscillator,RC Phase-shift oscillator
-538,The transfer function of an ideal integrator has a pole at:,s = 0,s = -1,s = a^z,s = ji,s = 0
-539,Which storage device loses all data when power is turned off?,ROM,PROM,SRAM,DRAM,SRAM
-540,The dielectric strength of a material refers to:,Ability to store charge,Maximum electric field it can withstand without breakdown,Energy stored per unit volume,Magnetic susceptibility,Maximum electric field it can withstand without breakdown
-541,A Schmitt trigger is mainly used to:,Act as a differentiator,Provide noise immunity by hysteresis,Generate sinusoidal oscillations,Function as a voltage regulator,Provide noise immunity by hysteresis
-542,A thyristor remains latched once turned on because:,Gate signal is continuous,Internal regenerative feedback maintains conduction,Reverse bias is applied,Anode current is zero,Internal regenerative feedback maintains conduction
-543,The digital circuit that detects occurrence of a specific sequence of inputs is called:,Shift register,Decoder,Sequence detector,Encoder,Sequence detector
-544,The gain of a common-emitter amplifier is generally:,Positive and greater than 1,Negative and greater than 1 in magnitude,Zero,Unity,Negative and greater than 1 in magnitude
-545,A diode bridge rectifier converts:,AC to DC using half cycles only,AC to DC using both half cycles,DC to AC,Pulsating DC to pure DC,AC to DC using both half cycles
-546,A PLL (Phase-Locked Loop) is used in communication systems for:,Voltage regulation,Frequency synthesis and synchronization,Current amplification,Power conversion,Frequency synthesis and synchronization
-547,The stability of a second-order system improves when:,Poles move farther left in the s-plane,Poles move closer to jω axis,Zeros move into right-half plane,Poles are repeated on imaginary axis,Poles move farther left in the s-plane
-548,A 3-to-8 decoder requires how many inputs?,2,3,4,8,3
-549,The function of a bypass capacitor in an amplifier is to:,Block DC while passing AC,Reduce the AC gain,Increase DC bias,Provide negative feedback,Block DC while passing AC
-550,A microprocessor instruction cycle consists of:,"Fetch, decode, execute","Load, add, store","Write, read, refresh","Compile, link, execute","Fetch, decode, execute"
-551,The Bode plot magnitude slope of a simple pole is:,+20 dB/decade,-20 dB/decade,-40 dB/decade,0 dB/decade,-20 dB/decade
-552,A band-stop filter is designed to:,Pass all frequencies below cutoff,Pass all frequencies except a certain range,Block all frequencies,Pass only one frequency,Pass all frequencies except a certain range
-553,A memory mapped I/O system differs from isolated I/O because:,I/O devices share the same address space as memory,I/O devices use separate instruction sets,I/O devices do not require address decoding,It requires no CPU intervention,I/O devices share the same address space as memory
-554,The slope of an I-V curve in the ohmic region of a diode represents:,Barrier potential,Dynamic resistance,Reverse leakage,Saturation current,Dynamic resistance
-555,"In control system terminology, type of the system is determined by:",Number of poles at origin,Number of finite zeros,Damping ratio,Time constant,Number of poles at origin
-556,A flip-flop that can store 1 bit of data is also known as:,Register,Latch,Counter,Encoder,Latch
-557,The MOSFET threshold voltage is the value of Vgs at which:,The drain current becomes zero,The inversion channel forms and conduction starts,The device breaks down,The oxide layer is damaged,The inversion channel forms and conduction starts
-558,A Hall effect sensor primarily measures:,Voltage,Current,Magnetic field,Resistance,Magnetic field
-559,The impedance of an ideal capacitor at very high frequency tends to:,Zero,Infinity,A constant value,Negative,Zero
-560,An astable multivibrator is used to generate:,One stable output state,A fixed frequency square wave,A pulse when triggered,A constant DC voltage,A fixed frequency square wave
-561,"In Maxwell's equations, Gauss's Law for magnetism ensures that:",Magnetic flux through a closed surface is zero,Electric flux through a surface equals enclosed charge,Magnetic field lines are divergence-free,Magnetic monopoles exist,Magnetic flux through a closed surface is zero
-562,The binary number 111101 corresponds to decimal:,59,61,62,63,61
-563,A charge-coupled device (CCD) is commonly used in:,Microprocessors,Image sensors,Oscilloscopes,Power amplifiers,Image sensors
-564,"In resonance, the current in a parallel RLC circuit is:",Maximum,Minimum,Zero,Equal to resistance value,Minimum
-565,The transfer function of a lead compensator improves:,Phase margin,Gain crossover frequency,DC gain,Noise immunity,Phase margin
-566,A PROM can be programmed:,Once by the manufacturer,Many times using UV light,Once by the user,Unlimited times electrically,Once by the user
-567,The Boolean expression A + A'C simplifies to:,A + C,A + C',A' + C,A A'� C,A + C
-568,"In amplifier design, cascode configuration is preferred because:",It reduces input resistance,It increases output resistance and bandwidth,It eliminates phase shift,It provides unity gain,It increases output resistance and bandwidth
-569,Which filter type has maximally flat response in the passband?,Chebyshev,Butterworth,Bessel,Elliptic,Butterworth
-570,A BJT is biased in the saturation region when:,Both base-emitter and base-collector junctions are forward biased,Both junctions are reverse biased,Base-emitter is forward biased and base-collector is reverse biased,Base current is zero,Both base-emitter and base-collector junctions are forward biased
-571,A PLC input module is designed to:,Send control signals to actuators,Accept signals from sensors and switches,Perform arithmetic operations,Execute ladder logic instructions,Accept signals from sensors and switches
-572,"In Gauss's Law for electricity, the flux through a closed surface equals:",Current enclosed,Charge enclosed divided by permittivity,Product of permittivity and electric field,Zero,Charge enclosed divided by permittivity
-573,The gain of a common-collector amplifier is approximately:,0,1,Greater than 1,Negative,1
-574,A watchdog timer in a microcontroller is used to:,Generate clock pulses,Reset the system if it becomes unresponsive,Increase instruction speed,Store program memory,Reset the system if it becomes unresponsive
-575,"In the root locus method, asymptotes indicate:",Initial angle of departure of poles,Paths that poles follow as gain approaches infinity,Location of system zeros,Final value of step response,Paths that poles follow as gain approaches infinity
-576,A DIAC conducts when:,Gate current is applied,Breakover voltage is exceeded in either direction,Reverse bias is applied,Forward voltage is zero,Breakover voltage is exceeded in either direction
-577,A decoder differs from an encoder because:,It reduces multiple inputs into one output,It converts binary code into one active output line,It stores data for temporary use,It generates parity bits,It converts binary code into one active output line
-578,"In steady-state, the energy stored in an inductor depends on:",Voltage across the coil,Current through the coil,Resistance of the winding,Frequency of the source,Current through the coil
-579,A Zener diode maintains constant voltage because:,It operates in forward bias,It has very high resistance in breakdown,Reverse current increases sharply while voltage remains nearly constant,It oscillates in reverse direction,Reverse current increases sharply while voltage remains nearly constant
-580,A modulo-12 counter requires how many flip-flops?,2,3,4,5,4
-581,"In Nyquist criterion, encirclements of the -1 point indicate:",Stability margin,Number of unstable closed-loop poles,Time constant of system,System gain,Number of unstable closed-loop poles
-582,The ripple factor of a half-wave rectifier compared to a full-wave rectifier is:,Smaller,Larger,Equal,Zero,Larger
-583,A CMOS logic gate is preferred because:,It consumes more power,It has low noise immunity,It consumes negligible static power,It cannot drive large loads,It consumes negligible static power
-584,The Laplace transform is mainly used in circuit analysis to:,Transform AC into DC,Simplify differential equations into algebraic form,Remove transient components,Increase system frequency,Simplify differential equations into algebraic form
-585,A Hartley oscillator uses:,Two capacitors and one inductor,Two inductors and one capacitor,Only RC networks,A crystal,Two inductors and one capacitor
-586,The intrinsic stand-off ratio in a UJT determines:,Holding current,Peak point voltage,Valley voltage,Gate resistance,Peak point voltage
-587,The efficiency of a class B amplifier is approximately:,25%,50%,78.50%,100%,78.50%
-588,A ROM is classified as non-volatile memory because:,It requires refreshing cycles,It stores data even when power is turned off,It is faster than RAM,It is erased with UV light,It stores data even when power is turned off
-589,"In resonance, the phase angle between current and voltage is:",0�,90�,90�,180�,0�
-590,A multiplexer requires how many select lines to choose from 16 inputs?,2,3,4,5,4
-591,"In electromagnetics, the curl of the magnetic field H is equal to:",Charge density,Electric flux density,Current density plus displacement current,Divergence of electric field,Current density plus displacement current
-592,A Darlington pair is used to:,Decrease input resistance,Provide very high current gain,Act as a rectifier,Reduce voltage gain,Provide very high current gain
-593,A PLC output module typically controls:,Input sensors,"Motors, lamps, and actuators",Memory registers,Instruction cycle,"Motors, lamps, and actuators"
-594,A BJT in cutoff region acts like:,A closed switch,An open switch,A variable resistor,A constant current source,An open switch
-595,"In control systems, overshoot in step response is mainly influenced by:",System order,Damping ratio,DC gain,Steady-state error,Damping ratio
-596,"In an asynchronous counter, propagation delay occurs because:",All flip-flops share the same clock,Flip-flops are triggered sequentially by previous outputs,The counter has no reset input,The clock frequency is too high,Flip-flops are triggered sequentially by previous outputs
-597,The ideal op-amp characteristic includes:,Infinite input impedance and zero output impedance,Zero input impedance and infinite output impedance,Unity open-loop gain,Finite input offset current,Infinite input impedance and zero output impedance
-598,Which law of Boolean algebra states that A + A' = 1?,Identity Law,Complement Law,Absorption Law,Involution Law,Complement Law
-599,A switched-mode power supply is more efficient than a linear regulator because:,It dissipates more power as heat,It operates using high-frequency switching,It has no rectifier stage,It uses only passive components,It operates using high-frequency switching
-600,"In a PN junction diode, reverse saturation current primarily depends on:",Applied voltage,Temperature,Doping concentration,Barrier potential,Temperature
-601,The function of a parity bit in digital communication is to:,Correct transmission errors,Detect transmission errors,Encode binary numbers,Increase baud rate,Detect transmission errors
-602,"In a second-order underdamped system, the response is characterized by:",Exponential decay without oscillations,Sustained oscillations,Oscillatory response with decaying amplitude,A constant steady-state value only,Oscillatory response with decaying amplitude
-603,A 4-bit binary up counter has how many distinct states?,8,12,16,32,16
-604,"In an RLC circuit, the bandwidth is inversely proportional to:",Inductance,Resistance,Quality factor,Frequency,Quality factor
-605,An op-amp differentiator produces output proportional to:,Integral of input,Derivative of input,Inverse of input,Constant of input,Derivative of input
-606,A tunnel diode exhibits negative resistance because:,Avalanche breakdown occurs,Quantum tunneling of carriers dominates,High doping reduces junction capacitance,Reverse bias exceeds threshold,Quantum tunneling of carriers dominates
-607,"In PLCs, the scan time depends mainly on:",Program length and instruction complexity,Number of sensors only,Number of outputs only,Input voltage level,Program length and instruction complexity
-608,A transistor configured as an emitter follower provides:,High voltage gain,High input impedance and low output impedance,Phase inversion,Negative resistance,High input impedance and low output impedance
-609,"In frequency response analysis, gain margin is measured at:",Frequency where phase is 0�,Frequency where phase is 180�,Frequency where gain is 1,Resident frequency,Frequency where phase is 180�
-610,A Schmitt trigger prevents multiple transitions caused by:,Noise on the input signal,High-frequency oscillations,Positive feedback,Low slew rate,Noise on the input signal
-611,The ripple frequency of a full-wave rectifier is:,Equal to input frequency,Half of input frequency,Twice the input frequency,Zero,Twice the input frequency
-612,The control system term “settling time” is defined as:,Time to reach maximum overshoot,Time to reach 50% of final value,Time for response to stay within a specified error band,Time for poles to shift to imaginary axis,Time for response to stay within a specified error band
-613,"In MOSFETs, channel pinch-off occurs when:",Vds > Vgs - Vth,Vds < Vgs - Vth,Vgs = 0,Vds = 0,Vds > Vgs - Vth
-614,A 2-to-4 line decoder requires how many enable inputs?,None,1,2,4,1
-615,"When a transformer core approaches saturation, which occurs first?",Primary current increases disproportionately,Secondary voltage increases linearly with flux,Eddy current loss decreases,Mutual flux remains constant,Primary current increases disproportionately
-616,A control system has poles close to the imaginary axis but in the left half-plane. Which is most accurate?,The system is absolutely unstable,The system is stable but exhibits slow oscillatory decay,The system has no steady-state error,The system response is purely exponential,The system is stable but exhibits slow oscillatory decay
-617,A Schmitt trigger is often preferred over a simple comparator because:,It amplifies input more strongly,It avoids multiple output transitions due to noisy input,It consumes less power,It eliminates DC offset,It avoids multiple output transitions due to noisy input
-618,"In a MOSFET, if Vgs is just below the threshold voltage, what best describes the channel?",No conduction because inversion is absent,Conducts with reduced mobility,Operates in linear region,Breaks down due to high electric field,No conduction because inversion is absent
-619,"In PLC programming, a rung with a normally open contact in parallel with a normally closed contact forms:",An AND function,An OR function,A NAND function,A latch circuit,A latch circuit
-620,"A series RLC circuit operates at resonance. If resistance is slightly increased, the immediate effect on bandwidth is:",Bandwidth narrows,Bandwidth widens,Bandwidth remains unchanged,Resonant frequency shifts drastically,Bandwidth widens
-621,Thevenin's theorem is valid for:,Linear bilateral networks only,Nonlinear magnetic circuits,Active devices with feedback,Digital sequential systems,Linear bilateral networks only
-622,"In digital systems, metastability is most dangerous because:",It increases propagation delay slightly,It may cause unpredictable outputs violating timing requirements,It reduces the fan-out capability of gates,It only affects synchronous circuits,It may cause unpredictable outputs violating timing requirements
-623,"In Maxwell's equations, displacement current explains:",Why current can flow in an open circuit capacitor,Why magnetic fields do not exist without current,Why flux lines terminate in charges,Why inductors oppose changes in current,Why current can flow in an open circuit capacitor
-624,A NAND gate with tied inputs functions as:,Buffer,Inverter,AND gate,NOR gate,Inverter
-625,The slew rate limitation of an op-amp is observed when:,Input frequency is too low,Output fails to follow a rapidly changing input,The gain is infinite,Input offset voltage is zero,Output fails to follow a rapidly changing input
-626,"In an SCR, once the latching current condition is satisfied:",Gate loses all control over conduction,Gate current must be maintained continuously,The device automatically turns off at next zero crossing,Forward voltage becomes negative,Gate loses all control over conduction
-627,The time-domain response of a type-1 system to a ramp input ideally has:,Zero steady-state error,Finite steady-state error,Infinite steady-state error,Oscillatory error function,Finite steady-state error
-628,A push-pull amplifier reduces distortion primarily because:,Each transistor amplifies both halves of the signal,Each transistor handles alternate half-cycles of the waveform,It uses negative feedback,It operates only in class A,Each transistor handles alternate half-cycles of the waveform
-629,The Poynting vector in electromagnetics indicates:,Magnetic flux through a surface,Power flow per unit area of a wave,Electric field intensity at a point,Current density distribution,Power flow per unit area of a wave
-630,A ring counter with 5 flip-flops has how many unique states?,5,10,25,32,5
-631,The primary purpose of a compensation capacitor in op-amp design is to:,Shift poles to improve phase margin,Increase open-loop gain,Reduce input offset current,Increase output swing,Shift poles to improve phase margin
-632,"In electromagnetics, boundary conditions require that tangential components of E-field across a conductor-dielectric interface are:",Continuous,Discontinuous due to surface charge,Zero,Proportional to permeability,Zero
-633,A counter using J-K flip-flops with J = K = 1 behaves as:,Ripple counter,Synchronous counter,T flip-flop counter,Asynchronous shift register,T flip-flop counter
-634,An induction motor is started with reduced voltage to:,Increase torque instantly,Limit inrush current,Improve efficiency,Eliminate slip,Limit inrush current
-635,The dominant pole approximation in Bode plots is valid when:,Higher-order poles are very close to origin,One pole is much closer to the origin than others,All poles are equally spaced,System has no zeros,One pole is much closer to the origin than others
-636,"In digital circuits, propagation delay of a gate is measured between:",Input change and steady-state output,Input threshold crossing and output threshold crossing,Clock input and next clock edge,Minimum setup time and hold time,Input threshold crossing and output threshold crossing
-637,A negative resistance region in a device implies:,Current decreases as voltage increases,Voltage decreases as current decreases,Both current and voltage increase simultaneously,The device acts like a capacitor,Current decreases as voltage increases
-638,"In a two-port network, the condition for symmetry in Z-parameters is:",z11 = z22,z12 = z21,Determinant = 1,y11 = y22,z11 = z22
-639,The Miller effect is most significant in:,Low-frequency circuits,High-frequency amplifiers with feedback capacitance,Rectifier design,Digital gates,High-frequency amplifiers with feedback capacitance
-640,A Moore machine output depends on:,Present input only,Present state only,Both present input and state,Number of states,Present state only
-641,"In feedback systems, adding a zero to the open-loop transfer function usually:",Decreases stability,Speeds up system response,Has no effect,Eliminates steady-state error,Speeds up system response
-642,A CMOS inverter is composed of:,Two NMOS transistors in series,One NMOS and one PMOS transistor,Two PMOS transistors in parallel,A diode and resistor,One NMOS and one PMOS transistor
-643,The Q-factor of a resonant circuit is high when:,Resistance is large,Resistance is small,Capacity is very large,Inductance is very small,Resistance is small
-644,A synchronous motor runs at constant speed regardless of load because:,Rotor field locks with stator field,It has no slip,Induced emf cancels applied voltage,Torque increases with slip,It has no slip
-645,The hysteresis loop area in magnetic materials represents:,Energy stored in the core,Energy lost per magnetization cycle,Permeability,Saturation point,Energy lost per magnetization cycle
-646,A master-slave flip-flop is designed to:,Store multiple bits,Eliminate race-around condition,Act as a latch only,Reduce propagation delay,Eliminate race-around condition
-647,"If the poles of a control system lie in the right half-plane, the system is:",Stable,Marginally stable,Unstable,Oscillatory but stable,Unstable
-648,A diode in reverse bias ideally behaves as:,Open circuit,Short circuit,Voltage source,Current source,Open circuit
-649,"In a PLC system, the scan cycle is repeated continuously to:",Ensure real-time monitoring and control,Reduce memory usage,Prevent power loss,Eliminate wiring faults,Ensure real-time monitoring and control
-650,A full-wave rectifier output has a frequency:,Equal to input frequency,Half the input frequency,Twice the input frequency,Independent of input,Twice the input frequency
-651,The root locus always starts at:,Zeros of the open-loop transfer function,Poles of the open-loop transfer function,Imaginary axis,The origin,Poles of the open-loop transfer function
-652,A cascade amplifier improves:,Gain without affecting bandwidth,Input and output impedance matching,Phase stability,Current gain only,Gain without affecting bandwidth
-653,When a MOSFET is operated in cutoff region:,Channel is formed and current flows freely,Channel is absent and drain current is nearly zero,Gate current is maximum,Device behaves as a resistor,Channel is absent and drain current is nearly zero
-654,A binary counter with 6 flip-flops has a modulus of:,32,63,64,128,64
-655,The role of displacement current in Maxwell's equations was to:,Satisfy Ampere's Law continuity in capacitors,Describe inductive energy storage,Prove existence of permanent magnets,Replace Faraday's Law,Satisfy Ampere's Law continuity in capacitors
-656,The closed-loop transfer function denominator is called:,System polynomial,Characteristic equation,Stability factor,Gain equation,Characteristic equation
-657,A priority encoder differs from a normal encoder because:,It generates parity bits,It identifies the highest-order active input,It requires no input lines,It converts decimal to binary directly,It identifies the highest-order active input
-658,A unijunction transistor is often used in relaxation oscillators because:,It amplifies small signals,It exhibits negative resistance after peak point,It can switch at very high voltage,It has two independent gates,It exhibits negative resistance after peak point
-659,A PID controller improves system response by:,Eliminating overshoot completely,"Combining proportional, integral, and derivative actions",Operating as a pure integrator,Increasing phase lag,"Combining proportional, integral, and derivative actions"
-660,"In Boolean algebra, the consensus theorem eliminates:",AB + A'C + BC into AB + A'C,A + AB into A,A + A' into 1,A A'� (A + B) into A,AB + A'C + BC into AB + A'C
-661,A shift register is commonly used for:,Frequency multiplication,Serial-to-parallel or parallel-to-serial conversion,Generating square waves,Counting pulses,Serial-to-parallel or parallel-to-serial conversion
+1,"Q2. In mesh analysis, a circuit has two loops with equations: 10I1 - 5I2 = 20 and -5I1 + 15I2 = 30. Solve for I1.",1 A,2 A,3 A,4 A,2 A
+2,Q3. A resistor of 6 Ω is in parallel with a 12 Ω resistor. What is the equivalent resistance?,3 Ω,4 Ω,6 Ω,8 Ω,4 Ω
+3,Q4. A 10 μF capacitor is connected across 200 V DC. How much energy is stored?,0.1 J,0.2 J,0.4 J,0.5 J,0.2 J
+4,Q5. A 20 H inductor has a current of 5 A. What is the stored magnetic energy?,125 J,150 J,200 J,250 J,250 J
+5,Q6. A 100 Ω resistor carries 0.5 A. What is the voltage across it?,25 V,50 V,75 V,100 V,50 V
+6,Q7. Find the Thevenin resistance of a 12 V source with 6 Ω internal resistance connected to a 6 Ω load.,3 Ω,6 Ω,12 Ω,18 Ω,6 Ω
+7,Q8. A 1 kΩ resistor and 2 kΩ resistor are in series across 30 V. What is the voltage across the 2 kΩ resistor?,10 V,15 V,20 V,25 V,20 V
+8,Q9. A 100 μF capacitor is connected to 50 Hz AC with 100 V rms. Find the capacitive reactance.,15.9 Ω,31.8 Ω,63.6 Ω,100 Ω,31.8 Ω
+9,Q10. A coil has R = 20 Ω and XL = 30 Ω. Find the power factor.,0.5,0.6,0.7,0.8,0.6
+10,"Q11. A parallel RLC circuit has R=20 Ω, XL=40 Ω, XC=40 Ω. What is the admittance magnitude?",0.05 S,0.1 S,0.2 S,0.25 S,0.05 S
+11,"Q12. A series RLC circuit has R=10 Ω, L=0.1 H, C=100 μF. Find the resonant frequency.",50 Hz,100 Hz,159 Hz,318 Hz,159 Hz
+12,Q13. A load consumes 500 W at 0.8 pf lagging. Find the reactive power.,375 VAR,400 VAR,450 VAR,500 VAR,375 VAR
+13,Q14. A transmission line has Z0 = 75 Ω and load impedance 100 Ω. Find reflection coefficient.,0.14,0.25,0.33,0.40,0.14
+14,"Q15. A magnetic circuit has l=0.5 m, A=2 cm², μr=1000, N=500 turns, I=2 A. Find flux density B.",0.4 T,0.6 T,0.8 T,1.0 T,0.8 T
+15,Q16. A 5-turn coil links flux of 0.01 Wb. Find total flux linkage.,0.01 Wb-turn,0.02 Wb-turn,0.05 Wb-turn,0.1 Wb-turn,0.05 Wb-turn
+16,Q17. A diode has 0.7 V drop at 10 mA. What is the dynamic resistance?,7 Ω,14 Ω,20 Ω,28 Ω,7 Ω
+17,Q18. A full-wave rectifier supplies 100 Vdc average output. What is the rms secondary voltage if n=1?,70.7 V,100 V,141 V,200 V,141 V
+18,"Q19. A 5 V Zener diode is connected in regulation with Rs=200 Ω, load current=20 mA. Find source voltage.",7 V,8 V,9 V,10 V,9 V
+19,"Q20. A CE amplifier has β=100, Rc=2 kΩ, Vcc=10 V, bias current=1 mA. Find voltage gain (approx).",50,100,150,200,100
+20,Q21. A transistor with β=150 has base current 20 μA. Find collector current.,1.5 mA,2.5 mA,3.0 mA,3.5 mA,3.0 mA
+21,"Q22. A MOSFET has kn=2 mA/V², Vth=2 V, Vgs=4 V. Find Id.",4 mA,6 mA,8 mA,10 mA,8 mA
+22,"Q23. An op-amp has Rin=1 MΩ, Rf=100 kΩ, Vin=50 mV. Find output voltage (inverting).",-2 V,-5 V,-10 V,-20 V,-10 V
+23,"Q24. A Wien bridge oscillator requires R=10 kΩ, C=0.01 μF. Find frequency.",500 Hz,1 kHz,2 kHz,5 kHz,1 kHz
+24,Q25. A current mirror has reference current 1 mA. What is output current?,0.5 mA,1 mA,2 mA,5 mA,1 mA
+25,Q26. An op-amp has gain=100 dB. Find closed-loop gain if feedback β=0.01.,10,50,100,200,100
+26,"Q27. A Schmitt trigger has UTP=3 V, LTP=1 V. Find hysteresis width.",1 V,2 V,3 V,4 V,2 V
+27,Q28. A crystal oscillator oscillates at 10 MHz. Find its period.,0.1 μs,0.5 μs,1 μs,2 μs,0.1 μs
+28,Q29. A TRIAC is used in phase control at 50 Hz. What is the duration of one half-cycle?,5 ms,10 ms,15 ms,20 ms,10 ms
+29,Q30. A 5 V TTL gate can source 16 mA. How many 1 mA loads can it drive?,8,12,16,20,16
+30,"Q31. Find the canonical SOP form of F(A,B) = A + B.","Σm(0,1,2)","Σm(1,2,3)","Σm(2,3)","Σm(0,1,2,3)","Σm(1,2,3)"
+31,Q32. A counter has modulus 10. How many flip-flops are required?,3,4,5,6,4
+32,"Q33. A JK flip-flop has J=K=1. If clock=1 MHz, what is output frequency?",250 kHz,500 kHz,750 kHz,1 MHz,500 kHz
+33,Q34. A PLA has 4 inputs. How many minterms possible?,8,12,16,24,16
+34,Q35. A sequential circuit has 3 flip-flops. What is max number of states?,4,6,8,16,8
+35,Q36. A microprocessor with 16-bit address can access how many memory locations?,16 k,32 k,64 k,128 k,64 k
+36,Q37. An 8085 microprocessor has clock 3 MHz. Find T-state period.,0.33 μs,0.5 μs,1 μs,2 μs,0.33 μs
+37,Q38. A memory chip is 4k × 8. How many bits does it store?,32 kb,64 kb,16 kb,8 kb,32 kb
+38,"Q39. In 8086, MOV AX, BX takes 4 cycles. If clock=5 MHz, execution time?",0.8 μs,1.2 μs,2.0 μs,2.4 μs,0.8 μs
+39,Q40. An 8051 microcontroller has 128 bytes internal RAM. Address range?,00H–3FH,00H–7FH,00H–FFH,80H–FFH,00H–7FH
+40,"Q41. Find transfer function Y(s)/X(s) for block G=10/(s+5), H=1.",10/(s+15),10/(s+5),10/(s+10),10/(s+20),10/(s+15)
+41,"Q42. A system has poles at -2, -4. Is it stable?",Stable,Unstable,Marginally stable,Oscillatory,Stable
+42,Q43. A unity feedback system has G(s)=5/(s(s+2)). Find K for 10% overshoot.,5,10,20,50,10
+43,"Q44. A system has open-loop poles at -1, -2, -3. How many breakaway points in root locus?",1,2,3,None,2
+44,Q45. A system has steady-state error of 0.1 for unit ramp. Find Kv.,5,10,20,100,10
+45,Q46. A sinusoidal input has magnitude 5 V at 1 kHz. Gain=20 dB. Find output voltage.,25 V,50 V,100 V,200 V,50 V
+46,Q47. A closed-loop system has bandwidth 10 rad/s. Find rise time (approx).,0.1 s,0.2 s,0.3 s,0.4 s,0.35 s
+47,"Q48. A second-order system has ζ=0.7, ωn=10 rad/s. Find peak time.",0.22 s,0.31 s,0.44 s,0.63 s,0.44 s
+48,Q49. A unity feedback system has G(s)=100/(s(s+10)). Find steady-state error for unit step.,0,0.01,0.1,1,0
+49,Q50. A second-order system has Mp=20%. Find damping ratio ζ.,0.2,0.3,0.45,0.6,0.45
+50,Q1. A 20 Ω resistor is connected in parallel with a 30 Ω resistor across a 120 V supply. What is the total current drawn?,6 A,8 A,10 A,12 A,10 A
+51,Q2. Determine the current through a 10 Ω resistor if the applied voltage is 50 V.,2 A,4 A,5 A,10 A,5 A
+52,Q3. A coil has R = 10 Ω and L = 0.1 H connected to 50 Hz supply. What is the impedance?,18.0 Ω,20.0 Ω,22.4 Ω,25.0 Ω,22.4 Ω
+53,"Q4. A series RC circuit has R = 100 Ω, C = 20 μF connected to 50 Hz. Find capacitive reactance.",79.6 Ω,159 Ω,318 Ω,636 Ω,159 Ω
+54,"Q5. In a series RLC, R = 20 Ω, L = 0.2 H, C = 50 μF at 50 Hz. What is the net reactance?",0 Ω,10 Ω,20 Ω,40 Ω,0 Ω
+55,Q6. A 100 V DC source charges a 10 μF capacitor. Find the stored energy.,0.025 J,0.05 J,0.5 J,5 J,0.05 J
+56,Q7. A 100 V battery is connected across 50 Ω. Find the power dissipated.,100 W,150 W,200 W,250 W,200 W
+57,"Q8. In nodal analysis, two resistors 6 Ω and 3 Ω are in parallel across 12 V. Find node voltage at junction.",4 V,6 V,8 V,12 V,12 V
+58,"Q9. Using Thevenin’s theorem, a 10 Ω load is connected across a 20 Ω source with 100 V supply. Find load voltage.",20 V,25 V,33.3 V,50 V,33.3 V
+59,Q10. A 10 H inductor with 2 A current stores how much energy?,10 J,20 J,30 J,40 J,20 J
+60,Q11. A coil has flux of 2 mWb with 500 turns. Find induced emf if flux collapses in 0.01 s.,50 V,100 V,200 V,250 V,100 V
+61,Q12. A sinusoidal source is 100∠30° V across 50 Ω. Find the current.,2∠30° A,2∠−30° A,4∠30° A,4∠−30° A,2∠−30° A
+62,"Q13. For a transmission line with L = 2 μH/m and C = 0.5 μF/m, find characteristic impedance.",50 Ω,63 Ω,100 Ω,200 Ω,63 Ω
+63,"Q14. A diode clipper limits input at 5 V. If sine input peak = 10 V, what is the clipped output peak?",3 V,5 V,7 V,10 V,5 V
+64,Q15. A Zener diode rated 10 V supplies a load through 1 kΩ resistor with Vin = 15 V. Find load current if Zener current = 10 mA.,0 mA,5 mA,10 mA,15 mA,5 mA
+65,Q16. A half-wave rectifier with 100 V rms AC input uses ideal diode. Find average DC output.,22.5 V,31.8 V,45 V,63.7 V,31.8 V
+66,"Q17. A common-emitter BJT has β = 100, Ic = 2 mA. Find Ib.",0.01 mA,0.02 mA,0.2 mA,2 mA,0.02 mA
+67,Q18. A transistor with β = 50 requires Ic = 100 mA. Find base current.,1 mA,2 mA,5 mA,10 mA,2 mA
+68,"Q19. An FET has Idss = 10 mA, Vp = −5 V, Vgs = −2 V. Find Id.",2.56 mA,4 mA,6 mA,8 mA,6 mA
+69,Q20. A 741 op-amp with input 2 mV and gain 1000 gives output of?,0.2 V,1 V,2 V,20 V,2 V
+70,"Q21. A low-pass RC filter has R = 1 kΩ, C = 0.1 μF. Find cutoff frequency.",159 Hz,1.59 kHz,15.9 kHz,159 kHz,1.59 kHz
+71,"Q22. A Wien bridge oscillator has R = 10 kΩ, C = 0.01 μF. Find frequency.",159 Hz,1.59 kHz,15.9 kHz,159 kHz,1.59 kHz
+72,Q23. A current mirror has reference 1 mA. What is output current ideally?,0 mA,0.5 mA,1 mA,2 mA,1 mA
+73,Q24. An SCR conducts for 120° in each half cycle of 60 Hz supply. Find average DC output voltage if input is 200 V rms.,63.7 V,90 V,127.3 V,180 V,90 V
+74,Q25. A TRIAC controls 230 V rms with firing angle 90°. Find rms output voltage.,115 V,162 V,200 V,230 V,162 V
+75,Q26. A photodiode generates 20 μA at 1 mW incident light. Find responsivity.,0.01 A/W,0.02 A/W,0.2 A/W,20 A/W,0.02 A/W
+76,Q27. A strain gauge with 120 Ω and gauge factor 2 changes resistance by 0.24 Ω. Find strain.,500 με,1000 με,2000 με,4000 με,1000 με
+77,Q28. A PLC input of 24 V draws 8 mA. Find input resistance.,1 kΩ,2 kΩ,3 kΩ,4 kΩ,3 kΩ
+78,Q29. A Boolean function F = AB + A'C. Minimize it.,AB + C,A + C,B + C,AC + B,AB + C
+79,Q30. Simplify F = A + AB.,A,AB,B,A + B,A
+80,Q31. A JK flip-flop with J = K = 1 toggles at 2 MHz clock. What is output frequency?,0.5 MHz,1 MHz,2 MHz,4 MHz,1 MHz
+81,Q32. A counter has mod-16. Input clock = 1 MHz. Find output frequency.,62.5 kHz,125 kHz,250 kHz,500 kHz,62.5 kHz
+82,Q33. A Moore FSM has 4 flip-flops. Maximum states?,8,12,16,32,16
+83,Q34. A microprocessor with 16 address lines can access how many locations?,16 k,32 k,64 k,128 k,64 k
+84,Q35. A microcontroller with 12 MHz clock and 12 cycles/ instruction executes how many instructions/sec?,0.5 MIPS,1 MIPS,2 MIPS,4 MIPS,1 MIPS
+85,"Q36. If instruction requires 3 machine cycles at 4 MHz clock, what is execution time?",0.25 μs,0.5 μs,0.75 μs,3 μs,0.75 μs
+86,"Q37. For system G(s) = 10/(s(s+2)), find type and number of poles at origin.","Type 0, 0 poles","Type 1, 1 pole","Type 2, 2 poles","Type 1, 2 poles","Type 1, 1 pole"
+87,Q38. A system has transfer function G(s)H(s) = 20/(s(s+5)). Find steady-state error for unit ramp.,0,0.05,0.1,∞,0.05
+88,Q39. A unity feedback system has G(s) = 5/(s+10). Find static velocity error constant Kv.,0.5,5,10,∞,0.5
+89,"Q40. For G(s)H(s) = 10/(s+1)(s+2), determine poles.","−1, −2","0, −1","−5, −10",±jω,"−1, −2"
+90,"Q41. A system has ζ = 0.5, ωn = 10 rad/s. Find peak time.",0.1 s,0.2 s,0.3 s,0.5 s,0.3 s
+91,"Q42. A feedback amplifier has A = 100, β = 0.01. Find closed-loop gain.",50,75,90,100,50
+92,Q43. A system has open-loop transfer function 100/(s(s+5)). Find system type.,Type 0,Type 1,Type 2,Type 3,Type 1
+93,Q44. Root locus of 1/(s(s+2)) has centroid at?,−1,−2,−3,−4,−1
+94,Q45. Nyquist plot encircles (−1+j0) point twice clockwise. What is system stability?,Stable,Unstable,Marginally stable,Cannot be determined,Unstable
+95,Q46. A Bode plot shows slope −20 dB/decade and gain 0 dB at ω = 10 rad/s. Find gain margin if phase = −150°.,10 dB,20 dB,30 dB,∞,10 dB
+96,"Q47. A 50 Hz sinusoidal source feeds 0.1 H, 20 Ω resistor. Find power factor.",0.5,0.707,0.866,1.0,0.866
+97,Q48. A capacitor 100 μF charged to 100 V discharges through 1 kΩ. Find time constant.,0.01 s,0.1 s,1 s,10 s,0.1 s
+98,Q49. A coil with 200 turns has flux linkage 0.02 Wb. Find inductance if current is 2 A.,1 H,2 H,5 H,10 H,2 H
+99,"Q50. A DC motor draws 10 A at 200 V. If back emf is 180 V, find armature resistance.",1 Ω,2 Ω,3 Ω,4 Ω,2 Ω
+100,Q51. A 12 V battery supplies a current of 2 A for 3 hours. Find the energy delivered.,72 Wh,24 Wh,18 Wh,12 Wh,72 Wh
+101,"Q52. In a 4 Ω resistor, 8 A flows. Find the power dissipated.",16 W,32 W,64 W,128 W,256 W
+102,"Q53. A 120 V, 60 Hz source supplies a load of Z = 20 + j15 Ω. Find power factor.",0.6,0.707,0.8,0.9,0.8
+103,Q54. Two resistors 20 Ω and 30 Ω in series are connected across 100 V. Find current.,2 A,3 A,4 A,5 A,2 A
+104,"Q55. A coil has L = 50 mH and R = 5 Ω. At 60 Hz, what is impedance?",5 Ω,10 Ω,15 Ω,20 Ω,10 Ω
+105,Q56. A capacitor of 100 μF is charged to 50 V. Find energy stored.,0.125 J,0.25 J,0.5 J,1.25 J,0.125 J
+106,Q57. A 10 Ω resistor is connected to 100 V DC. Find power dissipated.,100 W,500 W,1000 W,2000 W,1000 W
+107,"Q58. A series RC has R = 20 Ω, C = 100 μF at 50 Hz. Find total impedance.",18 Ω,20 Ω,25 Ω,30 Ω,25 Ω
+108,"Q59. A source 120 V, 60 Hz supplies Z = 10 − j10 Ω. Find current magnitude.",6 A,8.5 A,12 A,15 A,8.5 A
+109,Q60. Thevenin equivalent of 100 V source with 10 Ω in series across 20 Ω load. Find Vth.,33.3 V,50 V,66.7 V,100 V,66.7 V
+110,Q61. A 5 H inductor carries 4 A. Find energy stored.,20 J,30 J,40 J,50 J,40 J
+111,"Q62. A transformer has N1/N2 = 10. If V1 = 120 V, find V2.",1.2 V,6 V,12 V,1200 V,12 V
+112,"Q63. For a parallel RC with R = 1 kΩ and C = 10 μF, find admittance magnitude at 50 Hz.",0.002 S,0.01 S,0.05 S,0.1 S,0.01 S
+113,Q64. A coaxial cable has inductance per unit length L = 0.25 μH/m and capacitance 100 pF/m. Find velocity factor.,0.5c,0.6c,0.7c,0.8c,0.5c
+114,Q65. A diode bridge rectifier with 120 V rms input produces what average DC output (ideal diodes)?,54 V,76 V,108 V,120 V,108 V
+115,Q66. A Zener diode rated 12 V with Rs = 220 Ω is fed by 24 V. Find current if load draws 20 mA.,20 mA,40 mA,54.5 mA,100 mA,54.5 mA
+116,Q67. A transistor with β = 200 and collector current 40 mA. Find base current.,0.1 mA,0.2 mA,0.3 mA,0.4 mA,0.2 mA
+117,"Q68. A JFET has Idss = 12 mA, Vp = −6 V, Vgs = −3 V. Find Id.",3 mA,4 mA,6 mA,9 mA,3 mA
+118,"Q69. An op-amp in inverting mode has Rf = 100 kΩ, Rin = 10 kΩ. Find gain.",−5,−10,−20,−100,−10
+119,"Q70. An op-amp integrator with R = 100 kΩ, C = 0.1 μF has input 1 V DC. Find output slope.",−10 V/s,−50 V/s,−100 V/s,−1000 V/s,−100 V/s
+120,"Q71. A BJT amplifier has input 10 mV, gain 200. Find output.",1 V,2 V,5 V,10 V,2 V
+121,Q72. A Wien oscillator has RC = 1 ms. Find frequency.,159 Hz,1.59 kHz,15.9 kHz,159 kHz,159 Hz
+122,Q73. A class B push-pull amplifier with 20 V peak input across 8 Ω. Find max output power.,12.5 W,25 W,50 W,100 W,25 W
+123,Q74. An SCR conducts with average load current 5 A at 100 V DC. Find power delivered.,250 W,400 W,500 W,1000 W,500 W
+124,"Q75. A DIAC triggers at 30 V. If applied voltage is 60 V, what is conduction voltage?",0 V,15 V,30 V,60 V,30 V
+125,Q76. A photodiode has responsivity 0.5 A/W at 850 nm. Find photocurrent for 2 mW light.,0.5 mA,1 mA,2 mA,5 mA,1 mA
+126,"Q77. A thermocouple produces 40 μV/°C. For 100 °C rise, output is?",2 mV,4 mV,40 mV,400 mV,4 mV
+127,Q78. A PLC scans 1000 instructions in 1 ms. Find scan rate.,0.5 MIPS,1 MIPS,2 MIPS,10 MIPS,1 MIPS
+128,Q79. Simplify F = (A + B)(A + B').,A,B,A + B,A' + B,A
+129,Q80. Implement XOR using NAND gates requires minimum how many gates?,3,4,5,6,4
+130,Q81. A D flip-flop with clock frequency 2 MHz divides frequency by?,1,2,4,8,2
+131,Q82. A mod-8 counter with 1 MHz clock outputs what frequency?,62.5 kHz,125 kHz,250 kHz,500 kHz,125 kHz
+132,Q83. A shift register of 4 stages stores how many bits?,2,4,8,16,4
+133,Q84. A microprocessor with 20-bit address bus can address how many locations?,64 k,128 k,512 k,1 MB,1 MB
+134,Q85. A 10 MHz clock with 10 states produces instruction cycle of?,0.1 μs,0.5 μs,1 μs,2 μs,1 μs
+135,"Q86. If CPI = 3 and clock = 4 MHz, find instruction execution rate.",0.25 MIPS,0.5 MIPS,1 MIPS,2 MIPS,1.33 MIPS
+136,Q87. A program requires 2000 cycles at 2 MHz. Find execution time.,0.5 ms,1 ms,2 ms,4 ms,1 ms
+137,Q88. A unity feedback system has G(s) = 50/(s+10). Find steady-state error for unit step.,0.02,0.05,0.1,1,0.02
+138,"Q89. For system G(s) = 100/(s(s+5)), find error constant Kv.",10,20,50,100,20
+139,"Q90. A second-order system with ζ = 0.6, ωn = 5 rad/s. Find settling time (2%).",0.67 s,1 s,1.5 s,2 s,1.33 s
+140,Q91. A control system has transfer function G(s) = 10/(s(s+2)). Find system type.,Type 0,Type 1,Type 2,Type 3,Type 1
+141,Q92. A system with poles −1 and −3. Find time constant of dominant pole.,0.33 s,1 s,3 s,10 s,1 s
+142,Q93. A lead compensator adds phase of 30° at ω = 10 rad/s. Find gain crossover frequency.,5 rad/s,10 rad/s,20 rad/s,30 rad/s,10 rad/s
+143,Q94. A system with open-loop poles at 0 and −5 has centroid of root locus at?,−2.5,−5,−10,0,−2.5
+144,"Q95. If Nyquist plot encircles (−1,0) once clockwise and system has 1 open-loop pole RHP, stability is?",Stable,Unstable,Marginally stable,Conditionally stable,Stable
+145,Q96. A Bode magnitude slope of −40 dB/dec indicates how many poles?,1,2,3,4,2
+146,"Q97. A sinusoidal source 100 V, 50 Hz connected to R = 20 Ω, L = 0.1 H. Find current.",3.2 A,4 A,5 A,10 A,4 A
+147,Q98. A 100 μF capacitor charges through 100 Ω resistor from 100 V DC. Find initial charging current.,0.5 A,1 A,2 A,10 A,1 A
+148,Q99. A coil of 500 turns links flux 0.1 Wb. Find inductance if current is 5 A.,5 H,10 H,20 H,50 H,10 H
+149,"Q100. A 220 V motor draws 15 A, back emf = 200 V. Find armature resistance.",0.5 Ω,1.0 Ω,1.33 Ω,2 Ω,1.33 Ω
+150,Q101. A 24 V source supplies a 12 Ω resistor. Find current.,1 A,2 A,3 A,4 A,2 A
+151,Q102. A 50 Ω load connected to 200 V DC consumes what power?,400 W,600 W,800 W,1000 W,800 W
+152,"Q103. A series RL circuit has R = 10 Ω, L = 0.05 H at 60 Hz. Find reactance.",9.42 Ω,18.85 Ω,31.4 Ω,62.8 Ω,18.85 Ω
+153,Q104. Two 20 Ω resistors in parallel connected across 100 V. Find current.,2.5 A,5 A,7.5 A,10 A,10 A
+154,Q105. A 50 μF capacitor at 60 Hz has reactance?,31.8 Ω,53 Ω,106 Ω,318 Ω,53 Ω
+155,"Q106. A series RLC with R = 20 Ω, L = 0.1 H, C = 100 μF at resonance has impedance?",0 Ω,10 Ω,20 Ω,∞,20 Ω
+156,Q107. Energy stored in 20 μF capacitor charged to 200 V?,0.2 J,0.4 J,0.8 J,2 J,0.4 J
+157,Q108. A 100 V source across 25 Ω draws current?,2 A,3 A,4 A,5 A,4 A
+158,Q109. Norton equivalent of 12 V source with 6 Ω series across 3 Ω load gives current?,1 A,1.5 A,2 A,3 A,1.33 A
+159,Q110. A 2 H inductor with 3 A current stores energy?,3 J,6 J,9 J,12 J,9 J
+160,Q111. A coil of 1000 turns links flux of 0.05 Wb. Find inductance if current = 5 A.,5 H,10 H,15 H,20 H,10 H
+161,Q112. A sinusoidal source 50∠0° V across Z = 10∠30°. Find current.,5∠30° A,5∠−30° A,10∠30° A,10∠−30° A,5∠−30° A
+162,Q113. A line has Z0 = 75 Ω and load 100 Ω. Find reflection coefficient.,0.1,0.14,0.25,0.33,0.14
+163,"Q114. A diode limiter limits at 6 V. If input is 12 V peak sine, find output peak.",6 V,8 V,10 V,12 V,6 V
+164,Q115. A full-wave rectifier with 200 V rms input gives average DC output?,90 V,127 V,180 V,200 V,180 V
+165,Q116. A Zener diode 5.1 V with Rs = 100 Ω fed by 12 V. Load current = 20 mA. Find Zener current.,20 mA,30 mA,40 mA,50 mA,30 mA
+166,Q117. A BJT has β = 150 and Ic = 75 mA. Find Ib.,0.25 mA,0.5 mA,0.75 mA,1 mA,0.5 mA
+167,"Q118. A MOSFET has Ids = 8 mA at Vgs = 4 V, with K = 0.5 mA/V². Find Vth.",1 V,2 V,3 V,4 V,2 V
+168,"Q119. A differential amplifier has Rd = 20 kΩ, gm = 2 mA/V. Find gain.",20,40,80,100,40
+169,"Q120. A non-inverting op-amp with Rf = 90 kΩ, Rin = 10 kΩ. Gain is?",5,9,10,11,10
+170,"Q121. A low-pass filter has R = 2 kΩ, C = 0.05 μF. Find cutoff frequency.",1.59 kHz,2 kHz,5 kHz,10 kHz,1.59 kHz
+171,"Q122. A Hartley oscillator has L1 = 10 μH, L2 = 40 μH, C = 100 pF. Find frequency.",1 MHz,2 MHz,3 MHz,4 MHz,2 MHz
+172,Q123. A current mirror provides 2 mA reference. Find output ideally.,1 mA,2 mA,3 mA,4 mA,2 mA
+173,Q124. An SCR triggers at 90° in 60 Hz supply with 200 V rms input. Find average DC output.,45 V,63 V,90 V,127 V,63 V
+174,Q125. A TRIAC with 230 V rms input and firing angle 60°. Find rms output.,115 V,162 V,200 V,230 V,200 V
+175,Q126. A photodiode with 0.4 A/W receives 5 mW. Find photocurrent.,1 mA,2 mA,3 mA,4 mA,2 mA
+176,"Q127. A strain gauge with GF = 2, R = 120 Ω changes by 0.12 Ω. Find strain.",250 με,500 με,1000 με,2000 με,500 με
+177,Q128. A PLC with 2 ms scan time executes 2000 instructions. Find speed.,0.5 MIPS,1 MIPS,2 MIPS,4 MIPS,1 MIPS
+178,Q129. Simplify F = AB + A'B.,A,B,XOR,XNOR,XOR
+179,"Q130. A K-map with minterms (0,2,5,7) simplifies to?",A'B + AB',A'B' + AB,A XOR B,A XNOR B,A XOR B
+180,Q131. A JK flip-flop toggles at 1 MHz clock. Output frequency?,0.25 MHz,0.5 MHz,1 MHz,2 MHz,0.5 MHz
+181,Q132. A mod-32 counter with 2 MHz clock outputs what frequency?,31.25 kHz,62.5 kHz,125 kHz,250 kHz,62.5 kHz
+182,Q133. A 3-bit shift register stores maximum bits?,2,3,4,8,3
+183,Q134. A microprocessor with 18-bit address bus can address how many locations?,64 k,128 k,256 k,512 k,256 k
+184,Q135. A microcontroller with 16 MHz clock and 4 cycles/instruction. Find MIPS.,1,2,3,4,4
+185,Q136. A program requires 5000 cycles at 5 MHz clock. Execution time?,0.5 ms,1 ms,2 ms,5 ms,1 ms
+186,"Q137. For G(s) = 25/(s(s+5)), find steady-state error for unit ramp.",0.02,0.04,0.05,0.1,0.04
+187,Q138. A system has G(s) = 10/(s+2). Kv = ?,0,5,10,∞,0
+188,"Q139. A system ζ = 0.7, ωn = 4 rad/s. Find rise time.",0.25 s,0.35 s,0.5 s,1 s,0.5 s
+189,"Q140. For G(s)H(s) = 50/(s(s+2)), system type?",0,1,2,3,1
+190,"Q141. A system poles at −2, −5. Dominant time constant?",0.1 s,0.2 s,0.5 s,1 s,0.5 s
+191,Q142. Root locus with poles at 0 and −4. Centroid?,−2,−4,−6,0,−2
+192,Q143. Nyquist plot encircles (−1+j0) point twice clockwise with no RHP poles. Stability?,Stable,Unstable,Marginally stable,Conditionally stable,Unstable
+193,Q144. Bode slope −60 dB/decade indicates how many poles?,1,2,3,4,3
+194,"Q145. A 60 Hz source feeds R = 10 Ω, L = 0.1 H. Current if V = 120 V?",6 A,8 A,10 A,12 A,10 A
+195,Q146. A capacitor 50 μF charged to 100 V through 200 Ω. Initial current?,0.25 A,0.5 A,1 A,2 A,0.5 A
+196,Q147. A coil 1000 turns links 0.2 Wb flux. Current = 10 A. Find L.,10 H,15 H,20 H,25 H,20 H
+197,"Q148. A 240 V motor draws 20 A, back emf = 220 V. Armature resistance?",0.5 Ω,1 Ω,1.5 Ω,2 Ω,1 Ω
+198,Q149. A 100 V supply powers 25 Ω resistor for 2 hours. Energy consumed?,0.4 kWh,0.8 kWh,1 kWh,2 kWh,0.8 kWh
+199,Q150. A DC source 48 V across 12 Ω resistor. Find power.,96 W,144 W,192 W,240 W,192 W
+200,Q151. A 10 Ω resistor connected to 20 V DC. Find current.,1 A,2 A,3 A,4 A,2 A
+201,Q152. Two 60 Ω resistors in series across 120 V. Find current.,0.5 A,1 A,2 A,4 A,1 A
+202,Q153. A 100 μF capacitor at 50 Hz has reactance?,15.9 Ω,31.8 Ω,53 Ω,159 Ω,31.8 Ω
+203,"Q154. A coil with R = 5 Ω, L = 0.02 H at 50 Hz has impedance?",5 Ω,6.28 Ω,7.5 Ω,10 Ω,6.28 Ω
+204,"Q155. A parallel RL circuit has R = 10 Ω, L = 0.1 H at 50 Hz. Find admittance magnitude.",0.05 S,0.1 S,0.15 S,0.2 S,0.1 S
+205,Q156. Energy stored in 50 μF capacitor at 100 V?,0.25 J,0.5 J,1 J,2 J,0.25 J
+206,Q157. A 24 V battery supplies 3 A for 4 hours. Find energy delivered.,144 Wh,216 Wh,288 Wh,324 Wh,288 Wh
+207,Q158. A 120 V supply powers 60 Ω load. Find power.,120 W,180 W,200 W,240 W,240 W
+208,Q159. A coil 200 turns links flux 0.1 Wb. Current = 4 A. Find inductance.,2 H,3 H,5 H,10 H,5 H
+209,Q160. A 20 H inductor with 2 A current. Energy stored?,20 J,30 J,40 J,50 J,40 J
+210,Q161. A source 100∠0° V across Z = 25∠45°. Current?,2∠0° A,2∠−45° A,4∠−45° A,5∠−45° A,4∠−45° A
+211,"Q162. Transmission line has L = 1 μH/m, C = 100 pF/m. Find Z0.",50 Ω,75 Ω,100 Ω,200 Ω,100 Ω
+212,Q163. A diode rectifier with 50 V rms input. Average DC output?,15.9 V,25 V,31.8 V,50 V,31.8 V
+213,"Q164. A Zener diode 9 V with Rs = 100 Ω, Vin = 15 V, load draws 20 mA. Zener current?",20 mA,30 mA,40 mA,50 mA,30 mA
+214,"Q165. A BJT has β = 100, Ib = 0.5 mA. Find Ic.",25 mA,50 mA,75 mA,100 mA,50 mA
+215,"Q166. A MOSFET has Id = 8 mA, Vgs = 6 V, K = 0.5 mA/V², Vth = 2 V. Verify Id?",6 mA,8 mA,10 mA,12 mA,8 mA
+216,"Q167. A common-source FET amplifier has gm = 5 mA/V, Rd = 2 kΩ. Gain?",5,10,15,−10,−10
+217,"Q168. An op-amp inverting amplifier with Rin = 20 kΩ, Rf = 200 kΩ. Gain?",−5,−10,−15,−20,−10
+218,"Q169. An op-amp differentiator with R = 10 kΩ, C = 0.01 μF, input = 1 V sine at 1 kHz. Output amplitude?",0.1 V,0.63 V,6.28 V,62.8 V,62.8 V
+219,"Q170. A band-pass filter has f1 = 1 kHz, f2 = 10 kHz. Find bandwidth.",1 kHz,5 kHz,9 kHz,10 kHz,9 kHz
+220,"Q171. A Colpitts oscillator has C1 = 100 pF, C2 = 200 pF, L = 10 μH. Frequency?",1 MHz,2 MHz,3 MHz,4 MHz,2 MHz
+221,"Q172. An SCR with 100 V, 5 A average load current. Power?",250 W,400 W,500 W,1000 W,500 W
+222,"Q173. A TRIAC with 120 V rms, firing angle 90°. RMS output?",60 V,84 V,100 V,120 V,84 V
+223,Q174. A photodiode with 0.6 A/W and 10 mW light. Photocurrent?,3 mA,6 mA,9 mA,12 mA,6 mA
+224,Q175. A thermistor changes resistance 10 kΩ to 5 kΩ for ΔT = 50°C. Find sensitivity.,50 Ω/°C,75 Ω/°C,100 Ω/°C,200 Ω/°C,100 Ω/°C
+225,Q176. A PLC executes 500 instructions in 0.5 ms. Speed?,0.5 MIPS,1 MIPS,2 MIPS,4 MIPS,1 MIPS
+226,Q177. Simplify F = (A + B)(A' + B).,A,B,A XOR B,B,B
+227,"Q178. A K-map with minterms (1,3,4,6). Simplified F?",A XOR B,A XNOR B,AB' + A'B,AB + A'B',A XOR B
+228,Q179. A T flip-flop with 4 MHz clock outputs?,1 MHz,2 MHz,4 MHz,8 MHz,2 MHz
+229,Q180. A mod-64 counter with 1 MHz clock outputs?,7.812 kHz,15.625 kHz,31.25 kHz,62.5 kHz,15.625 kHz
+230,Q181. A 6-bit shift register stores how many bits?,4,6,8,16,6
+231,Q182. A microprocessor with 12-bit address bus addresses how many locations?,1 k,2 k,4 k,8 k,4 k
+232,"Q183. A microcontroller 20 MHz clock, 4 cycles per instruction. MIPS?",2.5,4,5,10,5
+233,"Q184. If CPI = 2 and clock = 8 MHz, rate?",2 MIPS,3 MIPS,4 MIPS,5 MIPS,4 MIPS
+234,Q185. A program requires 4000 cycles at 2 MHz clock. Time?,1 ms,1.5 ms,2 ms,3 ms,2 ms
+235,Q186. A unity feedback system G(s) = 20/(s+5). Step error?,0.05,0.1,0.2,1,0.05
+236,"Q187. For G(s) = 50/(s(s+10)), unit ramp error?",0.05,0.1,0.2,∞,0.1
+237,"Q188. ζ = 0.5, ωn = 8 rad/s. Peak time?",0.25 s,0.4 s,0.5 s,0.75 s,0.4 s
+238,Q189. G(s)H(s) = 100/(s(s+4)). System type?,0,1,2,3,1
+239,"Q190. Poles at −1, −2, −3. Dominant time constant?",0.33 s,0.5 s,1 s,2 s,1 s
+240,Q191. Root locus of 1/(s(s+4)) centroid?,−1,−2,−3,−4,−2
+241,"Q192. Nyquist encircles (−1,0) counterclockwise once. Stability?",Stable,Unstable,Marginally stable,Conditionally stable,Stable
+242,Q193. Bode slope −80 dB/dec indicates poles?,2,3,4,5,4
+243,"Q194. A 50 Hz, 240 V source feeds R = 20 Ω, L = 0.2 H. Find current.",5 A,6 A,7 A,8 A,6 A
+244,Q195. A 200 μF capacitor charges through 50 Ω from 100 V. Initial current?,1 A,2 A,3 A,4 A,2 A
+245,Q196. A coil 800 turns links 0.08 Wb flux. Current = 4 A. Find L.,10 H,15 H,20 H,25 H,16 H
+246,"Q197. A 220 V motor draws 10 A, back emf = 200 V. Ra?",1 Ω,2 Ω,3 Ω,4 Ω,2 Ω
+247,Q198. A 50 V source across 10 Ω for 1 hour. Energy consumed?,0.1 kWh,0.2 kWh,0.25 kWh,0.5 kWh,0.25 kWh
+248,Q199. A DC source 36 V across 12 Ω. Find power.,54 W,72 W,84 W,108 W,108 W
