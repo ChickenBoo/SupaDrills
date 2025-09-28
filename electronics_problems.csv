@@ -1,0 +1,248 @@
+ID,Question,Choice_1,Choice_2,Choice_3,Choice_4,Answer
+1,"Q2. In mesh analysis, a circuit has two loops with equations: 10I1 - 5I2 = 20 and -5I1 + 15I2 = 30. Solve for I1.","""1 A","""2 A","""3 A ","""4 A","""2 A"
+2,Q3. A resistor of 6 ohms is in parallel with a 12 ohms resistor. What is the equivalent resistance?,3 ohms,4 ohms,6 ohms,8 ohms,4 ohms
+3,Q4. A 10uF capacitor is connected across 200 V DC. How much energy is stored?,0.1 J,0.2 J,0.4 J,0.5 J,0.2 J
+4,Q5. A 20 H inductor has a current of 5 A. What is the stored magnetic energy?,125 J,150 J,200 J,250 J,250 J
+5,Q6. A 100 ohms resistor carries 0.5 A. What is the voltage across it?,25 V,50 V,75 V,100 V,50 V
+6,Q7. Find the Thevenin resistance of a 12 V source with 6 ohms internal resistance connected to a 6 ohms load.,3 ohms,6 ohms,12 ohms,18 ohms,6 ohms
+7,Q8. A 1 kohms resistor and 2 kohms resistor are in series across 30 V. What is the voltage across the 2 kohms resistor?,10 V,15 V,20 V,25 V,20 V
+8,Q9. A 100uF capacitor is connected to 50 Hz AC with 100 V rms. Find the capacitive reactance.,15.9 ohms,31.8 ohms,63.6 ohms,100 ohms,31.8 ohms
+9,Q10. A coil has R = 20 ohms and XL = 30 ohms. Find the power factor.,0.5,0.6,0.7,0.8,0.6
+10,"Q11. A parallel RLC circuit has R=20 ohms, XL=40 ohms, XC=40 ohms. What is the admittance magnitude?",0.05 S,0.1 S,0.2 S,0.25 S,0.05 S
+11,"Q12. A series RLC circuit has R=10 ohms, L=0.1 H, C=100uF. Find the resonant frequency.",50 Hz,100 Hz,159 Hz,318 Hz,159 Hz
+12,Q13. A load consumes 500 W at 0.8 pf lagging. Find the reactive power.,375 VAR,400 VAR,450 VAR,500 VAR,375 VAR
+13,Q14. A transmission line has Z0 = 75 ohms and load impedance 100 ohms. Find reflection coefficient.,0.14,0.25,0.33,0.4,0.14
+14,"Q15. A magnetic circuit has l=0.5 m, A=2 cm², ur=1000, N=500 turns, I=2 A. Find flux density B.",0.4 T,0.6 T,0.8 T,1.0 T,0.8 T
+15,Q16. A 5-turn coil links flux of 0.01 Wb. Find total flux linkage.,0.01 Wb-turn,0.02 Wb-turn,0.05 Wb-turn,0.1 Wb-turn,0.05 Wb-turn
+16,Q17. A diode has 0.7 V drop at 10 mA. What is the dynamic resistance?,7 ohms,14 ohms,20 ohms,28 ohms,7 ohms
+17,Q18. A full-wave rectifier supplies 100 Vdc average output. What is the rms secondary voltage if n=1?,70.7 V,100 V,141 V,200 V,141 V
+18,"Q19. A 5 V Zener diode is connected in regulation with Rs=200 ohms, load current=20 mA. Find source voltage.",7 V,8 V,9 V,10 V,9 V
+19,"Q20. A CE amplifier has betta=100, Rc=2 kohms, Vcc=10 V, bias current=1 mA. Find voltage gain (approx).",50,100,150,200,100
+20,Q21. A transistor with Î²=150 has base current 20uA. Find collector current.,1.5 mA,2.5 mA,3.0 mA,3.5 mA,3.0 mA
+21,"Q22. A MOSFET has kn=2 mA/V², Vth=2 V, Vgs=4 V. Find Id.",4 mA,6 mA,8 mA,10 mA,8 mA
+22,"Q23. An op-amp has Rin=1 Mohms, Rf=100 kohms, Vin=50 mV. Find output voltage (inverting).",-2 V,-5 V,-10 V,-20 V,-10 V
+23,"Q24. A Wien bridge oscillator requires R=10 kohms, C=0.01uF. Find frequency.",500 Hz,1 kHz,2 kHz,5 kHz,1 kHz
+24,Q25. A current mirror has reference current 1 mA. What is output current?,0.5 mA,1 mA,2 mA,5 mA,1 mA
+25,Q26. An op-amp has gain=100 dB. Find closed-loop gain if feedback Î²=0.01.,10,50,100,200,100
+26,"Q27. A Schmitt trigger has UTP=3 V, LTP=1 V. Find hysteresis width.",1 V,2 V,3 V,4 V,2 V
+27,Q28. A crystal oscillator oscillates at 10 MHz. Find its period.,0.1 us,0.5 us,1 us,2 us,0.1 us
+28,Q29. A TRIAC is used in phase control at 50 Hz. What is the duration of one half-cycle?,5 ms,10 ms,15 ms,20 ms,10 ms
+29,Q30. A 5 V TTL gate can source 16 mA. How many 1 mA loads can it drive?,8,12,16,20,16
+31,Q32. A counter has modulus 10. How many flip-flops are required?,3,4,5,6,4
+32,"Q33. A JK flip-flop has J=K=1. If clock=1 MHz, what is output frequency?",250 kHz,500 kHz,750 kHz,1 MHz,500 kHz
+33,Q34. A PLA has 4 inputs. How many minterms possible?,8,12,16,24,16
+34,Q35. A sequential circuit has 3 flip-flops. What is max number of states?,4,6,8,16,8
+35,Q36. A microprocessor with 16-bit address can access how many memory locations?,16 k,32 k,64 k,128 k,64 k
+36,Q37. An 8085 microprocessor has clock 3 MHz. Find T-state period.,0.33us,0.5us,1us,2us,0.33us
+37,Q38. A memory chip is 4k x 8. How many bits does it store?,32 kb,64 kb,16 kb,8 kb,32 kb
+38,"Q39. In 8086, MOV AX, BX takes 4 cycles. If clock=5 MHz, execution time?",0.8us,1.2us,2.0us,2.4us,0.8us
+39,Q40. An 8051 microcontroller has 128 bytes internal RAM. Address range?,00H€“3FH,00H€“7FH,00H€“FFH,80H€“FFH,00H€“7FH
+40,"Q41. Find transfer function Y(s)/X(s) for block G=10/(s+5), H=1.",10/(s+15),10/(s+5),10/(s+10),10/(s+20),10/(s+15)
+41,"Q42. A system has poles at -2, -4. Is it stable?",Stable,Unstable,Marginally stable,Oscillatory,Stable
+42,Q43. A unity feedback system has G(s)=5/(s(s+2)). Find K for 10% overshoot.,5,10,20,50,10
+43,"Q44. A system has open-loop poles at -1, -2, -3. How many breakaway points in root locus?",1,2,3,None,2
+44,Q45. A system has steady-state error of 0.1 for unit ramp. Find Kv.,5,10,20,100,10
+45,Q46. A sinusoidal input has magnitude 5 V at 1 kHz. Gain=20 dB. Find output voltage.,25 V,50 V,100 V,200 V,50 V
+46,Q47. A closed-loop system has bandwidth 10 rad/s. Find rise time (approx).,0.1 s,0.2 s,0.3 s,0.4 s,0.35 s
+47,"Q48. A second-order system hasDamping Ratio=0.7,  Natural Frequency=10 rad/s. Find peak time.",0.22 s,0.31 s,0.44 s,0.63 s,0.44 s
+48,Q49. A unity feedback system has G(s)=100/(s(s+10)). Find steady-state error for unit step.,0,0.01,0.1,1,0
+49,Q50. A second-order system has Mp=20%. Find damping ratioDamping Ratio.,0.2,0.3,0.45,0.6,0.45
+50,Q1. A 20 ohms resistor is connected in parallel with a 30 ohms resistor across a 120 V supply. What is the total current drawn?,"""6 A","""8 A","""10 A","""12 A","""10 A"
+51,Q2. Determine the current through a 10 ohms resistor if the applied voltage is 50 V.,"""2 A","""4 A","""5 A","""10 A","""5 A"
+52,Q3. A coil has R = 10 ohms and L = 0.1 H connected to 50 Hz supply. What is the impedance?,18.0 ohms,20.0 ohms,22.4 ohms,25.0 ohms,22.4 ohms
+53,"Q4. A series RC circuit has R = 100 ohms, C = 20uF connected to 50 Hz. Find capacitive reactance.",79.6 ohms,159 ohms,318 ohms,636 ohms,159 ohms
+54,"Q5. In a series RLC, R = 20 ohms, L = 0.2 H, C = 50uF at 50 Hz. What is the net reactance?",0 ohms,10 ohms,20 ohms,40 ohms,0 ohms
+55,Q6. A 100 V DC source charges a 10uF capacitor. Find the stored energy.,0.025 J,0.05 J,0.5 J,5 J,0.05 J
+56,Q7. A 100 V battery is connected across 50 ohms. Find the power dissipated.,100 W,150 W,200 W,250 W,200 W
+57,"Q8. In nodal analysis, two resistors 6 ohms and 3 ohms are in parallel across 12 V. Find node voltage at junction.",4 V,6 V,8 V,12 V,12 V
+58,"Q9. Using Thevenin's theorem, a 10 ohms load is connected across a 20 ohms source with 100 V supply. Find load voltage.",20 V,25 V,33.3 V,50 V,33.3 V
+59,Q10. A 10 H inductor with 2 A current stores how much energy?,10 J,20 J,30 J,40 J,20 J
+60,Q11. A coil has flux of 2 mWb with 500 turns. Find induced emf if flux collapses in 0.01 s.,50 V,100 V,200 V,250 V,100 V
+61,Q12. A sinusoidal source is 100mod(30) V across 50 ohms. Find the current.,2mod 30° A,2mod-30° A,4mod30° A,4mod-30° A,2mod-30° A
+62,"Q13. For a transmission line with L = 2uH/m and C = 0.5uF/m, find characteristic impedance.",50 ohms,63 ohms,100 ohms,200 ohms,63 ohms
+63,"Q14. A diode clipper limits input at 5 V. If sine input peak = 10 V, what is the clipped output peak?",3 V,5 V,7 V,10 V,5 V
+64,Q15. A Zener diode rated 10 V supplies a load through 1 kohms resistor with Vin = 15 V. Find load current if Zener current = 10 mA.,0 mA,5 mA,10 mA,15 mA,5 mA
+65,Q16. A half-wave rectifier with 100 V rms AC input uses ideal diode. Find average DC output.,22.5 V,31.8 V,45 V,63.7 V,31.8 V
+66,"Q17. A common-emitter BJT has Î² = 100, Ic = 2 mA. Find Ib.",0.01 mA,0.02 mA,0.2 mA,2 mA,0.02 mA
+67,Q18. A transistor with Î² = 50 requires Ic = 100 mA. Find base current.,1 mA,2 mA,5 mA,10 mA,2 mA
+68,"Q19. An FET has Idss = 10 mA, Vp = -5 V, Vgs = -2 V. Find Id.",2.56 mA,4 mA,6 mA,8 mA,6 mA
+69,Q20. A 741 op-amp with input 2 mV and gain 1000 gives output of?,0.2 V,1 V,2 V,20 V,2 V
+70,"Q21. A low-pass RC filter has R = 1 kohms, C = 0.1uF. Find cutoff frequency.",159 Hz,1.59 kHz,15.9 kHz,159 kHz,1.59 kHz
+71,"Q22. A Wien bridge oscillator has R = 10 kohms, C = 0.01uF. Find frequency.",159 Hz,1.59 kHz,15.9 kHz,159 kHz,1.59 kHz
+72,Q23. A current mirror has reference 1 mA. What is output current ideally?,0 mA,0.5 mA,1 mA,2 mA,1 mA
+73,Q24. An SCR conducts for 120° in each half cycle of 60 Hz supply. Find average DC output voltage if input is 200 V rms.,63.7 V,90 V,127.3 V,180 V,90 V
+74,Q25. A TRIAC controls 230 V rms with firing angle 90°. Find rms output voltage.,115 V,162 V,200 V,230 V,162 V
+75,Q26. A photodiode generates 20uA at 1 mW incident light. Find responsivity.,0.01 A/W,0.02 A/W,0.2 A/W,20 A/W,0.02 A/W
+76,Q27. A strain gauge with 120 ohms and gauge factor 2 changes resistance by 0.24 ohms. Find strain.,500,1000,2000,4000,1000
+77,Q28. A PLC input of 24 V draws 8 mA. Find input resistance.,1 kohms,2 kohms,3 kohms,4 kohms,3 kohms
+78,Q29. A Boolean function F = AB + A'C. Minimize it.,AB + C,A + C,B + C,AC + B,AB + C
+79,Q30. Simplify F = A + AB.,A,AB,B,A + B,A
+80,Q31. A JK flip-flop with J = K = 1 toggles at 2 MHz clock. What is output frequency?,0.5 MHz,1 MHz,2 MHz,4 MHz,1 MHz
+81,Q32. A counter has mod-16. Input clock = 1 MHz. Find output frequency.,62.5 kHz,125 kHz,250 kHz,500 kHz,62.5 kHz
+82,Q33. A Moore FSM has 4 flip-flops. Maximum states?,8,12,16,32,16
+83,Q34. A microprocessor with 16 address lines can access how many locations?,16 k,32 k,64 k,128 k,64 k
+84,Q35. A microcontroller with 12 MHz clock and 12 cycles/ instruction executes how many instructions/sec?,0.5 MIPS,1 MIPS,2 MIPS,4 MIPS,1 MIPS
+85,"Q36. If instruction requires 3 machine cycles at 4 MHz clock, what is execution time?",0.25us,0.5us,0.75us,3us,0.75us
+86,"Q37. For system G(s) = 10/(s(s+2)), find type and number of poles at origin.","Type 0, 0 poles","Type 1, 1 pole","Type 2, 2 poles","Type 1, 2 poles","Type 1, 1 pole"
+87,Q38. A system has transfer function G(s)H(s) = 20/(s(s+5)). Find steady-state error for unit ramp.,0,0.05,0.1,modulož,0.05
+88,Q39. A unity feedback system has G(s) = 5/(s+10). Find static velocity error constant Kv.,0.5,5,10,modulož,0.5
+89,"Q40. For G(s)H(s) = 10/(s+1)(s+2), determine poles.","-1, -2","0, -1","-5, -10",±jÏ‰,"-1, -2"
+90,"Q41. A system has Damping Ratio = 0.5, Natural Frequency = 10 rad/s. Find peak time.",0.1 s,0.2 s,0.3 s,0.5 s,0.3 s
+91,"Q42. A feedback amplifier has A = 100, Î² = 0.01. Find closed-loop gain.",50,75,90,100,50
+92,Q43. A system has open-loop transfer function 100/(s(s+5)). Find system type.,Type 0,Type 1,Type 2,Type 3,Type 1
+93,Q44. Root locus of 1/(s(s+2)) has centroid at?,-1,-2,-3,-4,-1
+94,Q45. Nyquist plot encircles (-1+j0) point twice clockwise. What is system stability?,Stable,Unstable,Marginally stable,Cannot be determined,Unstable
+95,Q46. A Bode plot shows slope -20 dB/decade and gain 0 dB atomega = 10 rad/s. Find gain margin if phase = -150°.,10 dB,20 dB,30 dB,modulož,10 dB
+96,"Q47. A 50 Hz sinusoidal source feeds 0.1 H, 20 ohms resistor. Find power factor.",0.5,0.707,0.866,1,0.866
+97,Q48. A capacitor 100uF charged to 100 V discharges through 1 kohms. Find time constant.,0.01 s,0.1 s,1 s,10 s,0.1 s
+98,Q49. A coil with 200 turns has flux linkage 0.02 Wb. Find inductance if current is 2 A.,1 H,2 H,5 H,10 H,2 H
+99,"Q50. A DC motor draws 10 A at 200 V. If back emf is 180 V, find armature resistance.",1 ohms,2 ohms,3 ohms,4 ohms,2 ohms
+100,Q51. A 12 V battery supplies a current of 2 A for 3 hours. Find the energy delivered.,72 Wh,24 Wh,18 Wh,12 Wh,72 Wh
+101,"Q52. In a 4 ohms resistor, 8 A flows. Find the power dissipated.",16 W,32 W,64 W,128 W,256 W
+102,"Q53. A 120 V, 60 Hz source supplies a load of Z = 20 + j15 ohms. Find power factor.",0.6,0.707,0.8,0.9,0.8
+103,Q54. Two resistors 20 ohms and 30 ohms in series are connected across 100 V. Find current.,2:00 AM,3:00 AM,4:00 AM,5:00 AM,2:00 AM
+104,"Q55. A coil has L = 50 mH and R = 5 ohms. At 60 Hz, what is impedance?",5 ohms,10 ohms,15 ohms,20 ohms,10 ohms
+105,Q56. A capacitor of 100uF is charged to 50 V. Find energy stored.,0.125 J,0.25 J,0.5 J,1.25 J,0.125 J
+106,Q57. A 10 ohms resistor is connected to 100 V DC. Find power dissipated.,100 W,500 W,1000 W,2000 W,1000 W
+107,"Q58. A series RC has R = 20 ohms, C = 100uF at 50 Hz. Find total impedance.",18 ohms,20 ohms,25 ohms,30 ohms,25 ohms
+108,"Q59. A source 120 V, 60 Hz supplies Z = 10 - j10 ohms. Find current magnitude.",6:00 AM,8.5 A,12:00 AM,15 A,8.5 A
+109,Q60. Thevenin equivalent of 100 V source with 10 ohms in series across 20 ohms load. Find Vth.,33.3 V,50 V,66.7 V,100 V,66.7 V
+110,Q61. A 5 H inductor carries 4 A. Find energy stored.,20 J,30 J,40 J,50 J,40 J
+111,"Q62. A transformer has N1/N2 = 10. If V1 = 120 V, find V2.",1.2 V,6 V,12 V,1200 V,12 V
+112,"Q63. For a parallel RC with R = 1 kohms and C = 10uF, find admittance magnitude at 50 Hz.",0.002 S,0.01 S,0.05 S,0.1 S,0.01 S
+113,Q64. A coaxial cable has inductance per unit length L = 0.25uH/m and capacitance 100 pF/m. Find velocity factor.,0.5c,0.6c,0.7c,0.8c,0.5c
+114,Q65. A diode bridge rectifier with 120 V rms input produces what average DC output (ideal diodes)?,54 V,76 V,108 V,120 V,108 V
+115,Q66. A Zener diode rated 12 V with Rs = 220 ohms is fed by 24 V. Find current if load draws 20 mA.,20 mA,40 mA,54.5 mA,100 mA,54.5 mA
+116,Q67. A transistor with Î² = 200 and collector current 40 mA. Find base current.,0.1 mA,0.2 mA,0.3 mA,0.4 mA,0.2 mA
+117,"Q68. A JFET has Idss = 12 mA, Vp = -6 V, Vgs = -3 V. Find Id.",3 mA,4 mA,6 mA,9 mA,3 mA
+118,"Q69. An op-amp in inverting mode has Rf = 100 kohms, Rin = 10 kohms. Find gain.",-5,-10,-20,-100,-10
+119,"Q70. An op-amp integrator with R = 100 kohms, C = 0.1uF has input 1 V DC. Find output slope.",-10 V/s,-50 V/s,-100 V/s,-1000 V/s,-100 V/s
+120,"Q71. A BJT amplifier has input 10 mV, gain 200. Find output.",1 V,2 V,5 V,10 V,2 V
+121,Q72. A Wien oscillator has RC = 1 ms. Find frequency.,159 Hz,1.59 kHz,15.9 kHz,159 kHz,159 Hz
+122,Q73. A class B push-pull amplifier with 20 V peak input across 8 ohms. Find max output power.,12.5 W,25 W,50 W,100 W,25 W
+123,Q74. An SCR conducts with average load current 5 A at 100 V DC. Find power delivered.,250 W,400 W,500 W,1000 W,500 W
+124,"Q75. A DIAC triggers at 30 V. If applied voltage is 60 V, what is conduction voltage?",0 V,15 V,30 V,60 V,30 V
+125,Q76. A photodiode has responsivity 0.5 A/W at 850 nm. Find photocurrent for 2 mW light.,0.5 mA,1 mA,2 mA,5 mA,1 mA
+126,"Q77. A thermocouple produces 40uV/°C. For 100 °C rise, output is?",2 mV,4 mV,40 mV,400 mV,4 mV
+127,Q78. A PLC scans 1000 instructions in 1 ms. Find scan rate.,0.5 MIPS,1 MIPS,2 MIPS,10 MIPS,1 MIPS
+128,Q79. Simplify F = (A + B)(A + B').,A,B,A + B,A' + B,A
+129,Q80. Implement XOR using NAND gates requires minimum how many gates?,3,4,5,6,4
+130,Q81. A D flip-flop with clock frequency 2 MHz divides frequency by?,1,2,4,8,2
+131,Q82. A mod-8 counter with 1 MHz clock outputs what frequency?,62.5 kHz,125 kHz,250 kHz,500 kHz,125 kHz
+132,Q83. A shift register of 4 stages stores how many bits?,2,4,8,16,4
+133,Q84. A microprocessor with 20-bit address bus can address how many locations?,64 k,128 k,512 k,1 MB,1 MB
+134,Q85. A 10 MHz clock with 10 states produces instruction cycle of?,0.1us,0.5us,1us,2us,1us
+135,"Q86. If CPI = 3 and clock = 4 MHz, find instruction execution rate.",0.25 MIPS,0.5 MIPS,1 MIPS,2 MIPS,1.33 MIPS
+136,Q87. A program requires 2000 cycles at 2 MHz. Find execution time.,0.5 ms,1 ms,2 ms,4 ms,1 ms
+137,Q88. A unity feedback system has G(s) = 50/(s+10). Find steady-state error for unit step.,0.02,0.05,0.1,1,0.02
+138,"Q89. For system G(s) = 100/(s(s+5)), find error constant Kv.",10,20,50,100,20
+139,"Q90. A second-order system withDamping Ratio = 0.6,  Natural Frequency = 5 rad/s. Find settling time (2%).",0.67 s,1 s,1.5 s,2 s,1.33 s
+140,Q91. A control system has transfer function G(s) = 10/(s(s+2)). Find system type.,Type 0,Type 1,Type 2,Type 3,Type 1
+141,Q92. A system with poles -1 and -3. Find time constant of dominant pole.,0.33 s,1 s,3 s,10 s,1 s
+142,Q93. A lead compensator adds phase of 30° at omega = 10 rad/s. Find gain crossover frequency.,5 rad/s,10 rad/s,20 rad/s,30 rad/s,10 rad/s
+143,Q94. A system with open-loop poles at 0 and -5 has centroid of root locus at?,-2.5,-5,-10,0,-2.5
+144,"Q95. If Nyquist plot encircles (-1,0) once clockwise and system has 1 open-loop pole RHP, stability is?",Stable,Unstable,Marginally stable,Conditionally stable,Stable
+145,Q96. A Bode magnitude slope of -40 dB/dec indicates how many poles?,1,2,3,4,2
+146,"Q97. A sinusoidal source 100 V, 50 Hz connected to R = 20 ohms, L = 0.1 H. Find current.",3.2 A,4:00 AM,5:00 AM,10:00 AM,4:00 AM
+147,Q98. A 100uF capacitor charges through 100 ohms resistor from 100 V DC. Find initial charging current.,0.5 A,1:00 AM,2:00 AM,10:00 AM,1:00 AM
+148,Q99. A coil of 500 turns links flux 0.1 Wb. Find inductance if current is 5 A.,5 H,10 H,20 H,50 H,10 H
+149,"Q100. A 220 V motor draws 15 A, back emf = 200 V. Find armature resistance.",0.5 ohms,1.0 ohms,1.33 ohms,2 ohms,1.33 ohms
+150,Q101. A 24 V source supplies a 12 ohms resistor. Find current.,"""1 A","""2 A","""3 A","""4 A","""2 A"
+151,Q102. A 50 ohms load connected to 200 V DC consumes what power?,400 W,600 W,800 W,1000 W,800 W
+152,"Q103. A series RL circuit has R = 10 ohms, L = 0.05 H at 60 Hz. Find reactance.",9.42 ohms,18.85 ohms,31.4 ohms,62.8 ohms,18.85 ohms
+153,Q104. Two 20 ohms resistors in parallel connected across 100 V. Find current.,2.5 A,5:00 AM,7.5 A,10:00 AM,10:00 AM
+154,Q105. A 50uF capacitor at 60 Hz has reactance?,31.8 ohms,53 ohms,106 ohms,318 ohms,53 ohms
+155,"Q106. A series RLC with R = 20 ohms, L = 0.1 H, C = 100uF at resonance has impedance?",0 ohms,10 ohms,20 ohms,modulož,20 ohms
+156,Q107. Energy stored in 20uF capacitor charged to 200 V?,0.2 J,0.4 J,0.8 J,2 J,0.4 J
+157,Q108. A 100 V source across 25 ohms draws current?,"""2 A","""3 A","""4 A","""5 A","""4 A"
+158,Q109. Norton equivalent of 12 V source with 6 ohms series across 3 ohms load gives current?,"""1.33A",1.5 A,"""2 A","""3 A","""1.33A"
+159,Q110. A 2 H inductor with 3 A current stores energy?,3 J,6 J,9 J,12 J,9 J
+160,Q111. A coil of 1000 turns links flux of 0.05 Wb. Find inductance if current = 5 A.,5 H,10 H,15 H,20 H,10 H
+161,Q112. A sinusoidal source 50modulo 0° V across Z = 10modulo 30°. Find current.,5modulo 30° A,5modulo -30° A,10modulo 30° A,10modulo -30° A,5modulo -30° A
+162,Q113. A line has Z0 = 75 ohms and load 100 ohms. Find reflection coefficient.,0.1,0.14,0.25,0.33,0.14
+163,"Q114. A diode limiter limits at 6 V. If input is 12 V peak sine, find output peak.",6 V,8 V,10 V,12 V,6 V
+164,Q115. A full-wave rectifier with 200 V rms input gives average DC output?,90 V,127 V,180 V,200 V,180 V
+165,Q116. A Zener diode 5.1 V with Rs = 100 ohms fed by 12 V. Load current = 20 mA. Find Zener current.,20 mA,30 mA,40 mA,50 mA,30 mA
+166,Q117. A BJT has Î² = 150 and Ic = 75 mA. Find Ib.,0.25 mA,0.5 mA,0.75 mA,1 mA,0.5 mA
+167,"Q118. A MOSFET has Ids = 8 mA at Vgs = 4 V, with K = 0.5 mA/V². Find Vth.",1 V,2 V,3 V,4 V,2 V
+168,"Q119. A differential amplifier has Rd = 20 kohms, gm = 2 mA/V. Find gain.",20,40,80,100,40
+169,"Q120. A non-inverting op-amp with Rf = 90 kohms, Rin = 10 kohms. Gain is?",5,9,10,11,10
+170,"Q121. A low-pass filter has R = 2 kohms, C = 0.05uF. Find cutoff frequency.",1.59 kHz,2 kHz,5 kHz,10 kHz,1.59 kHz
+171,"Q122. A Hartley oscillator has L1 = 10uH, L2 = 40uH, C = 100 pF. Find frequency.",1 MHz,2 MHz,3 MHz,4 MHz,2 MHz
+172,Q123. A current mirror provides 2 mA reference. Find output ideally.,1 mA,2 mA,3 mA,4 mA,2 mA
+173,Q124. An SCR triggers at 90° in 60 Hz supply with 200 V rms input. Find average DC output.,45 V,63 V,90 V,127 V,63 V
+174,Q125. A TRIAC with 230 V rms input and firing angle 60°. Find rms output.,115 V,162 V,200 V,230 V,200 V
+175,Q126. A photodiode with 0.4 A/W receives 5 mW. Find photocurrent.,1 mA,2 mA,3 mA,4 mA,2 mA
+176,"Q127. A strain gauge with GF = 2, R = 120 ohms changes by 0.12 ohms. Find strain.",250,500,1000,2000,500
+177,Q128. A PLC with 2 ms scan time executes 2000 instructions. Find speed.,0.5 MIPS,1 MIPS,2 MIPS,4 MIPS,1 MIPS
+178,Q129. Simplify F = AB + A'B.,A,B,XOR,XNOR,XOR
+179,"Q130. A K-map with minterms (0,2,5,7) simplifies to?",A'B + AB',A'B' + AB,A XOR B,A XNOR B,A XOR B
+180,Q131. A JK flip-flop toggles at 1 MHz clock. Output frequency?,0.25 MHz,0.5 MHz,1 MHz,2 MHz,0.5 MHz
+181,Q132. A mod-32 counter with 2 MHz clock outputs what frequency?,31.25 kHz,62.5 kHz,125 kHz,250 kHz,62.5 kHz
+182,Q133. A 3-bit shift register stores maximum bits?,2,3,4,8,3
+183,Q134. A microprocessor with 18-bit address bus can address how many locations?,64 k,128 k,256 k,512 k,256 k
+184,Q135. A microcontroller with 16 MHz clock and 4 cycles/instruction. Find MIPS.,1,2,3,4,4
+185,Q136. A program requires 5000 cycles at 5 MHz clock. Execution time?,0.5 ms,1 ms,2 ms,5 ms,1 ms
+186,"Q137. For G(s) = 25/(s(s+5)), find steady-state error for unit ramp.",0.02,0.04,0.05,0.1,0.04
+187,Q138. A system has G(s) = 10/(s+2). Kv = ?,0,5,10,modulož,0
+188,"Q139. A systemDamping Ratio = 0.7,  Natural Frequency = 4 rad/s. Find rise time.",0.25 s,0.35 s,0.5 s,1 s,0.5 s
+189,"Q140. For G(s)H(s) = 50/(s(s+2)), system type?",0,1,2,3,1
+190,"Q141. A system poles at -2, -5. Dominant time constant?",0.1 s,0.2 s,0.5 s,1 s,0.5 s
+191,Q142. Root locus with poles at 0 and -4. Centroid?,-2,-4,-6,0,-2
+192,Q143. Nyquist plot encircles (-1+j0) point twice clockwise with no RHP poles. Stability?,Stable,Unstable,Marginally stable,Conditionally stable,Unstable
+193,Q144. Bode slope -60 dB/decade indicates how many poles?,1,2,3,4,3
+194,"Q145. A 60 Hz source feeds R = 10 ohms, L = 0.1 H. Current if V = 120 V?",6:00 AM,8:00 AM,10:00 AM,12:00 AM,10:00 AM
+195,Q146. A capacitor 50uF charged to 100 V through 200 ohms. Initial current?,0.25 A,0.5 A,1:00 AM,2:00 AM,0.5 A
+196,Q147. A coil 1000 turns links 0.2 Wb flux. Current = 10 A. Find L.,10 H,15 H,20 H,25 H,20 H
+197,"Q148. A 240 V motor draws 20 A, back emf = 220 V. Armature resistance?",0.5 ohms,1 ohms,1.5 ohms,2 ohms,1 ohms
+198,Q149. A 100 V supply powers 25 ohms resistor for 2 hours. Energy consumed?,0.4 kWh,0.8 kWh,1 kWh,2 kWh,0.8 kWh
+199,Q150. A DC source 48 V across 12 ohms resistor. Find power.,96 W,144 W,192 W,240 W,192 W
+200,Q151. A 10 ohms resistor connected to 20 V DC. Find current.,"""1A","""2A","""3A","""4A","""2A"
+201,Q152. Two 60 ohms resistors in series across 120 V. Find current.,0.5 A,"""1A","""2A","""4A","""1A"
+202,Q153. A 100uF capacitor at 50 Hz has reactance?,15.9 ohms,31.8 ohms,53 ohms,159 ohms,31.8 ohms
+203,"Q154. A coil with R = 5 ohms, L = 0.02 H at 50 Hz has impedance?",5 ohms,6.28 ohms,7.5 ohms,10 ohms,6.28 ohms
+204,"Q155. A parallel RL circuit has R = 10 ohms, L = 0.1 H at 50 Hz. Find admittance magnitude.",0.05 S,0.1 S,0.15 S,0.2 S,0.1 S
+205,Q156. Energy stored in 50uF capacitor at 100 V?,0.25 J,0.5 J,1 J,2 J,0.25 J
+206,Q157. A 24 V battery supplies 3 A for 4 hours. Find energy delivered.,144 Wh,216 Wh,288 Wh,324 Wh,288 Wh
+207,Q158. A 120 V supply powers 60 ohms load. Find power.,120 W,180 W,200 W,240 W,240 W
+208,Q159. A coil 200 turns links flux 0.1 Wb. Current = 4 A. Find inductance.,2 H,3 H,5 H,10 H,5 H
+209,Q160. A 20 H inductor with 2 A current. Energy stored?,20 J,30 J,40 J,50 J,40 J
+210,Q161. A source 100modulo 0° V across Z = 25modulo 45°. Current?,2modulo 0° A,2modulo -45° A,4modulo -45° A,5modulo -45° A,4modulo -45° A
+211,"Q162. Transmission line has L = 1uH/m, C = 100 pF/m. Find Z0.",50 ohms,75 ohms,100 ohms,200 ohms,100 ohms
+212,Q163. A diode rectifier with 50 V rms input. Average DC output?,15.9 V,25 V,31.8 V,50 V,31.8 V
+213,"Q164. A Zener diode 9 V with Rs = 100 ohms, Vin = 15 V, load draws 20 mA. Zener current?",20 mA,30 mA,40 mA,50 mA,30 mA
+214,"Q165. A BJT has Î² = 100, Ib = 0.5 mA. Find Ic.",25 mA,50 mA,75 mA,100 mA,50 mA
+215,"Q166. A MOSFET has Id = 8 mA, Vgs = 6 V, K = 0.5 mA/V², Vth = 2 V. Verify Id?",6 mA,8 mA,10 mA,12 mA,8 mA
+216,"Q167. A common-source FET amplifier has gm = 5 mA/V, Rd = 2 kohms. Gain?",5,10,15,-10,-10
+217,"Q168. An op-amp inverting amplifier with Rin = 20 kohms, Rf = 200 kohms. Gain?",-5,-10,-15,-20,-10
+218,"Q169. An op-amp differentiator with R = 10 kohms, C = 0.01uF, input = 1 V sine at 1 kHz. Output amplitude?",0.1 V,0.63 V,6.28 V,62.8 V,62.8 V
+219,"Q170. A band-pass filter has f1 = 1 kHz, f2 = 10 kHz. Find bandwidth.",1 kHz,5 kHz,9 kHz,10 kHz,9 kHz
+220,"Q171. A Colpitts oscillator has C1 = 100 pF, C2 = 200 pF, L = 10uH. Frequency?",1 MHz,2 MHz,3 MHz,4 MHz,2 MHz
+221,"Q172. An SCR with 100 V, 5 A average load current. Power?",250 W,400 W,500 W,1000 W,500 W
+222,"Q173. A TRIAC with 120 V rms, firing angle 90°. RMS output?",60 V,84 V,100 V,120 V,84 V
+223,Q174. A photodiode with 0.6 A/W and 10 mW light. Photocurrent?,3 mA,6 mA,9 mA,12 mA,6 mA
+224,Q175. A thermistor changes resistance 10 kohms to 5 kohms for Î”T = 50°C. Find sensitivity.,50 ohms/°C,75 ohms/°C,100 ohms/°C,200 ohms/°C,100 ohms/°C
+225,Q176. A PLC executes 500 instructions in 0.5 ms. Speed?,0.5 MIPS,1 MIPS,2 MIPS,4 MIPS,1 MIPS
+226,Q177. Simplify F = (A + B)(A' + B).,A,B,A XOR B,B,B
+227,"Q178. A K-map with minterms (1,3,4,6). Simplified F?",A XOR B,A XNOR B,AB' + A'B,AB + A'B',A XOR B
+228,Q179. A T flip-flop with 4 MHz clock outputs?,1 MHz,2 MHz,4 MHz,8 MHz,2 MHz
+229,Q180. A mod-64 counter with 1 MHz clock outputs?,7.812 kHz,15.625 kHz,31.25 kHz,62.5 kHz,15.625 kHz
+230,Q181. A 6-bit shift register stores how many bits?,4,6,8,16,6
+231,Q182. A microprocessor with 12-bit address bus addresses how many locations?,1 k,2 k,4 k,8 k,4 k
+232,"Q183. A microcontroller 20 MHz clock, 4 cycles per instruction. MIPS?",2.5,4,5,10,5
+233,"Q184. If CPI = 2 and clock = 8 MHz, rate?",2 MIPS,3 MIPS,4 MIPS,5 MIPS,4 MIPS
+234,Q185. A program requires 4000 cycles at 2 MHz clock. Time?,1 ms,1.5 ms,2 ms,3 ms,2 ms
+235,Q186. A unity feedback system G(s) = 20/(s+5). Step error?,0.05,0.1,0.2,1,0.05
+236,"Q187. For G(s) = 50/(s(s+10)), unit ramp error?",0.05,0.1,0.2,modulož,0.1
+237,"Q188.Damping Ratio = 0.5,  Natural Frequency = 8 rad/s. Peak time?",0.25 s,0.4 s,0.5 s,0.75 s,0.4 s
+238,Q189. G(s)H(s) = 100/(s(s+4)). System type?,0,1,2,3,1
+239,"Q190. Poles at -1, -2, -3. Dominant time constant?",0.33 s,0.5 s,1 s,2 s,1 s
+240,Q191. Root locus of 1/(s(s+4)) centroid?,-1,-2,-3,-4,-2
+241,"Q192. Nyquist encircles (-1,0) counterclockwise once. Stability?",Stable,Unstable,Marginally stable,Conditionally stable,Stable
+242,Q193. Bode slope -80 dB/dec indicates poles?,2,3,4,5,4
+243,"Q194. A 50 Hz, 240 V source feeds R = 20 ohms, L = 0.2 H. Find current.",5:00 AM,6:00 AM,7:00 AM,8:00 AM,6:00 AM
+244,Q195. A 200uF capacitor charges through 50 ohms from 100 V. Initial current?,1:00 AM,2:00 AM,3:00 AM,4:00 AM,2:00 AM
+245,Q196. A coil 800 turns links 0.08 Wb flux. Current = 4 A. Find L.,10 H,15 H,20 H,25 H,16 H
+246,"Q197. A 220 V motor draws 10 A, back emf = 200 V. Ra?",1 ohms,2 ohms,3 ohms,4 ohms,2 ohms
+247,Q198. A 50 V source across 10 ohms for 1 hour. Energy consumed?,0.1 kWh,0.2 kWh,0.25 kWh,0.5 kWh,0.25 kWh
+248,Q199. A DC source 36 V across 12 ohms. Find power.,54 W,72 W,84 W,108 W,108 W
